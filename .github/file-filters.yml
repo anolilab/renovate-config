@@ -1,0 +1,9 @@
+ This is used by the action https://github.com/dorny/paths-filter (which we have forked to https://github.com/getsentry/paths-filter)
+
+markdown_lintable:
+    - "**/*.md"
+    - "**/*.mdx"
+
+yaml_lintable:
+    - "**/*.yml"
+    - "**/*.yaml"

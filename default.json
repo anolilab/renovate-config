@@ -1,0 +1,104 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:recommended", ":timezone(Europe/Berlin)", "schedule:earlyMondays"],
+    "packageRules": [
+        {
+            "matchDepTypes": ["action"],
+            "pinDigests": false,
+            "semanticCommits": "enabled"
+        }
+    ],
+    "npm": {
+        "labels": ["c: dependencies"],
+        "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", ":prNotPending", "helpers:disableTypesNodeMajor"],
+        "rangeStrategy": "bump",
+        "automergeType": "branch",
+        "major": {
+            "automerge": false,
+            "semanticCommitType": "feat",
+            "commitBody": "BREAKING CHANGE: updated dependencies to major versions"
+        },
+        "minor": {
+            "automerge": true,
+            "groupName": "Minor updates",
+            "minimumReleaseAge": "7 days",
+            "prCreation": "status-success",
+            "semanticCommitType": "feat"
+        },
+        "patch": {
+            "automerge": true,
+            "groupName": "Patch updates",
+            "minimumReleaseAge": "7 days",
+            "prCreation": "status-success",
+            "semanticCommitType": "fix"
+        },
+        "packageRules": [
+            {
+                "description": "disable package.json > engines update",
+                "matchDepTypes": ["engines"],
+                "enabled": false
+            },
+            {
+                "groupName": "semantic-release",
+                "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"]
+            },
+            {
+                "groupName": "ts-node",
+                "matchPackageNames": ["ts-node", "ts-node-test-register"]
+            },
+            {
+                "groupName": "vitest",
+                "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"]
+            },
+            {
+                "groupName": "textlint",
+                "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/"]
+            },
+            {
+                "groupName": "secretlint",
+                "matchPackageNames": ["^secretlint", "^@secretlint/"]
+            },
+            {
+                "groupName": "ESLint",
+                "matchPackagePatterns": ["^eslint", "^@typescript-eslint/", "^eslint-plugin-"]
+            },
+            {
+                "groupName": "stylelint",
+                "matchPackageNames": ["stylelint", "stylelint-.*", "postcss", "@ronilaukkarinen/stylelint-a11y"]
+            },
+            {
+                "groupName": "textlint",
+                "matchPackageNames": ["textlint", "textlint-.*", "@textlint*"]
+            },
+            {
+                "groupName": "prettier",
+                "matchPackageNames": ["prettier", "prettier-.*"]
+            },
+            {
+                "groupName": "renovate",
+                "automerge": true,
+                "matchPackageNames": ["renovate"]
+            }
+        ],
+        "lockFileMaintenance": {
+            "enabled": true
+        }
+    },
+    "github-actions": {
+        "extends": [":noUnscheduledUpdates", ":prNotPending", "helpers:pinGitHubActionDigests"],
+        "rangeStrategy": "bump",
+        "automergeType": "branch",
+        "automerge": true,
+        "semanticCommitType": "workflow"
+    },
+    "dockerfile": {
+        "enabled": true,
+        "automerge": true,
+        "semanticCommitType": "chore"
+    },
+    "docker-compose": {
+        "enabled": true,
+        "automerge": true,
+        "semanticCommitType": "chore"
+    }
+}
