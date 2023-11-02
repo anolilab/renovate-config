@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^5.0.1
     version: 5.0.1(@commitlint/cli@18.2.0)(typescript@5.2.2)
   '@anolilab/lint-staged-config':
-    specifier: ^2.1.3
-    version: 2.1.3(husky@8.0.3)(lint-staged@15.0.2)(prettier@3.0.3)(secretlint@7.0.7)
+    specifier: ^2.1.4
+    version: 2.1.4(husky@8.0.3)(lint-staged@15.0.2)(prettier@3.0.3)(secretlint@7.0.7)
   '@anolilab/prettier-config':
     specifier: ^5.0.12
     version: 5.0.12(prettier@3.0.3)
@@ -82,8 +82,8 @@ packages:
       - typescript
     dev: true
 
-  /@anolilab/lint-staged-config@2.1.3(husky@8.0.3)(lint-staged@15.0.2)(prettier@3.0.3)(secretlint@7.0.7):
-    resolution: {integrity: sha512-KAjUwYU2VDgN+wQiLR0K6aGI2UZiG4JyVVNK/Uextk5CYkVXeLVpL8dhjy9xjZfQqaCCSUyfYupdDTAL46+2xQ==}
+  /@anolilab/lint-staged-config@2.1.4(husky@8.0.3)(lint-staged@15.0.2)(prettier@3.0.3)(secretlint@7.0.7):
+    resolution: {integrity: sha512-g1ZuBd1sxx9+OMoVrv4f3aV9qU9t8f4O3UX4FEn7odnyAT/7lx3TxxK/Y1DIIbXxJYde5PlVFuZp3uWwJ7FIGw==}
     engines: {node: '>=18'}
     requiresBuild: true
     peerDependencies:
