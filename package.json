@@ -15,8 +15,7 @@
     "homepage": "https://anolilab.com/nodejs/packages/renovate-config",
     "repository": {
         "type": "git",
-        "url": "https://github.com/anolilab/javascript-style-guide.git",
-        "directory": "packages/renovate-config"
+        "url": "https://github.com/anolilab/renovate-config.git"
     },
     "funding": [
         {
