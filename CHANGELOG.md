@@ -1,3 +1,11 @@
+## [1.1.0](https://github.com/anolilab/renovate-config/compare/v1.0.1...v1.1.0) (2023-11-21)
+
+
+### Features
+
+* adjusted schedule, added auto merge [@types](https://github.com/types) ([806127f](https://github.com/anolilab/renovate-config/commit/806127f4ddd7a0ae8ed4d634bc0285b388e91de7))
+* adjusted schedule, added auto merge [@types](https://github.com/types) ([4df1e81](https://github.com/anolilab/renovate-config/commit/4df1e81ce160ecd124d87a0e66e2845f1864306f))
+
 ## [1.0.1](https://github.com/anolilab/renovate-config/compare/v1.0.0...v1.0.1) (2023-11-21)
 
 
