@@ -53,25 +53,25 @@
         "test": "renovate-config-validator default.json"
     },
     "devDependencies": {
-        "@anolilab/commitlint-config": "^5.0.1",
-        "@anolilab/lint-staged-config": "^2.1.4",
-        "@anolilab/prettier-config": "^5.0.12",
-        "@anolilab/semantic-release-preset": "^8.0.1",
-        "@anolilab/textlint-config": "^8.0.14",
+        "@anolilab/commitlint-config": "^5.0.2",
+        "@anolilab/lint-staged-config": "^2.1.6",
+        "@anolilab/prettier-config": "^5.0.13",
+        "@anolilab/semantic-release-preset": "^8.0.2",
+        "@anolilab/textlint-config": "^8.0.15",
         "@commitlint/cli": "^18.2.0",
         "@commitlint/config-conventional": "^18.1.0",
-        "@secretlint/secretlint-rule-preset-recommend": "^7.0.7",
+        "@secretlint/secretlint-rule-preset-recommend": "^7.0.8",
         "husky": "^8.0.3",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.0.2",
         "prettier": "^3.0.3",
         "renovate": "^37.5.4",
-        "secretlint": "7.0.7",
+        "secretlint": "7.0.8",
         "semantic-release": "^22.0.6",
         "sort-package-json": "^2.6.0",
         "textlint": "^13.3.3"
     },
-    "packageManager": "pnpm@8.10.0",
+    "packageManager": "pnpm@8.10.5",
     "engines": {
         "node": ">=20"
     },
