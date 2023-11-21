@@ -1,3 +1,16 @@
+## [1.0.1](https://github.com/anolilab/renovate-config/compare/v1.0.0...v1.0.1) (2023-11-21)
+
+
+### Bug Fixes
+
+* removed the monday release ([dad457f](https://github.com/anolilab/renovate-config/commit/dad457fa3b578612c16f3a17b76ee855aa65c032))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([b45d19f](https://github.com/anolilab/renovate-config/commit/b45d19fa74dcb792e34454ddaa928a4cc2fd3099))
+* **deps:** update amannn/action-semantic-pull-request action to v5.4.0 ([54a640b](https://github.com/anolilab/renovate-config/commit/54a640b1f17936bf6654fc36ee956dae03d6ff07))
+
 ## 1.0.0 (2023-11-02)
 
 
