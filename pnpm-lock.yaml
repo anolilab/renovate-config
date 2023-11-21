@@ -48,7 +48,7 @@ devDependencies:
     specifier: 7.0.8
     version: 7.0.8
   semantic-release:
-    specifier: ^22.0.6
+    specifier: ^22.0.7
     version: 22.0.7(typescript@5.2.2)
   sort-package-json:
     specifier: ^2.6.0
