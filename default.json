@@ -1,11 +1,23 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended", ":timezone(Europe/Berlin)"],
+    "extends": ["config:recommended", ":timezone(Europe/Berlin)", ":separateMultipleMajorReleases"],
+    "schedule": [
+        "after 10:30 before 18:00 every weekday except after 13:00 before 14:00"
+    ],
     "packageRules": [
         {
             "matchDepTypes": ["action"],
             "pinDigests": false,
             "semanticCommits": "enabled"
+        },
+        {
+          "matchPackagePatterns": [
+            "^@types/"
+          ],
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
         }
     ],
     "npm": {
