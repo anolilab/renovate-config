@@ -60,7 +60,7 @@
         "@anolilab/textlint-config": "^8.0.15",
         "@commitlint/cli": "^18.2.0",
         "@commitlint/config-conventional": "^18.1.0",
-        "@secretlint/secretlint-rule-preset-recommend": "^7.0.8",
+        "@secretlint/secretlint-rule-preset-recommend": "^8.0.0",
         "husky": "^8.0.3",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.0.2",
