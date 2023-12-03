@@ -1,9 +1,22 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended", ":timezone(Europe/Berlin)", ":separateMultipleMajorReleases"],
-    "schedule": [
-        "after 10:30 before 18:00 every weekday except after 13:00 before 14:00"
+    "extends": [
+        "config:recommended",
+        ":dependencyDashboard",
+        ":separateMultipleMajorReleases",
+        ":timezone(Europe/Berlin)",
+        "schedule:earlyMondays",
+        ":semanticCommits",
+        ":prNotPending",
+        ":rebaseStalePrs"
     ],
+    "schedule": ["after 10:30 before 18:00 every weekday except after 13:00 before 14:00"],
+    "rollbackPrs": true,
+    "vulnerabilityAlerts": {
+        "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
+        "enabled": true,
+        "addLabels": ["security"]
+    },
     "packageRules": [
         {
             "matchDepTypes": ["action"],
@@ -11,18 +24,16 @@
             "semanticCommits": "enabled"
         },
         {
-          "matchPackagePatterns": [
-            "^@types/"
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+            "matchPackagePatterns": ["^@types/"],
+            "automerge": true,
+            "major": {
+                "automerge": false
+            }
         }
     ],
     "npm": {
         "labels": ["c: dependencies"],
-        "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", ":prNotPending", "helpers:disableTypesNodeMajor"],
+        "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", "helpers:disableTypesNodeMajor"],
         "rangeStrategy": "bump",
         "automergeType": "branch",
         "major": {
@@ -33,7 +44,7 @@
         "minor": {
             "automerge": true,
             "groupName": "Minor updates",
-            "minimumReleaseAge": "7 days",
+            "minimumReleaseAge": "3 days",
             "prCreation": "status-success",
             "semanticCommitType": "feat"
         },
@@ -64,15 +75,15 @@
             },
             {
                 "groupName": "textlint",
-                "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/"]
+                "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"]
             },
             {
                 "groupName": "secretlint",
-                "matchPackageNames": ["^secretlint", "^@secretlint/"]
+                "matchPackageNames": ["^secretlint", "^@secretlint/.*"]
             },
             {
                 "groupName": "ESLint",
-                "matchPackagePatterns": ["^eslint", "^@typescript-eslint/", "^eslint-plugin-"]
+                "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"]
             },
             {
                 "groupName": "stylelint",
@@ -80,7 +91,7 @@
             },
             {
                 "groupName": "textlint",
-                "matchPackageNames": ["textlint", "textlint-.*", "@textlint*"]
+                "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"]
             },
             {
                 "groupName": "prettier",
@@ -97,18 +108,20 @@
         }
     },
     "github-actions": {
-        "extends": [":noUnscheduledUpdates", ":prNotPending", "helpers:pinGitHubActionDigests"],
+        "extends": [":noUnscheduledUpdates", "helpers:pinGitHubActionDigests"],
         "rangeStrategy": "bump",
         "automergeType": "branch",
         "automerge": true,
-        "semanticCommitType": "workflow"
+        "semanticCommitType": "ci"
     },
     "dockerfile": {
+        "extends": ["docker:pinDigests"],
         "enabled": true,
         "automerge": true,
         "semanticCommitType": "chore"
     },
     "docker-compose": {
+        "extends": ["docker:pinDigests"],
         "enabled": true,
         "automerge": true,
         "semanticCommitType": "chore"
