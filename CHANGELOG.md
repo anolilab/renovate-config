@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/anolilab/renovate-config/compare/v2.0.0...v3.0.0) (2023-12-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* changed minimumReleaseAge to 3 days
+
+### Features
+
+* added vulnerabilityAlerts, fixed semantic-release message, added more text to the doc ([8c5bb7e](https://github.com/anolilab/renovate-config/commit/8c5bb7e12c6547570f7ea07cdec246fba3970f55))
+
 ## [2.0.0](https://github.com/anolilab/renovate-config/compare/v1.1.0...v2.0.0) (2023-12-03)
 
 
