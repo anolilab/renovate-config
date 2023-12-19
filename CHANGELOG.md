@@ -1,3 +1,19 @@
+## [3.0.1](https://github.com/anolilab/renovate-config/compare/v3.0.0...v3.0.1) (2023-12-19)
+
+
+### Bug Fixes
+
+* changed patch min release age to 3 days ([97af0c4](https://github.com/anolilab/renovate-config/commit/97af0c454db0eb9a63d8b325da07c91c3f0b5197))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#19](https://github.com/anolilab/renovate-config/issues/19)) ([3744836](https://github.com/anolilab/renovate-config/commit/37448367715b099c07ed32d81e4bef58da183efd))
+* **deps:** update actions/stale action to v9 ([#18](https://github.com/anolilab/renovate-config/issues/18)) ([3bf36ca](https://github.com/anolilab/renovate-config/commit/3bf36ca2e70698d155639d45d7c44f4a8b7a4ee4))
+* **deps:** update actions/upload-artifact action to v4 ([#21](https://github.com/anolilab/renovate-config/issues/21)) ([ac1bdd9](https://github.com/anolilab/renovate-config/commit/ac1bdd9f112b7e7decf335c923c766eba0727f1c))
+* **deps:** update github/codeql-action action to v2.22.11 ([#20](https://github.com/anolilab/renovate-config/issues/20)) ([5ac5398](https://github.com/anolilab/renovate-config/commit/5ac53985c8798009b4b51d5a67161d3f429dfc04))
+* **deps:** update github/codeql-action action to v2.22.9 ([#17](https://github.com/anolilab/renovate-config/issues/17)) ([a0a28f7](https://github.com/anolilab/renovate-config/commit/a0a28f761e80c81446c28dfa19105c9e5c8362da))
+
 ## [3.0.0](https://github.com/anolilab/renovate-config/compare/v2.0.0...v3.0.0) (2023-12-03)
 
 
