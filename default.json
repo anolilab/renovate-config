@@ -51,7 +51,7 @@
         "patch": {
             "automerge": true,
             "groupName": "Patch updates",
-            "minimumReleaseAge": "7 days",
+            "minimumReleaseAge": "3 days",
             "prCreation": "status-success",
             "semanticCommitType": "fix"
         },
