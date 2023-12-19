@@ -1,3 +1,10 @@
+## [3.1.0](https://github.com/anolilab/renovate-config/compare/v3.0.1...v3.1.0) (2023-12-19)
+
+
+### Features
+
+* added automerge to lockFileMaintenance ([84708b9](https://github.com/anolilab/renovate-config/commit/84708b99689725fe12ef8b0ef23d538d867d1856))
+
 ## [3.0.1](https://github.com/anolilab/renovate-config/compare/v3.0.0...v3.0.1) (2023-12-19)
 
 
