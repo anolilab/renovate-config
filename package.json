@@ -60,18 +60,18 @@
         "@anolilab/textlint-config": "^8.0.15",
         "@commitlint/cli": "^18.4.3",
         "@commitlint/config-conventional": "^18.4.3",
-        "@secretlint/secretlint-rule-preset-recommend": "^8.0.0",
+        "@secretlint/secretlint-rule-preset-recommend": "^8.1.0",
         "husky": "^8.0.3",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.2.0",
         "prettier": "^3.1.1",
         "renovate": "^37.81.4",
-        "secretlint": "8.0.0",
+        "secretlint": "8.1.0",
         "semantic-release": "^22.0.8",
         "sort-package-json": "^2.6.0",
         "textlint": "^13.4.1"
     },
-    "packageManager": "pnpm@8.11.0",
+    "packageManager": "pnpm@8.14.0",
     "engines": {
         "node": ">=20"
     },
