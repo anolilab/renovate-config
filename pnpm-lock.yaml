@@ -10,7 +10,7 @@ devDependencies:
     version: 5.0.3(@commitlint/cli@18.4.4)(@types/node@20.11.0)(typescript@5.3.3)
   '@anolilab/lint-staged-config':
     specifier: ^2.1.6
-    version: 2.1.7(husky@8.0.3)(lint-staged@15.2.0)(prettier@3.2.2)(secretlint@8.0.0)
+    version: 2.1.7(husky@9.0.10)(lint-staged@15.2.0)(prettier@3.2.2)(secretlint@8.0.0)
   '@anolilab/prettier-config':
     specifier: ^5.0.13
     version: 5.0.14(prettier@3.2.2)
@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^8.0.0
     version: 8.1.0
   husky:
-    specifier: ^8.0.3
-    version: 8.0.3
+    specifier: ^9.0.10
+    version: 9.0.10
   is-ci:
     specifier: ^3.0.1
     version: 3.0.1
@@ -83,7 +83,7 @@ packages:
       - typescript
     dev: true
 
-  /@anolilab/lint-staged-config@2.1.7(husky@8.0.3)(lint-staged@15.2.0)(prettier@3.2.2)(secretlint@8.0.0):
+  /@anolilab/lint-staged-config@2.1.7(husky@9.0.10)(lint-staged@15.2.0)(prettier@3.2.2)(secretlint@8.0.0):
     resolution: {integrity: sha512-BC2Vrz4PsUu1yi6pVIuvwSyu+3W7BkvyvqP/8yCX2CZALzHhFbPC6St2G3OObgepOpS/7LfETgZ/F5v6hDNlVA==}
     engines: {node: '>=18.* <=21.*'}
     requiresBuild: true
@@ -112,7 +112,7 @@ packages:
     dependencies:
       '@anolilab/package-json-utils': 3.0.9
       find-up: 5.0.0
-      husky: 8.0.3
+      husky: 9.0.10
       lint-staged: 15.2.0
       prettier: 3.2.2
       secretlint: 8.0.0
@@ -5793,9 +5793,9 @@ packages:
     resolution: {integrity: sha512-FArOOhsfu1Rzc6wj8TZWTEpO/+TQOqhU0YNx+IyRaScE7HVanOwn8knN1OjjUngJOLaRqFSLjX0EzvMiNnT7zw==}
     dev: true
 
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  /husky@9.0.10:
+    resolution: {integrity: sha512-TQGNknoiy6bURzIO77pPRu+XHi6zI7T93rX+QnJsoYFf3xdjKOur+IlfqzJGMHIK/wXrLg+GsvMs8Op7vI2jVA==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 

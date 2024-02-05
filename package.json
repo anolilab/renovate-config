@@ -61,7 +61,7 @@
         "@commitlint/cli": "^18.4.3",
         "@commitlint/config-conventional": "^18.4.3",
         "@secretlint/secretlint-rule-preset-recommend": "^8.0.0",
-        "husky": "^8.0.3",
+        "husky": "^9.0.10",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.2.0",
         "prettier": "^3.1.1",
