@@ -3,14 +3,14 @@
     "extends": [
         "config:recommended",
         ":dependencyDashboard",
+        ":dependencyDashboardApproval",
         ":separateMultipleMajorReleases",
         ":timezone(Europe/Berlin)",
-        "schedule:earlyMondays",
         ":semanticCommits",
-        ":prNotPending",
-        ":rebaseStalePrs"
+        ":rebaseStalePrs",
+        ":renovatePrefix"
     ],
-    "schedule": ["after 10:30 before 18:00 every weekday except after 13:00 before 14:00"],
+    "schedule": ["after 10:00 before 19:00 every weekday except after 13:00 before 14:00"],
     "rollbackPrs": true,
     "vulnerabilityAlerts": {
         "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
