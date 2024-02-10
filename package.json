@@ -69,7 +69,7 @@
         "secretlint": "8.0.0",
         "semantic-release": "^23.0.0",
         "sort-package-json": "^2.6.0",
-        "textlint": "^13.4.1"
+        "textlint": "^14.0.1"
     },
     "packageManager": "pnpm@8.11.0",
     "engines": {
