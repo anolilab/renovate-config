@@ -1,3 +1,61 @@
+## [4.0.0](https://github.com/anolilab/renovate-config/compare/v3.1.0...v4.0.0) (2024-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed prNotPending and schedule:earlyMondays
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Features
+
+* removed prNotPending and schedule:earlyMondays, added :renovatePrefix, changed schedule time ([6e64ff0](https://github.com/anolilab/renovate-config/commit/6e64ff05e4d1ff3025365084682f42f6ecd62505))
+
+
+### Bug Fixes
+
+* removed minimumReleaseAge see https://github.com/renovatebot/renovate/discussions/14724 ([039a48a](https://github.com/anolilab/renovate-config/commit/039a48a18fe7c30917fe3bbc9a9059bd9fbeb330))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#27](https://github.com/anolilab/renovate-config/issues/27)) ([f7c17dd](https://github.com/anolilab/renovate-config/commit/f7c17ddf856a834a88cf9dd6309ab1485c253aba))
+* **deps:** lock file maintenance ([#32](https://github.com/anolilab/renovate-config/issues/32)) ([c63bf6d](https://github.com/anolilab/renovate-config/commit/c63bf6dd2028765f339e5925fed82ba24dfa8ccd))
+* **deps:** lock file maintenance ([#47](https://github.com/anolilab/renovate-config/issues/47)) ([8de2f2e](https://github.com/anolilab/renovate-config/commit/8de2f2e73a792cadc85e4ceff903cdb1e15aae48))
+* **deps:** update actions/dependency-review-action action to v3.1.5 ([#28](https://github.com/anolilab/renovate-config/issues/28)) ([a1577f7](https://github.com/anolilab/renovate-config/commit/a1577f756f8a2e9cbbfd401d8c9cf6daae8417f8))
+* **deps:** update actions/dependency-review-action action to v4 ([#34](https://github.com/anolilab/renovate-config/issues/34)) ([12254aa](https://github.com/anolilab/renovate-config/commit/12254aaee79139a2fb39992752971bed80cba6fe))
+* **deps:** update actions/dependency-review-action action to v4.1.3 ([#45](https://github.com/anolilab/renovate-config/issues/45)) ([8dec81d](https://github.com/anolilab/renovate-config/commit/8dec81da2b1dda5a8c8ba74271d7e74578c1e3f0))
+* **deps:** update actions/setup-node action to v4.0.1 ([#23](https://github.com/anolilab/renovate-config/issues/23)) ([f6517be](https://github.com/anolilab/renovate-config/commit/f6517be645dff20300fa85efcf50d1901c860c71))
+* **deps:** update actions/setup-node action to v4.0.2 ([#41](https://github.com/anolilab/renovate-config/issues/41)) ([2407a39](https://github.com/anolilab/renovate-config/commit/2407a39c1823bfcc98a8b15f39bb5ea0566f33dc))
+* **deps:** update actions/upload-artifact action to v4.2.0 ([#29](https://github.com/anolilab/renovate-config/issues/29)) ([fb5f272](https://github.com/anolilab/renovate-config/commit/fb5f2729541d8afb7f2346ea85c8617658383631))
+* **deps:** update actions/upload-artifact action to v4.3.0 ([#33](https://github.com/anolilab/renovate-config/issues/33)) ([7ddfeec](https://github.com/anolilab/renovate-config/commit/7ddfeec592c910770cde472f8b4b18a655650b7b))
+* **deps:** update actions/upload-artifact action to v4.3.1 ([#37](https://github.com/anolilab/renovate-config/issues/37)) ([c51de45](https://github.com/anolilab/renovate-config/commit/c51de4594e56d84c4c7e328b3173db46da795cde))
+* **deps:** update dependency husky to v9 ([#36](https://github.com/anolilab/renovate-config/issues/36)) ([733b446](https://github.com/anolilab/renovate-config/commit/733b446bb65ea6018af2ad0c417807e353e2a3eb))
+* **deps:** update dependency prettier to ^3.1.1 ([#22](https://github.com/anolilab/renovate-config/issues/22)) ([79a655a](https://github.com/anolilab/renovate-config/commit/79a655ae8e194f6f597d8285cc2302881e86ff2e))
+* **deps:** update dependency semantic-release to v23 ([#30](https://github.com/anolilab/renovate-config/issues/30)) ([d41fdfb](https://github.com/anolilab/renovate-config/commit/d41fdfb7fe154ed837dd2f56b6a726f07502aaa9))
+* **deps:** update dependency textlint to v14 ([#40](https://github.com/anolilab/renovate-config/issues/40)) ([dc3453d](https://github.com/anolilab/renovate-config/commit/dc3453d8b461a357f0a1350362ba97798d8bc254))
+* **deps:** update dorny/paths-filter action to v2.12.0 ([#35](https://github.com/anolilab/renovate-config/issues/35)) ([eecaa1d](https://github.com/anolilab/renovate-config/commit/eecaa1d8b5b728af45b907e115efaf2158d4b2f6))
+* **deps:** update dorny/paths-filter action to v3 ([#43](https://github.com/anolilab/renovate-config/issues/43)) ([9f71df6](https://github.com/anolilab/renovate-config/commit/9f71df6bab838f9dadbde877ec691a585c64d72d))
+* **deps:** update github/codeql-action action to v3 ([#24](https://github.com/anolilab/renovate-config/issues/24)) ([0a1e962](https://github.com/anolilab/renovate-config/commit/0a1e96258735a86e13d126ef23b591f4572049ba))
+* **deps:** update github/codeql-action action to v3.23.0 ([#25](https://github.com/anolilab/renovate-config/issues/25)) ([d15f5b4](https://github.com/anolilab/renovate-config/commit/d15f5b42d990267c5b3e0416235a03f4f791cead))
+* **deps:** update github/codeql-action action to v3.23.1 ([#31](https://github.com/anolilab/renovate-config/issues/31)) ([1305822](https://github.com/anolilab/renovate-config/commit/13058229ac814ee43db9853e02d8cc357a4d44d3))
+* **deps:** update github/codeql-action action to v3.24.0 ([#38](https://github.com/anolilab/renovate-config/issues/38)) ([f606cdc](https://github.com/anolilab/renovate-config/commit/f606cdc50122f8e3e6f9603c3fb317a19c38e598))
+* **deps:** update github/codeql-action action to v3.24.3 ([#42](https://github.com/anolilab/renovate-config/issues/42)) ([17d48fa](https://github.com/anolilab/renovate-config/commit/17d48faa63602ed4e15dc522076b48e4d82a30f8))
+* **deps:** update github/codeql-action action to v3.24.8 ([#46](https://github.com/anolilab/renovate-config/issues/46)) ([7d0a3cd](https://github.com/anolilab/renovate-config/commit/7d0a3cdb7fe2fabfc598a1c14ce2b61107076db8))
+* **deps:** update lewagon/wait-on-check-action action to v1.3.3 ([#26](https://github.com/anolilab/renovate-config/issues/26)) ([3abbd84](https://github.com/anolilab/renovate-config/commit/3abbd84201791c7484e06f7b2d7464c7d1b6c5f8))
+* **deps:** update pnpm/action-setup action to v3 ([#44](https://github.com/anolilab/renovate-config/issues/44)) ([239eb23](https://github.com/anolilab/renovate-config/commit/239eb23b1d963c09ade473519390d7c1d77203c5))
+* **deps:** update step-security/harden-runner action to v2.7.0 ([#39](https://github.com/anolilab/renovate-config/issues/39)) ([ca1fc23](https://github.com/anolilab/renovate-config/commit/ca1fc23e7744fe65fdb6c9bfc7d131dc2b24cded))
+* update lock file ([3b479fa](https://github.com/anolilab/renovate-config/commit/3b479fa034496c3b1b13fec591fff8726531bfd5))
+* updated dependencies ([242cc34](https://github.com/anolilab/renovate-config/commit/242cc341c671e38fb78d67b728970a4c737572ca))
+* updated node version ([c519e0e](https://github.com/anolilab/renovate-config/commit/c519e0e97f89466776be8f69f2bfdaef9c65402c))
+
 ## [3.1.0](https://github.com/anolilab/renovate-config/compare/v3.0.1...v3.1.0) (2023-12-19)
 
 
