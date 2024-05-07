@@ -59,7 +59,7 @@ jobs:
             - name: "Use Node.js 20.x"
               uses: "actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8" # v4.0.2
               with:
-                  node-version: "20.6.1"
+                  node-version: "20.x"
                   cache: "pnpm"
 
             # @see: npm install -g npm@latest is necessary to make provenance available. More info: https://docs.npmjs.com/generating-provenance-statements
