@@ -12,6 +12,8 @@
     ],
     "schedule": ["after 10:00 before 19:00 every weekday except after 13:00 before 14:00"],
     "rollbackPrs": true,
+    "minimumReleaseAge": null,
+    "prCreation": "immediate",
     "vulnerabilityAlerts": {
         "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
         "enabled": true,
@@ -44,15 +46,11 @@
         "minor": {
             "automerge": true,
             "groupName": "Minor updates",
-            "minimumReleaseAge": "3 days",
-            "prCreation": "status-success",
             "semanticCommitType": "feat"
         },
         "patch": {
             "automerge": true,
             "groupName": "Patch updates",
-            "minimumReleaseAge": "3 days",
-            "prCreation": "status-success",
             "semanticCommitType": "fix"
         },
         "packageRules": [

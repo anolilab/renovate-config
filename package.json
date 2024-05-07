@@ -50,7 +50,8 @@
         "lint:text:fix": "textlint ./.github/ ./README.md ./UPGRADE.md --parallel --experimental --fix",
         "prepare": "is-ci || husky install || exit 0",
         "sort-package-json": "sort-package-json ./package.json",
-        "test": "renovate-config-validator default.json"
+        "test": "renovate-config-validator default.json",
+        "update:deps": "taze"
     },
     "devDependencies": {
         "@anolilab/commitlint-config": "^5.0.3",
@@ -58,20 +59,21 @@
         "@anolilab/prettier-config": "^5.0.14",
         "@anolilab/semantic-release-preset": "^8.0.3",
         "@anolilab/textlint-config": "^8.0.16",
-        "@commitlint/cli": "^18.6.0",
-        "@commitlint/config-conventional": "^18.6.0",
-        "@secretlint/secretlint-rule-preset-recommend": "^8.1.1",
-        "husky": "^9.0.10",
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
+        "husky": "^9.0.11",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.2.2",
         "prettier": "^3.2.5",
-        "renovate": "^37.182.0",
+        "renovate": "^37.349.1",
         "secretlint": "8.1.1",
-        "semantic-release": "^23.0.2",
-        "sort-package-json": "^2.7.0",
-        "textlint": "^14.0.1"
+        "semantic-release": "^23.0.8",
+        "sort-package-json": "^2.10.0",
+        "taze": "^0.13.8",
+        "textlint": "^14.0.4"
     },
-    "packageManager": "pnpm@8.11.0",
+    "packageManager": "pnpm@9.1.0",
     "engines": {
         "node": ">=20"
     },

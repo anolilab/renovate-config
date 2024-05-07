@@ -43,7 +43,6 @@ Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation i
 - Support GitHub-Actions updates with hash version
 - Support Docker ecosystem
 - Defined package groups like TypeScript, Prettier, Linters, Vitest
-- Prevent supply-chain attack by `"minimumReleaseAge": 3 days`
 
 ## References
 
