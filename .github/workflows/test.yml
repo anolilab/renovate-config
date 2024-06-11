@@ -36,22 +36,13 @@ jobs:
                   GIT_AUTHOR_NAME: "GitHub Actions Shell"
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
-            - uses: "pnpm/action-setup@a3252b78c470c02df07e9d59298aecedc3ccdd6d" # v3.0.0
-              with:
-                  version: 8
-                  run_install: false
-
-            - name: "Set node version to 20"
-              uses: "actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8" # v4.0.2
+            - name: "Setup resources and environment"
+              id: "setup"
+              uses: "anolilab/workflows/step/setup@main"
               with:
                   node-version: "20"
-                  cache: "pnpm"
-
-            - name: "Install packages"
-              run: "pnpm install --frozen-lockfile"
-              env:
-                  SKIP_CHECK: "true"
-                  SKIP_BUILD: "true"
+                  install-bun: false
+                  enable-nx-cache: false
 
             - name: "Test"
               run: "pnpm run test"
