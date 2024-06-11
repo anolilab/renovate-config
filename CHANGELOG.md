@@ -1,3 +1,33 @@
+## [4.0.1](https://github.com/anolilab/renovate-config/compare/v4.0.0...v4.0.1) (2024-06-11)
+
+### Bug Fixes
+
+* fixed found audit fixes, updated ci pipeline ([491542b](https://github.com/anolilab/renovate-config/commit/491542bbc6ea12561744e486ebc482dca21f2ca0))
+* update dependency to the next major version ([fa4955f](https://github.com/anolilab/renovate-config/commit/fa4955fdba9dab60faf56954a79a7e02f54c5814))
+
+### Miscellaneous Chores
+
+* added a override for conventional-changelog-conventionalcommits ([72266b8](https://github.com/anolilab/renovate-config/commit/72266b8021d4c6a67625c105f1b750a79249cda0))
+* **deps:** update actions/checkout action to v4.1.4 ([#48](https://github.com/anolilab/renovate-config/issues/48)) ([34bd069](https://github.com/anolilab/renovate-config/commit/34bd069e1c779dc10d96e1671e0dbf69ab1ecf81))
+* **deps:** update actions/checkout action to v4.1.6 ([#63](https://github.com/anolilab/renovate-config/issues/63)) ([44a8807](https://github.com/anolilab/renovate-config/commit/44a88079b4ca0232528e2bd81c97980136eacd03))
+* **deps:** update actions/dependency-review-action action to v4.3.2 ([#55](https://github.com/anolilab/renovate-config/issues/55)) ([bb11600](https://github.com/anolilab/renovate-config/commit/bb1160098182c0e2a5d62de27d6d63718e07bbe1))
+* **deps:** update actions/dependency-review-action action to v4.3.3 ([#64](https://github.com/anolilab/renovate-config/issues/64)) ([4846e58](https://github.com/anolilab/renovate-config/commit/4846e58a6043ec12f991275a7d8ac67ddcaa58cc))
+* **deps:** update actions/upload-artifact action to v4.3.3 ([#49](https://github.com/anolilab/renovate-config/issues/49)) ([4b90ba8](https://github.com/anolilab/renovate-config/commit/4b90ba8aa9aef0688688905569ece90d8ce739ed))
+* **deps:** update amannn/action-semantic-pull-request action to v5.5.2 ([#56](https://github.com/anolilab/renovate-config/issues/56)) ([fb26f09](https://github.com/anolilab/renovate-config/commit/fb26f0955ba3e49152e03e3fc4f28effe687c833))
+* **deps:** update dependency renovate to ^37.349.2 ([aee75f9](https://github.com/anolilab/renovate-config/commit/aee75f96de2df067a2db435f2eb4a9e9ebf0b4db))
+* **deps:** update dorny/paths-filter action to v3.0.2 ([#52](https://github.com/anolilab/renovate-config/issues/52)) ([7a9c740](https://github.com/anolilab/renovate-config/commit/7a9c7401f2b6923880a72c3b006899b390466f59))
+* **deps:** update github/codeql-action action to v3.25.3 ([#58](https://github.com/anolilab/renovate-config/issues/58)) ([aaedbbb](https://github.com/anolilab/renovate-config/commit/aaedbbbbeda20ae2206e703fa9ce9687ff3832e7))
+* **deps:** update github/codeql-action action to v3.25.8 ([#66](https://github.com/anolilab/renovate-config/issues/66)) ([6cbbf48](https://github.com/anolilab/renovate-config/commit/6cbbf484a5e4ed9a55a77ae44f81c1b7e5255a1a))
+* **deps:** update lewagon/wait-on-check-action action to v1.3.4 ([#53](https://github.com/anolilab/renovate-config/issues/53)) ([e5cdc4e](https://github.com/anolilab/renovate-config/commit/e5cdc4efbed2617517c2360411c7addbc4f45db2))
+* **deps:** update ossf/scorecard-action action to v2.3.3 ([#67](https://github.com/anolilab/renovate-config/issues/67)) ([e1d5388](https://github.com/anolilab/renovate-config/commit/e1d53888eb61e7ac196179bb92eab95e0d304597))
+* **deps:** update step-security/harden-runner action to v2.7.1 ([#54](https://github.com/anolilab/renovate-config/issues/54)) ([4f359f5](https://github.com/anolilab/renovate-config/commit/4f359f53fe77526e471c0f6342d5d8d3ee353c14))
+* update lock ([b252086](https://github.com/anolilab/renovate-config/commit/b252086cec2c600ff6b4842b8b321b2decad2285))
+* updated lock file ([c6a767a](https://github.com/anolilab/renovate-config/commit/c6a767ad30ef29f9b50073a962a8c9dc855c4613))
+
+### Continuous Integration
+
+* added merge_group ([9560103](https://github.com/anolilab/renovate-config/commit/9560103d6ee7e000c67cca85a086e92412fbbe05))
+
 ## [4.0.0](https://github.com/anolilab/renovate-config/compare/v3.1.0...v4.0.0) (2024-05-07)
 
 
