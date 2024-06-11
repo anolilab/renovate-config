@@ -68,7 +68,7 @@
         "prettier": "^3.2.5",
         "renovate": "^37.349.2",
         "secretlint": "8.1.1",
-        "semantic-release": "^23.0.8",
+        "semantic-release": "^24.0.0",
         "sort-package-json": "^2.10.0",
         "taze": "^0.13.8",
         "textlint": "^14.0.4"
