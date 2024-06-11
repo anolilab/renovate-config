@@ -63,6 +63,7 @@
         "@commitlint/config-conventional": "^19.2.2",
         "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
         "audit-ci": "^7.0.1",
+        "conventional-changelog-conventionalcommits": "8.0.0",
         "husky": "^9.0.11",
         "is-ci": "^3.0.1",
         "lint-staged": "^15.2.6",
@@ -84,10 +85,9 @@
     },
     "pnpm": {
         "overrides": {
-            "conventional-changelog-conventionalcommits": "8.0.0",
+            "braces@<3.0.3": ">=3.0.3",
             "chrono-node@<2.2.4": ">=2.2.4",
-            "tar@<6.2.1": ">=6.2.1",
-            "braces@<3.0.3": ">=3.0.3"
+            "tar@<6.2.1": ">=6.2.1"
         }
     }
 }
