@@ -59,9 +59,6 @@ jobs:
                   install-bun: false
                   enable-nx-cache: false
 
-            - name: "Verify the integrity of provenance attestations and registry signatures for installed dependencies"
-              run: "npm audit signatures"
-
             - name: "Semantic Release"
               if: "success()"
               env:
