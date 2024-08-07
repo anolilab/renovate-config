@@ -3,7 +3,6 @@
     "extends": [
         "config:recommended",
         ":dependencyDashboard",
-        ":dependencyDashboardApproval",
         ":separateMultipleMajorReleases",
         ":timezone(Europe/Berlin)",
         ":semanticCommits",
