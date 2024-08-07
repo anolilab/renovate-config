@@ -1,3 +1,32 @@
+## [4.0.2](https://github.com/anolilab/renovate-config/compare/v4.0.1...v4.0.2) (2024-08-07)
+
+### Bug Fixes
+
+* update dev deps, removed dependencyDashboardApproval ([ac8079c](https://github.com/anolilab/renovate-config/commit/ac8079c735fb9f595973eceda98b52a3f695a431))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#62](https://github.com/anolilab/renovate-config/issues/62)) ([ba725f2](https://github.com/anolilab/renovate-config/commit/ba725f2096c0f435b48702bbeaa192b6c593fcbf))
+* **deps:** lock file maintenance ([#72](https://github.com/anolilab/renovate-config/issues/72)) ([048ea2c](https://github.com/anolilab/renovate-config/commit/048ea2c0dff9eccb5d7d68b8da8c4141d89fafde))
+* **deps:** lock file maintenance ([#82](https://github.com/anolilab/renovate-config/issues/82)) ([8d47cd8](https://github.com/anolilab/renovate-config/commit/8d47cd8bb33333dc14a1083df0289ecf43dcce3b))
+* **deps:** update actions/checkout action to v4.1.7 ([#70](https://github.com/anolilab/renovate-config/issues/70)) ([5bf4790](https://github.com/anolilab/renovate-config/commit/5bf4790be208e962c5e94a593a2b541977d818b6))
+* **deps:** update actions/dependency-review-action action to v4.3.4 ([#73](https://github.com/anolilab/renovate-config/issues/73)) ([8d9ad25](https://github.com/anolilab/renovate-config/commit/8d9ad25d69f1bab9d8e7d8647e66e0289cc622b8))
+* **deps:** update actions/setup-node action to v4.0.3 ([#74](https://github.com/anolilab/renovate-config/issues/74)) ([f04ed5d](https://github.com/anolilab/renovate-config/commit/f04ed5d5901fe0a035a4788f2b97d1c75d68cb51))
+* **deps:** update actions/upload-artifact action to v4.3.4 ([#75](https://github.com/anolilab/renovate-config/issues/75)) ([2f521d3](https://github.com/anolilab/renovate-config/commit/2f521d36d7ae2f7eca198f85c1bdab8970bc7711))
+* **deps:** update amannn/action-semantic-pull-request action to v5.5.3 ([#76](https://github.com/anolilab/renovate-config/issues/76)) ([b91c130](https://github.com/anolilab/renovate-config/commit/b91c130f4f53d56b8f58f049bab0494ff4588151))
+* **deps:** update dependency lint-staged to ^15.2.7 ([#68](https://github.com/anolilab/renovate-config/issues/68)) ([c4883a0](https://github.com/anolilab/renovate-config/commit/c4883a0e211cabd6f48e0a650197830eb9dde5a8))
+* **deps:** update dependency prettier to ^3.3.3 ([#77](https://github.com/anolilab/renovate-config/issues/77)) ([ea2119c](https://github.com/anolilab/renovate-config/commit/ea2119c77e0e0a2dd993e080122470a934f23d74))
+* **deps:** update dependency taze to ^0.13.9 ([#78](https://github.com/anolilab/renovate-config/issues/78)) ([fa34460](https://github.com/anolilab/renovate-config/commit/fa3446063a16efa41959f331f9b1bc438dceea60))
+* **deps:** update github/codeql-action action to v3.25.10 ([#71](https://github.com/anolilab/renovate-config/issues/71)) ([13723ea](https://github.com/anolilab/renovate-config/commit/13723eaa8b8f2746672b6b390bfc895c6d8bf160))
+* **deps:** update github/codeql-action action to v3.25.13 ([#79](https://github.com/anolilab/renovate-config/issues/79)) ([4ab41c5](https://github.com/anolilab/renovate-config/commit/4ab41c59c49346914253519eb92671d2ab17f431))
+* **deps:** update minor updates ([#80](https://github.com/anolilab/renovate-config/issues/80)) ([05c274d](https://github.com/anolilab/renovate-config/commit/05c274d5909a1eae77bba8454b6c8a537ea81e05))
+* **deps:** update step-security/harden-runner action to v2.8.1 ([#69](https://github.com/anolilab/renovate-config/issues/69)) ([fb493fd](https://github.com/anolilab/renovate-config/commit/fb493fdd664f307961825183214575a3234f9210))
+* moved conventional-changelog-conventionalcommits into dev deps ([883cf86](https://github.com/anolilab/renovate-config/commit/883cf86bd88b24d199bc688e5456f2546f4fa252))
+
+### Continuous Integration
+
+* removed Verify the integrity..., now its inside the anolilab/workflows/step/setup ([6c3361e](https://github.com/anolilab/renovate-config/commit/6c3361ef5ae0854ecfffdeb4bfc8458c6a46f6e5))
+
 ## [4.0.1](https://github.com/anolilab/renovate-config/compare/v4.0.0...v4.0.1) (2024-06-11)
 
 ### Bug Fixes
