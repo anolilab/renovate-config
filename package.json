@@ -75,7 +75,7 @@
         "taze": "^0.16.3",
         "textlint": "^14.0.4"
     },
-    "packageManager": "pnpm@9.6.0",
+    "packageManager": "pnpm@9.7.1",
     "engines": {
         "node": ">=20"
     },
