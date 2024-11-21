@@ -72,7 +72,7 @@ importers:
         specifier: ^0.17.2
         version: 0.17.2
       textlint:
-        specifier: ^14.2.1
+        specifier: ^14.3.0
         version: 14.3.0
 
 packages:
