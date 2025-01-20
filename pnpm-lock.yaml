@@ -25,7 +25,7 @@ importers:
         version: 5.0.14(prettier@3.4.2)
       '@anolilab/semantic-release-preset':
         specifier: ^9.0.0
-        version: 9.0.0(@semantic-release/npm@12.0.1(semantic-release@24.2.0(typescript@5.6.2)))(semantic-release@24.2.0(typescript@5.6.2))
+        version: 9.0.0(@semantic-release/npm@12.0.1(semantic-release@24.2.1(typescript@5.6.2)))(semantic-release@24.2.1(typescript@5.6.2))
       '@anolilab/textlint-config':
         specifier: ^8.0.16
         version: 8.0.16(encoding@0.1.13)(textlint@14.4.2)
@@ -63,8 +63,8 @@ importers:
         specifier: 8.2.4
         version: 8.2.4
       semantic-release:
-        specifier: ^24.2.0
-        version: 24.2.0(typescript@5.6.2)
+        specifier: ^24.2.1
+        version: 24.2.1(typescript@5.6.2)
       sort-package-json:
         specifier: ^2.10.1
         version: 2.10.1
@@ -3308,6 +3308,10 @@ packages:
     resolution: {integrity: sha512-7EyUlPFC0HOlBDpUFGfYstsU7XHxZJKAAMzCT8wZ0hMW7b+hG51LIKTDcsgtz8Pu6YC0HqRVbX+rVUtsGMUKvg==}
     engines: {node: '>=16.20'}
 
+  import-from-esm@2.0.0:
+    resolution: {integrity: sha512-YVt14UZCgsX1vZQ3gKjkWVdBdHQ6eu3MPU1TBgL1H5orXe2+jWD006WCPPtOuwlQm10NuzOW5WawiF1Q9veW8g==}
+    engines: {node: '>=18.20'}
+
   import-in-the-middle@1.11.0:
     resolution: {integrity: sha512-5DimNQGoe0pLUHbR9qK84iWaWjjbsxiqXnw6Qz64+azRgleqv9k2kTt5fw7QsOpmaGYtuxxursnPPsnTKEx10Q==}
 
@@ -5418,8 +5422,8 @@ packages:
   select-section@0.4.6:
     resolution: {integrity: sha512-0WGMcD/Q6SoD/I3TfZyOstTpXZ0J072Qr+vdH+fCMEc5Z+4u/hFRQzc9prVlUpStHWH7phJ44+9nIVySyEQmTg==}
 
-  semantic-release@24.2.0:
-    resolution: {integrity: sha512-fQfn6e/aYToRtVJYKqneFM1Rg3KP2gh3wSWtpYsLlz6uaPKlISrTzvYAFn+mYWo07F0X1Cz5ucU89AVE8X1mbg==}
+  semantic-release@24.2.1:
+    resolution: {integrity: sha512-z0/3cutKNkLQ4Oy0HTi3lubnjTsdjjgOqmxdPjeYWe6lhFqUPfwslZxRHv3HDZlN4MhnZitb9SLihDkZNxOXfQ==}
     engines: {node: '>=20.8.1'}
     hasBin: true
 
@@ -6532,18 +6536,18 @@ snapshots:
       '@anolilab/package-json-utils': 3.0.9
       prettier: 3.4.2
 
-  '@anolilab/semantic-release-preset@9.0.0(@semantic-release/npm@12.0.1(semantic-release@24.2.0(typescript@5.6.2)))(semantic-release@24.2.0(typescript@5.6.2))':
+  '@anolilab/semantic-release-preset@9.0.0(@semantic-release/npm@12.0.1(semantic-release@24.2.1(typescript@5.6.2)))(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
-      '@semantic-release/changelog': 6.0.3(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/exec': 6.0.3(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/git': 10.0.1(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/github': 10.3.4(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/release-notes-generator': 14.0.0(semantic-release@24.2.0(typescript@5.6.2))
+      '@semantic-release/changelog': 6.0.3(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/exec': 6.0.3(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/git': 10.0.1(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/github': 10.3.4(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/release-notes-generator': 14.0.0(semantic-release@24.2.1(typescript@5.6.2))
       conventional-changelog-conventionalcommits: 8.0.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     optionalDependencies:
-      '@semantic-release/npm': 12.0.1(semantic-release@24.2.0(typescript@5.6.2))
+      '@semantic-release/npm': 12.0.1(semantic-release@24.2.1(typescript@5.6.2))
     transitivePeerDependencies:
       - supports-color
 
@@ -7735,7 +7739,7 @@ snapshots:
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8202,7 +8206,7 @@ snapshots:
       '@secretlint/profiler': 8.2.4
       '@secretlint/types': 8.2.4
       ajv: 8.17.1
-      debug: 4.3.7
+      debug: 4.4.0
       rc-config-loader: 4.1.3
       try-resolve: 1.0.1
     transitivePeerDependencies:
@@ -8212,7 +8216,7 @@ snapshots:
     dependencies:
       '@secretlint/profiler': 8.2.4
       '@secretlint/types': 8.2.4
-      debug: 4.3.7
+      debug: 4.4.0
       structured-source: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -8258,15 +8262,15 @@ snapshots:
 
   '@secretlint/types@8.2.4': {}
 
-  '@semantic-release/changelog@6.0.3(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/changelog@6.0.3(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 11.2.0
       lodash: 4.17.21
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
 
-  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -8276,7 +8280,7 @@ snapshots:
       import-from-esm: 1.3.4
       lodash-es: 4.17.21
       micromatch: 4.0.8
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -8284,7 +8288,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/exec@6.0.3(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/exec@6.0.3(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -8292,11 +8296,11 @@ snapshots:
       execa: 5.1.1
       lodash: 4.17.21
       parse-json: 5.2.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/git@10.0.1(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/git@10.0.1(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -8306,11 +8310,11 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.8
       p-reduce: 2.1.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@10.3.4(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/github@10.3.4(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.3(@octokit/core@6.1.2)
@@ -8327,12 +8331,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.4
       p-filter: 4.1.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@11.0.0(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/github@11.0.0(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.3(@octokit/core@6.1.2)
@@ -8340,7 +8344,7 @@ snapshots:
       '@octokit/plugin-throttling': 9.3.1(@octokit/core@6.1.2)
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       dir-glob: 3.0.1
       globby: 14.0.2
       http-proxy-agent: 7.0.2
@@ -8349,12 +8353,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.4
       p-filter: 4.1.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@12.0.1(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/npm@12.0.1(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
@@ -8367,11 +8371,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
       semver: 7.6.3
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@14.0.0(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/release-notes-generator@14.0.0(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -8383,23 +8387,23 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-pkg-up: 11.0.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.2.0(typescript@5.6.2))':
+  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.2.1(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       get-stream: 7.0.1
       import-from-esm: 1.3.4
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-package-up: 11.0.0
-      semantic-release: 24.2.0(typescript@5.6.2)
+      semantic-release: 24.2.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -8880,7 +8884,7 @@ snapshots:
   '@textlint/ast-tester@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8938,7 +8942,7 @@ snapshots:
       '@textlint/source-code-fixer': 12.6.1
       '@textlint/types': 12.6.1
       '@textlint/utils': 12.6.1
-      debug: 4.3.7
+      debug: 4.4.0
       deep-equal: 1.1.2
       structured-source: 4.0.0
     transitivePeerDependencies:
@@ -8966,7 +8970,7 @@ snapshots:
       '@textlint/module-interop': 12.6.1
       '@textlint/types': 12.6.1
       chalk: 4.1.2
-      debug: 4.3.7
+      debug: 4.4.0
       is-file: 1.0.0
       js-yaml: 3.14.1
       lodash: 4.17.21
@@ -9002,7 +9006,7 @@ snapshots:
   '@textlint/markdown-to-ast@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
-      debug: 4.3.7
+      debug: 4.4.0
       mdast-util-gfm-autolink-literal: 0.1.3
       remark-footnotes: 3.0.0
       remark-frontmatter: 3.0.0
@@ -9047,7 +9051,7 @@ snapshots:
   '@textlint/source-code-fixer@12.6.1':
     dependencies:
       '@textlint/types': 12.6.1
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -9315,7 +9319,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -10759,7 +10763,7 @@ snapshots:
 
   git-spawned-stream@1.0.1:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
       spawn-to-readstream: 0.1.3
     transitivePeerDependencies:
       - supports-color
@@ -11166,6 +11170,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  import-from-esm@2.0.0:
+    dependencies:
+      debug: 4.4.0
+      import-meta-resolve: 4.1.0
+    transitivePeerDependencies:
+      - supports-color
+
   import-in-the-middle@1.11.0:
     dependencies:
       acorn: 8.12.1
@@ -11182,7 +11193,7 @@ snapshots:
   importx@0.5.0:
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.1)
-      debug: 4.3.7
+      debug: 4.4.0
       esbuild: 0.23.1
       jiti: 2.0.0
       pathe: 1.1.2
@@ -12424,7 +12435,7 @@ snapshots:
 
   micromark@2.11.4:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
       parse-entities: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -12432,7 +12443,7 @@ snapshots:
   micromark@3.2.0:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.3.7
+      debug: 4.4.0
       decode-named-character-reference: 1.0.2
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -13627,7 +13638,7 @@ snapshots:
 
   require-in-the-middle@7.4.0:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
       module-details-from-path: 1.0.3
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -13794,16 +13805,16 @@ snapshots:
       map-like: 1.1.3
       txt-ast-traverse: 1.2.1
 
-  semantic-release@24.2.0(typescript@5.6.2):
+  semantic-release@24.2.1(typescript@5.6.2):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.2.0(typescript@5.6.2))
+      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.2.1(typescript@5.6.2))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 11.0.0(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/npm': 12.0.1(semantic-release@24.2.0(typescript@5.6.2))
-      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.2.0(typescript@5.6.2))
+      '@semantic-release/github': 11.0.0(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/npm': 12.0.1(semantic-release@24.2.1(typescript@5.6.2))
+      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.2.1(typescript@5.6.2))
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@5.6.2)
-      debug: 4.3.7
+      debug: 4.4.0
       env-ci: 11.1.0
       execa: 9.3.1
       figures: 6.1.0
@@ -13812,7 +13823,7 @@ snapshots:
       git-log-parser: 1.2.1
       hook-std: 3.0.0
       hosted-git-info: 8.0.0
-      import-from-esm: 1.3.4
+      import-from-esm: 2.0.0
       lodash-es: 4.17.21
       marked: 12.0.2
       marked-terminal: 7.1.0(marked@12.0.2)
@@ -13971,7 +13982,7 @@ snapshots:
   socks-proxy-agent@8.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.7
+      debug: 4.4.0
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
@@ -14684,7 +14695,7 @@ snapshots:
       '@types/node': 18.19.50
       '@types/unist': 2.0.11
       concat-stream: 2.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       fault: 2.0.1
       glob: 8.1.0
       ignore: 5.3.2
