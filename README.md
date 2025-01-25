@@ -42,7 +42,7 @@ Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation i
 - Support npm/Node.js ecosystem
 - Support GitHub-Actions updates with hash version
 - Support Docker ecosystem
-- Defined package groups like TypeScript, Prettier, Linters, Vitest
+- Defined package groups like TypeScript, Prettier, Linters, TypeDoc, Sass, Less, Stylus, PostCSS, Vite, Rollup, Visulima, Vitest
 - Enhanced security with vulnerability alerts and auto-merge for security updates
 - Smart rate limiting (4 PRs per hour, 10 concurrent PRs)
 - Package stability checks with 3-day waiting period

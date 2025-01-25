@@ -64,8 +64,41 @@
         },
         {
             "groupName": "styles",
-            "matchPackagePatterns": ["postcss", "stylelint"],
-            "matchPackageNames": ["stylelint", "stylelint-.*", "postcss", "@ronilaukkarinen/stylelint-a11y"]
+            "matchPackagePatterns": ["stylelint"],
+            "matchPackageNames": ["stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y"]
+        },
+        {
+            "groupName": "postcss",
+            "matchPackageNames": ["postcss", "postcss-loader"],
+            "matchPackagePatterns": ["^postcss-.*"],
+            "matchPackagePrefixes": ["@postcss/"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "sass",
+            "matchPackageNames": ["sass", "node-sass", "sass-loader", "@sass/*"],
+            "matchPackagePatterns": ["^sass-.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "less",
+            "matchPackageNames": ["less", "less-loader"],
+            "matchPackagePatterns": ["^less-.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "stylus",
+            "matchPackageNames": ["stylus", "stylus-loader"],
+            "matchPackagePatterns": ["^stylus-.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
         },
         {
             "groupName": "textlint",
@@ -93,6 +126,36 @@
             "groupName": "renovate",
             "automerge": true,
             "matchPackageNames": ["renovate"]
+        },
+        {
+            "groupName": "typedoc",
+            "matchPackageNames": ["typedoc", "typedoc-plugin-.*", "@typedoc/.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "vite",
+            "matchPackageNames": ["vite", "vite-plugin-.*"],
+            "matchPackagePatterns": ["^@vitejs/.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "rollup",
+            "matchPackageNames": ["rollup"],
+            "matchPackagePatterns": ["^rollup-plugin-.*", "^@rollup/.*"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "visulima",
+            "matchPackagePrefixes": ["@visulima/"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
         },
         {
             "description": "Automerge non-major updates",
