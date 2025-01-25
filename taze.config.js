@@ -2,8 +2,7 @@ import { defineConfig } from "taze";
 
 export default defineConfig({
     // ignore packages from bumping
-    exclude: [
-    ],
+    exclude: [],
     // write to package.json
     write: true,
     ignorePaths: ["node_modules", "dist"],

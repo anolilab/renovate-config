@@ -43,6 +43,15 @@ Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation i
 - Support GitHub-Actions updates with hash version
 - Support Docker ecosystem
 - Defined package groups like TypeScript, Prettier, Linters, Vitest
+- Enhanced security with vulnerability alerts and auto-merge for security updates
+- Smart rate limiting (4 PRs per hour, 10 concurrent PRs)
+- Package stability checks with 3-day waiting period
+- Automated maintenance with weekly lock file updates
+- Comprehensive labeling system for different update types
+- Scheduled updates for specific package groups (ESLint, types on weekends)
+- Signed commit messages with emoji prefixes
+- Intelligent auto-merge rules for different package types
+- Docker and GitHub Actions specific configurations with proper labeling
 
 ## References
 

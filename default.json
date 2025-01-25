@@ -7,29 +7,104 @@
         ":timezone(Europe/Berlin)",
         ":semanticCommits",
         ":rebaseStalePrs",
-        ":renovatePrefix"
+        ":renovatePrefix",
+        ":enableVulnerabilityAlerts",
+        ":maintainLockFilesWeekly"
     ],
     "schedule": ["after 10:00 before 19:00 every weekday except after 13:00 before 14:00"],
+    "prHourlyLimit": 4,
+    "prConcurrentLimit": 10,
     "rollbackPrs": true,
-    "minimumReleaseAge": null,
+    "minimumReleaseAge": "3 days",
+    "stabilityDays": 3,
     "prCreation": "immediate",
     "vulnerabilityAlerts": {
-        "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
+        "labels": ["security", "priority-critical"],
         "enabled": true,
-        "addLabels": ["security"]
+        "schedule": "at any time",
+        "automerge": true,
+        "commitMessageSuffix": "[SECURITY]"
+    },
+    "major": {
+        "labels": ["major-upgrade"]
     },
     "packageRules": [
         {
-            "matchDepTypes": ["action"],
-            "pinDigests": false,
-            "semanticCommits": "enabled"
+            "description": "disable package.json > engines update",
+            "matchDepTypes": ["engines"],
+            "enabled": false
         },
         {
-            "matchPackagePatterns": ["^@types/"],
+            "groupName": "semantic-release",
+            "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"]
+        },
+        {
+            "groupName": "ts-node",
+            "matchPackageNames": ["ts-node", "ts-node-test-register"]
+        },
+        {
+            "groupName": "vitest",
+            "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"]
+        },
+        {
+            "groupName": "textlint",
+            "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"]
+        },
+        {
+            "groupName": "secretlint",
+            "matchPackageNames": ["^secretlint", "^@secretlint/.*"]
+        },
+        {
+            "groupName": "ESLint",
+            "matchPackagePrefixes": ["eslint"],
+            "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"],
             "automerge": true,
-            "major": {
-                "automerge": false
-            }
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "styles",
+            "matchPackagePatterns": ["postcss", "stylelint"],
+            "matchPackageNames": ["stylelint", "stylelint-.*", "postcss", "@ronilaukkarinen/stylelint-a11y"]
+        },
+        {
+            "groupName": "textlint",
+            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"]
+        },
+        {
+            "groupName": "prettier",
+            "matchPackageNames": ["prettier", "prettier-.*"],
+            "automerge": true,
+            "automergeType": "branch"
+        },
+        {
+            "groupName": "github-actions",
+            "matchManagers": ["github-actions"]
+        },
+        {
+            "groupName": "type dependencies",
+            "groupSlug": "types",
+            "matchPackagePrefixes": ["@types/"],
+            "packageNames": ["type-coverage", "type-fest", "typescript"],
+            "automerge": true,
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "renovate",
+            "automerge": true,
+            "matchPackageNames": ["renovate"]
+        },
+        {
+            "description": "Automerge non-major updates",
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+            "automerge": true,
+            "automergeType": "branch"
+        },
+        {
+            "description": "Ignore node version in package.json",
+            "matchPackageNames": ["node"],
+            "matchManagers": ["npm"],
+            "enabled": false
         }
     ],
     "npm": {
@@ -52,57 +127,10 @@
             "groupName": "Patch updates",
             "semanticCommitType": "fix"
         },
-        "packageRules": [
-            {
-                "description": "disable package.json > engines update",
-                "matchDepTypes": ["engines"],
-                "enabled": false
-            },
-            {
-                "groupName": "semantic-release",
-                "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"]
-            },
-            {
-                "groupName": "ts-node",
-                "matchPackageNames": ["ts-node", "ts-node-test-register"]
-            },
-            {
-                "groupName": "vitest",
-                "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"]
-            },
-            {
-                "groupName": "textlint",
-                "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"]
-            },
-            {
-                "groupName": "secretlint",
-                "matchPackageNames": ["^secretlint", "^@secretlint/.*"]
-            },
-            {
-                "groupName": "ESLint",
-                "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"]
-            },
-            {
-                "groupName": "stylelint",
-                "matchPackageNames": ["stylelint", "stylelint-.*", "postcss", "@ronilaukkarinen/stylelint-a11y"]
-            },
-            {
-                "groupName": "textlint",
-                "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"]
-            },
-            {
-                "groupName": "prettier",
-                "matchPackageNames": ["prettier", "prettier-.*"]
-            },
-            {
-                "groupName": "renovate",
-                "automerge": true,
-                "matchPackageNames": ["renovate"]
-            }
-        ],
         "lockFileMaintenance": {
             "enabled": true,
-            "automerge": true
+            "automerge": true,
+            "schedule": ["before 5am on monday"]
         }
     },
     "github-actions": {
@@ -110,18 +138,23 @@
         "rangeStrategy": "bump",
         "automergeType": "branch",
         "automerge": true,
-        "semanticCommitType": "ci"
+        "semanticCommitType": "ci",
+        "labels": ["github-actions"]
     },
     "dockerfile": {
         "extends": ["docker:pinDigests"],
         "enabled": true,
         "automerge": true,
-        "semanticCommitType": "chore"
+        "semanticCommitType": "chore",
+        "labels": ["docker"]
     },
     "docker-compose": {
         "extends": ["docker:pinDigests"],
         "enabled": true,
         "automerge": true,
-        "semanticCommitType": "chore"
-    }
+        "semanticCommitType": "chore",
+        "labels": ["docker"]
+    },
+    "commitMessagePrefix": " ",
+    "commitBody": "Signed-off-by: Renovate Bot <bot@renovateapp.com>"
 }
