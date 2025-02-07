@@ -72,7 +72,7 @@
         "secretlint": "9.0.0",
         "semantic-release": "^24.2.1",
         "sort-package-json": "^2.14.0",
-        "taze": "^18.3.0",
+        "taze": "^18.4.0",
         "textlint": "^14.4.2"
     },
     "packageManager": "pnpm@9.15.4",
@@ -86,7 +86,7 @@
     "pnpm": {
         "overrides": {
             "braces@<3.0.3": ">=3.0.3",
-            "chrono-node@<2.2.4": ">=2.2.4",
+            "chrono-node@<2.2.4": ">=2.7.8",
             "tar@<6.2.1": ">=6.2.1",
             "micromatch@<4.0.8": ">=4.0.8"
         }

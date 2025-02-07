@@ -6,7 +6,7 @@ settings:
 
 overrides:
   braces@<3.0.3: '>=3.0.3'
-  chrono-node@<2.2.4: '>=2.2.4'
+  chrono-node@<2.2.4: '>=2.7.8'
   tar@<6.2.1: '>=6.2.1'
   micromatch@<4.0.8: '>=4.0.8'
 
@@ -69,8 +69,8 @@ importers:
         specifier: ^2.14.0
         version: 2.14.0
       taze:
-        specifier: ^18.3.0
-        version: 18.3.0
+        specifier: ^18.4.0
+        version: 18.4.0
       textlint:
         specifier: ^14.4.2
         version: 14.4.2
@@ -112,6 +112,7 @@ packages:
   '@anolilab/package-json-utils@3.0.9':
     resolution: {integrity: sha512-CYwpW2hlsOSdwtksYG5vH7Y48X7qwSnvk4yTsplce/FZFZLKRxuCbwlUqgTEYUng3nZ55A+5EC3rEttgor7e9w==}
     engines: {node: '>=18.* <=21.*'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@anolilab/prettier-config@5.0.14':
     resolution: {integrity: sha512-P7nVwARFM0SKQ0j8Q2y6Q3acHaPNtXOKEX9lgZcf5veFdvNjzK79iZcFdpQikyix4VQBs8x6wBPAD0yDfpC6pQ==}
@@ -146,8 +147,8 @@ packages:
     peerDependencies:
       textlint: ^13.3.2
 
-  '@antfu/ni@23.2.0':
-    resolution: {integrity: sha512-PsqWG9QcgTQ0eyEMxYaaJMxoCaCmy8InPkToC7MQuOHHUPQknMZtCrnzZSZDXk+X9Z93eGFh+v0mE2X6FWNtuw==}
+  '@antfu/ni@23.3.1':
+    resolution: {integrity: sha512-C90iyzm/jLV7Lomv2UzwWUzRv9WZr1oRsFRKsX5HjQL4EXrbi9H/RtBkjCP+NF+ABZXUKpAa4F1dkoTaea4zHg==}
     hasBin: true
 
   '@antfu/utils@8.1.0':
@@ -2123,8 +2124,8 @@ packages:
     resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
     engines: {node: '>=18'}
 
-  chrono-node@2.7.6:
-    resolution: {integrity: sha512-yugKSRLHc6B6kXxm/DwNc94zhaddAjCSO9IOGH3w7NIWNM+gUoLl/2/XLndiw4I+XhU4H2LOhC5Ab2JjS6JWsA==}
+  chrono-node@2.7.8:
+    resolution: {integrity: sha512-pzxemrTKu6jFVyAfkNxUckp9nlrmRFtr5lGrEJcVKyeKV9WSeGT78Oysazlzd/H0BdMv7EzACtJrw0pi2KODBQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   ci-info@3.9.0:
@@ -4871,8 +4872,8 @@ packages:
     resolution: {integrity: sha512-cbH9IAIJHNj9uXi196JVsRlt7cHKak6u/e6AkL/bkRelZ7rlL3X1YKxsZwa36xipOEKAsdtmaG6aAJoM1fx2zA==}
     engines: {node: '>=14.16'}
 
-  package-manager-detector@0.2.8:
-    resolution: {integrity: sha512-ts9KSdroZisdvKMWVAVCXiKqnqNfXz4+IbrBG8/BWx/TR5le+jfenvoBuIZ6UWM9nz47W7AbD9qYfAwfWMIwzA==}
+  package-manager-detector@0.2.9:
+    resolution: {integrity: sha512-+vYvA/Y31l8Zk8dwxHhL3JfTuHPm6tlxM2A3GeQyl7ovYnSp1+mzAxClxaOr0qO1TtPxbQxetI7v5XqKLJZk7Q==}
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -5836,8 +5837,8 @@ packages:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
 
-  taze@18.3.0:
-    resolution: {integrity: sha512-x5akxPGBWSn+QSu2RSNZantKp7ufaPNz+cPPVjgzchNzicxuL7rnUuMXBeQufivyu4Uy6RaafHv7YzUpM74RzQ==}
+  taze@18.4.0:
+    resolution: {integrity: sha512-FHwVku4taloXQVTUYkef4lfaDRCz/Q+pls+4Kqvtk83LcKuEwzTSvMuUfBSDRGQBCLhLoLvcDHngmdoZkRNv7w==}
     hasBin: true
 
   temp-dir@3.0.0:
@@ -6613,7 +6614,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@antfu/ni@23.2.0': {}
+  '@antfu/ni@23.3.1': {}
 
   '@antfu/utils@8.1.0': {}
 
@@ -9726,7 +9727,7 @@ snapshots:
 
   chownr@3.0.0: {}
 
-  chrono-node@2.7.6:
+  chrono-node@2.7.8:
     dependencies:
       dayjs: 1.11.13
 
@@ -12930,7 +12931,7 @@ snapshots:
       registry-url: 6.0.1
       semver: 7.6.3
 
-  package-manager-detector@0.2.8: {}
+  package-manager-detector@0.2.9: {}
 
   parent-module@1.0.1:
     dependencies:
@@ -14263,14 +14264,14 @@ snapshots:
       mkdirp: 3.0.1
       yallist: 5.0.0
 
-  taze@18.3.0:
+  taze@18.4.0:
     dependencies:
-      '@antfu/ni': 23.2.0
-      js-yaml: 4.1.0
+      '@antfu/ni': 23.3.1
       ofetch: 1.4.1
-      package-manager-detector: 0.2.8
+      package-manager-detector: 0.2.9
       tinyexec: 0.3.2
       unconfig: 0.6.1
+      yaml: 2.7.0
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -14319,7 +14320,7 @@ snapshots:
 
   textlint-rule-date-weekday-mismatch@1.0.6:
     dependencies:
-      chrono-node: 2.7.6
+      chrono-node: 2.7.8
       moment: 2.30.1
       textlint-tester: 12.6.1
     transitivePeerDependencies:
