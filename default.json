@@ -23,11 +23,12 @@
         "enabled": true,
         "schedule": "at any time",
         "automerge": true,
+        "semanticCommitType": "fix",
+        "semanticCommitScope": "security",
         "commitMessageSuffix": "[SECURITY]"
     },
-    "major": {
-        "labels": ["major-upgrade"]
-    },
+    "semanticCommitType": "chore",
+    "semanticCommitScope": "deps",
     "packageRules": [
         {
             "description": "disable package.json > engines update",
@@ -36,28 +37,40 @@
         },
         {
             "groupName": "semantic-release",
-            "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"]
+            "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "ts-node",
-            "matchPackageNames": ["ts-node", "ts-node-test-register"]
+            "matchPackageNames": ["ts-node", "ts-node-test-register"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "vitest",
-            "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"]
+            "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "textlint",
-            "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"]
+            "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "secretlint",
-            "matchPackageNames": ["^secretlint", "^@secretlint/.*"]
+            "matchPackageNames": ["^secretlint", "^@secretlint/.*"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "ESLint",
             "matchPackagePrefixes": ["eslint"],
             "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -65,11 +78,15 @@
         {
             "groupName": "styles",
             "matchPackagePatterns": ["stylelint"],
-            "matchPackageNames": ["stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y"]
+            "matchPackageNames": ["stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "postcss",
             "matchPackageNames": ["postcss", "postcss-loader"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "matchPackagePatterns": ["^postcss-.*"],
             "matchPackagePrefixes": ["@postcss/"],
             "automerge": true,
@@ -80,6 +97,8 @@
             "groupName": "sass",
             "matchPackageNames": ["sass", "node-sass", "sass-loader", "@sass/*"],
             "matchPackagePatterns": ["^sass-.*"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -87,6 +106,8 @@
         {
             "groupName": "less",
             "matchPackageNames": ["less", "less-loader"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "matchPackagePatterns": ["^less-.*"],
             "automerge": true,
             "automergeType": "branch",
@@ -95,6 +116,8 @@
         {
             "groupName": "stylus",
             "matchPackageNames": ["stylus", "stylus-loader"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "matchPackagePatterns": ["^stylus-.*"],
             "automerge": true,
             "automergeType": "branch",
@@ -102,34 +125,46 @@
         },
         {
             "groupName": "textlint",
-            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"]
+            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev"
         },
         {
             "groupName": "prettier",
             "matchPackageNames": ["prettier", "prettier-.*"],
+            "semanticCommitType": "style",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch"
         },
         {
             "groupName": "github-actions",
-            "matchManagers": ["github-actions"]
+            "matchManagers": ["github-actions"],
+            "semanticCommitType": "ci",
+            "semanticCommitScope": "deps"
         },
         {
             "groupName": "type dependencies",
             "groupSlug": "types",
             "matchPackagePrefixes": ["@types/"],
             "packageNames": ["type-coverage", "type-fest", "typescript"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "schedule": ["after 1am and before 5am every weekend"]
         },
         {
             "groupName": "renovate",
             "automerge": true,
-            "matchPackageNames": ["renovate"]
+            "matchPackageNames": ["renovate"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps"
         },
         {
             "groupName": "typedoc",
             "matchPackageNames": ["typedoc", "typedoc-plugin-.*", "@typedoc/.*"],
+            "semanticCommitType": "docs",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -138,6 +173,8 @@
             "groupName": "vite",
             "matchPackageNames": ["vite", "vite-plugin-.*"],
             "matchPackagePatterns": ["^@vitejs/.*"],
+            "semanticCommitType": "build",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -146,6 +183,8 @@
             "groupName": "rollup",
             "matchPackageNames": ["rollup"],
             "matchPackagePatterns": ["^rollup-plugin-.*", "^@rollup/.*"],
+            "semanticCommitType": "build",
+            "semanticCommitScope": "deps-dev",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -153,6 +192,8 @@
         {
             "groupName": "visulima",
             "matchPackagePrefixes": ["@visulima/"],
+            "semanticCommitType": "chore",
+            "semanticCommitScope": "deps",
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -161,7 +202,9 @@
             "description": "Automerge non-major updates",
             "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
             "automerge": true,
-            "automergeType": "branch"
+            "automergeType": "branch",
+            "semanticCommitType": "fix",
+            "semanticCommitScope": "deps"
         },
         {
             "description": "Ignore node version in package.json",
@@ -174,6 +217,8 @@
         "labels": ["c: dependencies"],
         "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", "helpers:disableTypesNodeMajor"],
         "rangeStrategy": "bump",
+        "semanticCommitType": "chore",
+        "semanticCommitScope": "deps",
         "automergeType": "branch",
         "major": {
             "automerge": false,
@@ -202,20 +247,23 @@
         "automergeType": "branch",
         "automerge": true,
         "semanticCommitType": "ci",
+        "semanticCommitScope": "deps",
         "labels": ["github-actions"]
     },
     "dockerfile": {
         "extends": ["docker:pinDigests"],
         "enabled": true,
+        "semanticCommitType": "build",
+        "semanticCommitScope": "deps",
         "automerge": true,
-        "semanticCommitType": "chore",
         "labels": ["docker"]
     },
     "docker-compose": {
         "extends": ["docker:pinDigests"],
         "enabled": true,
+        "semanticCommitType": "build",
+        "semanticCommitScope": "deps",
         "automerge": true,
-        "semanticCommitType": "chore",
         "labels": ["docker"]
     },
     "commitMessagePrefix": " ",
