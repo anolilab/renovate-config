@@ -41,7 +41,7 @@
     ],
     "scripts": {
         "audit": "audit-ci --config ./audit-ci.jsonc",
-        "preinstall": "node verify-node-version.cjs && npx only-allow pnpm",
+        "preinstall": "node verify-node-version.js && npm exec only-allow pnpm",
         "lint:prettier": "prettier --config=.prettierrc.cjs --check '*.{json,yml,yaml,js,ts}'",
         "lint:prettier:fix": "prettier --config=.prettierrc.cjs --write '*.{json,yml,yaml,js,ts}'",
         "lint:secrets": "secretlint **/*",
@@ -59,20 +59,20 @@
         "@anolilab/prettier-config": "^5.0.14",
         "@anolilab/semantic-release-preset": "^10.0.2",
         "@anolilab/textlint-config": "^8.0.16",
-        "@commitlint/cli": "^19.6.1",
-        "@commitlint/config-conventional": "^19.6.0",
+        "@commitlint/cli": "^19.7.1",
+        "@commitlint/config-conventional": "^19.7.1",
         "@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
         "audit-ci": "^7.1.0",
         "conventional-changelog-conventionalcommits": "8.0.0",
         "husky": "^9.1.7",
         "is-ci": "^4.1.0",
-        "lint-staged": "^15.4.2",
-        "prettier": "^3.4.2",
-        "renovate": "^39.133.4",
+        "lint-staged": "^15.4.3",
+        "prettier": "^3.5.0",
+        "renovate": "^39.165.0",
         "secretlint": "9.0.0",
-        "semantic-release": "^24.2.1",
+        "semantic-release": "^24.2.2",
         "sort-package-json": "^2.14.0",
-        "taze": "^18.3.0",
+        "taze": "^18.4.0",
         "textlint": "^14.4.2"
     },
     "packageManager": "pnpm@9.15.4",
@@ -88,7 +88,8 @@
             "braces@<3.0.3": ">=3.0.3",
             "chrono-node@<2.2.4": ">=2.2.4",
             "tar@<6.2.1": ">=6.2.1",
-            "micromatch@<4.0.8": ">=4.0.8"
+            "micromatch@<4.0.8": ">=4.0.8",
+            "cross-spawn@>=7.0.0 <7.0.5": ">=7.0.5"
         }
     }
 }
