@@ -49,7 +49,14 @@ Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation i
 - Automated maintenance with weekly lock file updates
 - Comprehensive labeling system for different update types
 - Scheduled updates for specific package groups (ESLint, types on weekends)
-- Signed commit messages with emoji prefixes
+- Semantic commit messages for all updates:
+  - Security updates: `fix(security)`
+  - Build tools (Vite, Rollup): `build(deps-dev)`
+  - Style tools (ESLint, Prettier): `style(deps-dev)`
+  - Documentation tools (TypeDoc): `docs(deps-dev)`
+  - CI/CD (GitHub Actions): `ci(deps)`
+  - Docker: `build(deps)`
+  - Regular dependencies: `chore(deps)` or `fix(deps)` for non-major updates
 - Intelligent auto-merge rules for different package types
 - Docker and GitHub Actions specific configurations with proper labeling
 
