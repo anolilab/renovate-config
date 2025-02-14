@@ -1,3 +1,14 @@
+## [5.0.1](https://github.com/anolilab/renovate-config/compare/v5.0.0...v5.0.1) (2025-02-14)
+
+### Bug Fixes
+
+* replace semantic commit type and scope with extends for package rules ([9b249a3](https://github.com/anolilab/renovate-config/commit/9b249a353a142c7369fb4b66632e1d987df13c78))
+
+### Continuous Integration
+
+* update github-actions ([#141](https://github.com/anolilab/renovate-config/issues/141)) ([a3a61be](https://github.com/anolilab/renovate-config/commit/a3a61be603a68c1d7025fe5a2fd38f3f1b9ab23a))
+* update pnpm/action-setup action to v4 ([#140](https://github.com/anolilab/renovate-config/issues/140)) ([448ef2e](https://github.com/anolilab/renovate-config/commit/448ef2e36de25a8d47d342d2f3550101533c1dda))
+
 ## [5.0.0](https://github.com/anolilab/renovate-config/compare/v4.0.2...v5.0.0) (2025-02-10)
 
 ### ⚠ BREAKING CHANGES
