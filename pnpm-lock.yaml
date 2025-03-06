@@ -20,10 +20,10 @@ importers:
         version: 5.0.3(@commitlint/cli@19.7.1(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
       '@anolilab/lint-staged-config':
         specifier: ^2.1.7
-        version: 2.1.7(husky@9.1.7)(lint-staged@15.4.3)(prettier@3.5.0)(secretlint@9.0.0)
+        version: 2.1.7(husky@9.1.7)(lint-staged@15.4.3)(prettier@3.5.3)(secretlint@9.0.0)
       '@anolilab/prettier-config':
         specifier: ^5.0.14
-        version: 5.0.14(prettier@3.5.0)
+        version: 5.0.14(prettier@3.5.3)
       '@anolilab/semantic-release-preset':
         specifier: ^10.0.3
         version: 10.0.3(@semantic-release/npm@12.0.1(semantic-release@24.2.2(typescript@5.6.2)))(semantic-release@24.2.2(typescript@5.6.2))(yaml@2.7.0)
@@ -55,8 +55,8 @@ importers:
         specifier: ^15.4.3
         version: 15.4.3
       prettier:
-        specifier: ^3.5.0
-        version: 3.5.0
+        specifier: ^3.5.3
+        version: 3.5.3
       renovate:
         specifier: ^39.165.0
         version: 39.165.0(encoding@0.1.13)(typanion@3.14.0)
@@ -5068,8 +5068,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.5.0:
-    resolution: {integrity: sha512-quyMrVt6svPS7CjQ9gKb3GLEX/rl3BCL2oa/QkNcXv4YNVBC9olt3s+H7ukto06q7B1Qz46PbrKLO34PR6vXcA==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -6542,7 +6542,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@anolilab/lint-staged-config@2.1.7(husky@9.1.7)(lint-staged@15.4.3)(prettier@3.5.0)(secretlint@9.0.0)':
+  '@anolilab/lint-staged-config@2.1.7(husky@9.1.7)(lint-staged@15.4.3)(prettier@3.5.3)(secretlint@9.0.0)':
     dependencies:
       '@anolilab/package-json-utils': 3.0.9
       find-up: 5.0.0
@@ -6550,7 +6550,7 @@ snapshots:
       lint-staged: 15.4.3
       shell-quote: 1.8.1
     optionalDependencies:
-      prettier: 3.5.0
+      prettier: 3.5.3
       secretlint: 9.0.0
 
   '@anolilab/package-json-utils@3.0.9':
@@ -6558,10 +6558,10 @@ snapshots:
       dot-path-value: 0.0.10
       read-pkg-up: 7.0.1
 
-  '@anolilab/prettier-config@5.0.14(prettier@3.5.0)':
+  '@anolilab/prettier-config@5.0.14(prettier@3.5.3)':
     dependencies:
       '@anolilab/package-json-utils': 3.0.9
-      prettier: 3.5.0
+      prettier: 3.5.3
 
   '@anolilab/semantic-release-clean-package-json@2.0.1(yaml@2.7.0)':
     dependencies:
@@ -13091,7 +13091,7 @@ snapshots:
 
   prettier@3.4.2: {}
 
-  prettier@3.5.0: {}
+  prettier@3.5.3: {}
 
   pretty-ms@9.1.0:
     dependencies:
