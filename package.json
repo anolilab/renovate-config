@@ -68,7 +68,7 @@
         "is-ci": "^4.1.0",
         "lint-staged": "^15.4.3",
         "prettier": "^3.5.0",
-        "renovate": "^39.165.0",
+        "renovate": "^39.264.0",
         "secretlint": "9.0.0",
         "semantic-release": "^24.2.2",
         "sort-package-json": "^2.14.0",
