@@ -6,6 +6,7 @@
         ":separateMultipleMajorReleases",
         ":timezone(Europe/Berlin)",
         ":semanticCommits",
+        ":semanticPrTitles",
         ":rebaseStalePrs",
         ":renovatePrefix",
         ":enableVulnerabilityAlerts",
@@ -14,7 +15,6 @@
     "schedule": ["after 10:00 before 19:00 every weekday except after 13:00 before 14:00"],
     "prHourlyLimit": 4,
     "prConcurrentLimit": 10,
-    "rollbackPrs": true,
     "minimumReleaseAge": "3 days",
     "stabilityDays": 3,
     "prCreation": "immediate",
@@ -35,6 +35,29 @@
             "enabled": false
         },
         {
+            "groupName": "style tools",
+            "matchPackageNames": [
+                "stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y",
+                "postcss", "postcss-loader",
+                "sass", "node-sass", "sass-loader", "@sass/*",
+                "less", "less-loader",
+                "stylus", "stylus-loader"
+            ],
+            "matchPackagePatterns": [
+                "^stylelint", "^postcss-.*", "^sass-.*", "^less-.*", "^stylus-.*"
+            ],
+            "matchPackagePrefixes": ["@postcss/"],
+            "extends": [":semanticCommitType(style)"],
+            "automerge": true,
+            "automergeType": "branch",
+            "schedule": ["after 1am and before 5am every weekend"]
+        },
+        {
+            "groupName": "textlint",
+            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*", "^textlint$", "^textlint-scripts", "^textlint-tester"],
+            "extends": [":semanticCommitType(style)"]
+        },
+        {
             "groupName": "semantic-release",
             "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"],
             "extends": [
@@ -53,13 +76,6 @@
             "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"],
             "extends": [
                 ":semanticCommitType(chore)"
-            ]
-        },
-        {
-            "groupName": "textlint",
-            "matchPackageNames": ["^textlint$", "^textlint-scripts", "^textlint-tester", "^@textlint/.*"],
-            "extends": [
-                ":semanticCommitType(style)"
             ]
         },
         {
@@ -132,13 +148,6 @@
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
-        },
-        {
-            "groupName": "textlint",
-            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ]
         },
         {
             "groupName": "prettier",
@@ -284,6 +293,5 @@
         "automerge": true,
         "labels": ["docker"]
     },
-    "commitMessagePrefix": " ",
     "commitBody": "Signed-off-by: Renovate Bot <bot@renovateapp.com>"
 }
