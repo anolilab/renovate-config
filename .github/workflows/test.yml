@@ -19,7 +19,7 @@ permissions:
 
 jobs:
     test:
-        name: "Build & Unit Test: node-20"
+        name: "Build & Unit Test: node-23"
 
         runs-on: "ubuntu-latest"
 
@@ -40,7 +40,7 @@ jobs:
               id: "setup"
               uses: "anolilab/workflows/step/setup@main"
               with:
-                  node-version: "20"
+                  node-version: "23"
                   install-bun: false
                   enable-nx-cache: false
 

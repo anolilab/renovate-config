@@ -1,12 +1,12 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Shared Renovate config for anolilab projects. Maintains semantic commits, automerge, and smart grouping.",
     "extends": [
         "config:recommended",
         ":dependencyDashboard",
         ":separateMultipleMajorReleases",
         ":timezone(Europe/Berlin)",
         ":semanticCommits",
-        ":semanticPrTitles",
         ":rebaseStalePrs",
         ":renovatePrefix",
         ":enableVulnerabilityAlerts",
@@ -23,14 +23,12 @@
         "enabled": true,
         "schedule": "at any time",
         "automerge": true,
-        "extends": [
-            ":semanticCommitType(fix)"
-        ],
+        "extends": [":semanticCommitType(fix)"],
         "commitMessageSuffix": "[SECURITY]"
     },
     "packageRules": [
         {
-            "description": "disable package.json > engines update",
+            "description": "Disable package.json > engines update",
             "matchDepTypes": ["engines"],
             "enabled": false
         },
@@ -50,129 +48,65 @@
             "extends": [":semanticCommitType(style)"],
             "automerge": true,
             "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": ["after 1am and before 5am every weekend"],
+            "labels": ["style"]
         },
         {
             "groupName": "textlint",
             "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*", "^textlint$", "^textlint-scripts", "^textlint-tester"],
-            "extends": [":semanticCommitType(style)"]
+            "extends": [":semanticCommitType(style)"],
+            "labels": ["textlint"]
         },
         {
             "groupName": "semantic-release",
             "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ]
+            "extends": [":semanticCommitType(chore)"]
         },
         {
             "groupName": "ts-node",
             "matchPackageNames": ["ts-node", "ts-node-test-register"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ]
+            "extends": [":semanticCommitType(chore)"]
         },
         {
             "groupName": "vitest",
             "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ]
+            "extends": [":semanticCommitType(chore)"]
         },
         {
             "groupName": "secretlint",
             "matchPackageNames": ["^secretlint", "^@secretlint/.*"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ]
+            "extends": [":semanticCommitType(chore)"]
         },
         {
             "groupName": "ESLint",
             "matchPackagePrefixes": ["eslint"],
             "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
+            "extends": [":semanticCommitType(style)"],
             "automerge": true,
             "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
-        },
-        {
-            "groupName": "styles",
-            "matchPackagePatterns": ["stylelint"],
-            "matchPackageNames": ["stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ]
-        },
-        {
-            "groupName": "postcss",
-            "matchPackageNames": ["postcss", "postcss-loader"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
-            "matchPackagePatterns": ["^postcss-.*"],
-            "matchPackagePrefixes": ["@postcss/"],
-            "automerge": true,
-            "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
-        },
-        {
-            "groupName": "sass",
-            "matchPackageNames": ["sass", "node-sass", "sass-loader", "@sass/*"],
-            "matchPackagePatterns": ["^sass-.*"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
-            "automerge": true,
-            "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
-        },
-        {
-            "groupName": "less",
-            "matchPackageNames": ["less", "less-loader"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
-            "matchPackagePatterns": ["^less-.*"],
-            "automerge": true,
-            "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
-        },
-        {
-            "groupName": "stylus",
-            "matchPackageNames": ["stylus", "stylus-loader"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
-            "matchPackagePatterns": ["^stylus-.*"],
-            "automerge": true,
-            "automergeType": "branch",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": ["after 1am and before 5am every weekend"],
+            "labels": ["eslint"]
         },
         {
             "groupName": "prettier",
             "matchPackageNames": ["prettier", "prettier-.*"],
-            "extends": [
-                ":semanticCommitType(style)"
-            ],
+            "extends": [":semanticCommitType(style)"],
             "automerge": true,
-            "automergeType": "branch"
+            "automergeType": "branch",
+            "labels": ["prettier"]
         },
         {
             "groupName": "github-actions",
             "matchManagers": ["github-actions"],
-            "extends": [
-                ":semanticCommitType(ci)"
-            ]
+            "extends": [":semanticCommitType(ci)"],
+            "labels": ["github-actions"]
         },
         {
             "groupName": "type dependencies",
             "groupSlug": "types",
             "matchPackagePrefixes": ["@types/"],
             "packageNames": ["type-coverage", "type-fest", "typescript"],
-            "extends": [
-                ":semanticCommitType(ci)"
-            ],
+            "extends": [":semanticCommitType(ci)"],
             "automerge": true,
             "schedule": ["after 1am and before 5am every weekend"]
         },
@@ -180,16 +114,12 @@
             "groupName": "renovate",
             "automerge": true,
             "matchPackageNames": ["renovate"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ]
+            "extends": [":semanticCommitType(chore)"]
         },
         {
             "groupName": "typedoc",
             "matchPackageNames": ["typedoc", "typedoc-plugin-.*", "@typedoc/.*"],
-            "extends": [
-                ":semanticCommitType(docs)"
-            ],
+            "extends": [":semanticCommitType(docs)"],
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -198,9 +128,7 @@
             "groupName": "vite",
             "matchPackageNames": ["vite", "vite-plugin-.*"],
             "matchPackagePatterns": ["^@vitejs/.*"],
-            "extends": [
-                ":semanticCommitType(build)"
-            ],
+            "extends": [":semanticCommitType(build)"],
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -209,9 +137,7 @@
             "groupName": "rollup",
             "matchPackageNames": ["rollup"],
             "matchPackagePatterns": ["^rollup-plugin-.*", "^@rollup/.*"],
-            "extends": [
-                ":semanticCommitType(build)"
-            ],
+            "extends": [":semanticCommitType(build)"],
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -219,9 +145,7 @@
         {
             "groupName": "visulima",
             "matchPackagePrefixes": ["@visulima/"],
-            "extends": [
-                ":semanticCommitType(chore)"
-            ],
+            "extends": [":semanticCommitType(chore)"],
             "automerge": true,
             "automergeType": "branch",
             "schedule": ["after 1am and before 5am every weekend"]
@@ -231,9 +155,7 @@
             "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
             "automerge": true,
             "automergeType": "branch",
-            "extends": [
-                ":semanticCommitType(fix)"
-            ]
+            "extends": [":semanticCommitType(fix)"]
         },
         {
             "description": "Ignore node version in package.json",
@@ -249,24 +171,18 @@
         "automergeType": "branch",
         "major": {
             "automerge": false,
-            "extends": [
-                ":semanticCommitType(feat)"
-            ],
+            "extends": [":semanticCommitType(feat)"],
             "commitBody": "BREAKING CHANGE: updated dependencies to major versions"
         },
         "minor": {
             "automerge": true,
             "groupName": "Minor updates",
-            "extends": [
-                ":semanticCommitType(feat)"
-            ]
+            "extends": [":semanticCommitType(feat)"]
         },
         "patch": {
             "automerge": true,
             "groupName": "Patch updates",
-            "extends": [
-                ":semanticCommitType(fix)"
-            ]
+            "extends": [":semanticCommitType(fix)"]
         },
         "lockFileMaintenance": {
             "enabled": true,
