@@ -1,3 +1,14 @@
+## [5.0.2](https://github.com/anolilab/renovate-config/compare/v5.0.1...v5.0.2) (2025-05-07)
+
+### Bug Fixes
+
+* This update enhances the project's configuration and ensures compatibility with the latest package versions. ([c123407](https://github.com/anolilab/renovate-config/commit/c1234076b1867f9893dd4bdd46194609384a311a))
+* update node version to 23 in configuration files and enhance Renovate config description ([25f963b](https://github.com/anolilab/renovate-config/commit/25f963bd2f1846b46a42ded01c4171c73a11f75d))
+
+### Continuous Integration
+
+* update github-actions ([#148](https://github.com/anolilab/renovate-config/issues/148)) ([936022a](https://github.com/anolilab/renovate-config/commit/936022a4c157e71290eb13a10c995b2e26304727))
+
 ## [5.0.1](https://github.com/anolilab/renovate-config/compare/v5.0.0...v5.0.1) (2025-02-14)
 
 ### Bug Fixes
