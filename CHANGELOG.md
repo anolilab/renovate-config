@@ -1,3 +1,14 @@
+## [5.0.3](https://github.com/anolilab/renovate-config/compare/v5.0.2...v5.0.3) (2025-05-13)
+
+### Bug Fixes
+
+* **deps:** update dependency chrono-node@&lt;2.2.4 to >=2.8.0 ([#177](https://github.com/anolilab/renovate-config/issues/177)) ([0dad877](https://github.com/anolilab/renovate-config/commit/0dad8773de982b411c00e66960b3121d19f43172))
+* **deps:** update octokit monorepo ([#173](https://github.com/anolilab/renovate-config/issues/173)) ([7da7bbf](https://github.com/anolilab/renovate-config/commit/7da7bbfb7c113eaa24b753883c5c52fd0736e78b))
+
+### Continuous Integration
+
+* update github-actions ([#152](https://github.com/anolilab/renovate-config/issues/152)) ([d98fdcf](https://github.com/anolilab/renovate-config/commit/d98fdcf12a31927173443a0b16c6fded5076339b))
+
 ## [5.0.2](https://github.com/anolilab/renovate-config/compare/v5.0.1...v5.0.2) (2025-05-07)
 
 ### Bug Fixes
