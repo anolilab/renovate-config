@@ -1,3 +1,9 @@
+## [5.0.4](https://github.com/anolilab/renovate-config/compare/v5.0.3...v5.0.4) (2025-05-18)
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to ^19.8.1 ([#178](https://github.com/anolilab/renovate-config/issues/178)) ([45efe77](https://github.com/anolilab/renovate-config/commit/45efe776c68beec678f7d3ccae47e6de977f682d))
+
 ## [5.0.3](https://github.com/anolilab/renovate-config/compare/v5.0.2...v5.0.3) (2025-05-13)
 
 ### Bug Fixes
