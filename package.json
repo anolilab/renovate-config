@@ -95,7 +95,7 @@
             "@octokit/request@>=9.0.0-beta.1 <9.2.1": ">=9.2.3",
             "@octokit/plugin-paginate-rest@>=9.3.0-beta.1 <11.4.1": ">=11.6.0",
             "tar-fs@>=2.0.0 <2.1.2": ">=3.0.8",
-            "@babel/runtime-corejs3@<7.26.10": ">=7.26.10"
+            "@babel/runtime-corejs3@<7.26.10": ">=7.27.1"
         }
     }
 }
