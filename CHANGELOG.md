@@ -1,3 +1,39 @@
+## [6.0.0](https://github.com/anolilab/renovate-config/compare/v5.0.4...v6.0.0) (2025-05-22)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Daniel Bannert <prisis@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/runtime-corejs3@&lt;7.26.10 to >=7.27.1 ([#175](https://github.com/anolilab/renovate-config/issues/175)) ([9602751](https://github.com/anolilab/renovate-config/commit/9602751bf9842314e83f1af09b39e69a285428e0))
+* **deps:** update dependency @octokit/plugin-paginate-rest@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.3.0-beta.1 &lt;11.4.1 to >=11.6.0 ([#176](https://github.com/anolilab/renovate-config/issues/176)) ([1933323](https://github.com/anolilab/renovate-config/commit/1933323bb3ce0214a2d4a041f85b0e6cd040c7ca)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency renovate to v40.8.2 ([#179](https://github.com/anolilab/renovate-config/issues/179)) ([a83fa8c](https://github.com/anolilab/renovate-config/commit/a83fa8c9ba895fb02dc76d99716e3b3e3460af26))
+* **deps:** update dependency semantic-release to ^24.2.4 ([#181](https://github.com/anolilab/renovate-config/issues/181)) ([b567ea8](https://github.com/anolilab/renovate-config/commit/b567ea8697a922fc742317e69cce8af0251acaca))
+* **deps:** update github-actions ([#182](https://github.com/anolilab/renovate-config/issues/182)) ([5cabcf0](https://github.com/anolilab/renovate-config/commit/5cabcf056a5ea02e125ee7ae37a43a79108355b7))
+* **deps:** update patch updates ([#174](https://github.com/anolilab/renovate-config/issues/174)) ([54638ae](https://github.com/anolilab/renovate-config/commit/54638ae5b9e7a33e55d6ef2994e31dcfafb913df))
+
+### Miscellaneous Chores
+
+* **deps:** update dependencies in package.json and pnpm-lock.yaml ([f724d00](https://github.com/anolilab/renovate-config/commit/f724d00fb88ad98d19b9c7cf91f338cc1d15820d))
+* **deps:** update dependency @octokit/plugin-paginate-rest@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.3.0-beta.1 &lt;11.4.1 to v12 ([#169](https://github.com/anolilab/renovate-config/issues/169)) ([12b5b18](https://github.com/anolilab/renovate-config/commit/12b5b18820d9acff54384a9d8cc084a050b9bf88)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency lint-staged to v16 ([#180](https://github.com/anolilab/renovate-config/issues/180)) ([b7dcf16](https://github.com/anolilab/renovate-config/commit/b7dcf162ad3f7c05e0d8866ac7599351fe80da0c))
+* **deps:** update dependency tar-fs@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);2.0.0 &lt;2.1.2 to v3 ([#170](https://github.com/anolilab/renovate-config/issues/170)) ([c96903f](https://github.com/anolilab/renovate-config/commit/c96903fdc01bf798e1152c02c2a26e02940d16b1)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency tar@&lt;6.2.1 to v7 ([#171](https://github.com/anolilab/renovate-config/issues/171)) ([af4abb5](https://github.com/anolilab/renovate-config/commit/af4abb5fab2b7b32d4acfaf10932fa00027d1a29))
+* **deps:** update pnpm to v10 ([#172](https://github.com/anolilab/renovate-config/issues/172)) ([68dd03b](https://github.com/anolilab/renovate-config/commit/68dd03bf3f72d0d5b061f443757039babde2e6db))
+
 ## [5.0.4](https://github.com/anolilab/renovate-config/compare/v5.0.3...v5.0.4) (2025-05-18)
 
 ### Bug Fixes
