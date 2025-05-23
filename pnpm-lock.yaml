@@ -10,7 +10,7 @@ overrides:
   tar@<6.2.1: '>=7.4.3'
   micromatch@<4.0.8: '>=4.0.8'
   cross-spawn@>=7.0.0 <7.0.5: '>=7.0.6'
-  '@octokit/request-error@>=6.0.0 <6.1.7': '>=6.1.8'
+  '@octokit/request-error@>=6.0.0 <6.1.7': '>=7.0.0'
   '@octokit/endpoint@>=10.0.0 <10.1.3': '>=10.1.4'
   '@octokit/request@>=9.0.0-beta.1 <9.2.1': '>=9.2.3'
   '@octokit/plugin-paginate-rest@>=9.3.0-beta.1 <11.4.1': '>=12.0.0'
@@ -119,6 +119,7 @@ packages:
   '@anolilab/package-json-utils@3.0.9':
     resolution: {integrity: sha512-CYwpW2hlsOSdwtksYG5vH7Y48X7qwSnvk4yTsplce/FZFZLKRxuCbwlUqgTEYUng3nZ55A+5EC3rEttgor7e9w==}
     engines: {node: '>=18.* <=21.*'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@anolilab/prettier-config@5.0.14':
     resolution: {integrity: sha512-P7nVwARFM0SKQ0j8Q2y6Q3acHaPNtXOKEX9lgZcf5veFdvNjzK79iZcFdpQikyix4VQBs8x6wBPAD0yDfpC6pQ==}
@@ -624,6 +625,10 @@ packages:
   '@octokit/request-error@6.1.8':
     resolution: {integrity: sha512-WEi/R0Jmq+IJKydWlKDmryPcmdYSVjL3ekaiEL1L9eo1sUnqMJ+grqmC9cjk7CA7+b2/T397tO5d8YLOH3qYpQ==}
     engines: {node: '>= 18'}
+
+  '@octokit/request-error@7.0.0':
+    resolution: {integrity: sha512-KRA7VTGdVyJlh0cP5Tf94hTiYVVqmt2f3I6mnimmaVz4UG3gQV/k4mDJlJv3X67iX6rmN7gSHCF8ssqeMnmhZg==}
+    engines: {node: '>= 20'}
 
   '@octokit/request@9.2.3':
     resolution: {integrity: sha512-Ma+pZU8PXLOEYzsWf0cn/gY+ME57Wq8f49WTXA8FMHp2Ps9djKw//xYJ1je8Hm0pR2lU9FUGeJRWOtxq6olt4w==}
@@ -7427,7 +7432,7 @@ snapshots:
       '@octokit/auth-token': 5.1.1
       '@octokit/graphql': 8.1.1
       '@octokit/request': 9.2.3
-      '@octokit/request-error': 6.1.8
+      '@octokit/request-error': 7.0.0
       '@octokit/types': 13.5.0
       before-after-hook: 3.0.2
       universal-user-agent: 7.0.2
@@ -7455,7 +7460,7 @@ snapshots:
   '@octokit/plugin-retry@7.1.1(@octokit/core@6.1.2)':
     dependencies:
       '@octokit/core': 6.1.2
-      '@octokit/request-error': 6.1.8
+      '@octokit/request-error': 7.0.0
       '@octokit/types': 13.5.0
       bottleneck: 2.19.5
 
@@ -7466,6 +7471,10 @@ snapshots:
       bottleneck: 2.19.5
 
   '@octokit/request-error@6.1.8':
+    dependencies:
+      '@octokit/types': 14.0.0
+
+  '@octokit/request-error@7.0.0':
     dependencies:
       '@octokit/types': 14.0.0
 
