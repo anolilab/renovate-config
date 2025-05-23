@@ -1,3 +1,19 @@
+## [7.0.0](https://github.com/anolilab/renovate-config/compare/v6.0.0...v7.0.0) (2025-05-23)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @octokit/endpoint@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);10.0.0 &lt;10.1.3 to v11 ([#183](https://github.com/anolilab/renovate-config/issues/183)) ([c1df38f](https://github.com/anolilab/renovate-config/commit/c1df38fdce86f10b04ec82a7bd2399e2813a21a0)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency @octokit/plugin-paginate-rest@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.3.0-beta.1 &lt;11.4.1 to v13 ([#184](https://github.com/anolilab/renovate-config/issues/184)) ([814e3f4](https://github.com/anolilab/renovate-config/commit/814e3f477ca247b4466a823306709aceb39f52ed)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+
 ## [6.0.0](https://github.com/anolilab/renovate-config/compare/v5.0.4...v6.0.0) (2025-05-22)
 
 ### ⚠ BREAKING CHANGES
