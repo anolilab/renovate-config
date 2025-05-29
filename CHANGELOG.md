@@ -1,3 +1,17 @@
+## [7.0.1](https://github.com/anolilab/renovate-config/compare/v7.0.0...v7.0.1) (2025-05-29)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v40.24.3 ([#188](https://github.com/anolilab/renovate-config/issues/188)) ([fe872c7](https://github.com/anolilab/renovate-config/commit/fe872c73d91e85c7ebec88d9f1625e8fd3bf593b))
+* **deps:** update dependency semantic-release to ^24.2.5 ([#189](https://github.com/anolilab/renovate-config/issues/189)) ([0983ff9](https://github.com/anolilab/renovate-config/commit/0983ff9ed32036cf8c76429e742e094eafe5c42e))
+* **deps:** update patch updates ([#190](https://github.com/anolilab/renovate-config/issues/190)) ([3a3501e](https://github.com/anolilab/renovate-config/commit/3a3501e565bb4b785248e0536f85a830c14f9eb1))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @octokit/request-error@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);6.0.0 &lt;6.1.7 to v7 ([#185](https://github.com/anolilab/renovate-config/issues/185)) ([e7f6b17](https://github.com/anolilab/renovate-config/commit/e7f6b17b6a53bb68d6338178e47f8f306e648ddb)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency @octokit/request@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.0.0-beta.1 &lt;9.2.1 to v10 ([#186](https://github.com/anolilab/renovate-config/issues/186)) ([423df7c](https://github.com/anolilab/renovate-config/commit/423df7cfc9f44e6ec35e244a075eaf90cf4e0dd7)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9 ([#187](https://github.com/anolilab/renovate-config/issues/187)) ([2873e35](https://github.com/anolilab/renovate-config/commit/2873e353f9ed1bbdda897823ee7745ba6cba036d))
+
 ## [7.0.0](https://github.com/anolilab/renovate-config/compare/v6.0.0...v7.0.0) (2025-05-23)
 
 ### ⚠ BREAKING CHANGES
