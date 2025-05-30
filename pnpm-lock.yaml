@@ -34,8 +34,8 @@ importers:
         specifier: ^10.0.5
         version: 10.0.5(@semantic-release/npm@12.0.1(semantic-release@24.2.5(typescript@5.6.2)))(semantic-release@24.2.5(typescript@5.6.2))(yaml@2.8.0)
       '@anolilab/textlint-config':
-        specifier: ^8.0.16
-        version: 8.0.16(encoding@0.1.13)(textlint@14.7.2)
+        specifier: ^9.0.0
+        version: 9.0.0(encoding@0.1.13)(textlint@14.7.2)
       '@commitlint/cli':
         specifier: ^19.8.1
         version: 19.8.1(@types/node@22.5.5)(typescript@5.6.2)
@@ -148,9 +148,10 @@ packages:
       semantic-release-yarn:
         optional: true
 
-  '@anolilab/textlint-config@8.0.16':
-    resolution: {integrity: sha512-kzIOKha8sIPo4kOMCq2lcflFH4PSODEI7+TQpKcp70EmUQkOVd7+Yw1laltXKs2ItDDD4RHYKaroRz0MmnuOtg==}
-    engines: {node: '>=18.* <=21.*'}
+  '@anolilab/textlint-config@9.0.0':
+    resolution: {integrity: sha512-ND6dTfT79yRGT0CoL6sj9foaxBMEkmsIOmA2dOjvb47OyJ3iP0mE3PGuzvWwSZTANBTYe/aR4e9blYzF3IsgAw==}
+    engines: {node: '>=20.18.* <=24.*'}
+    hasBin: true
     peerDependencies:
       textlint: ^13.3.2
 
@@ -1312,8 +1313,8 @@ packages:
   '@textlint-rule/textlint-rule-google-word-list@0.1.2':
     resolution: {integrity: sha512-TEcCBBWLAvMlFmxEjax5Jvo7dZTha6eFBiN412w0FU1hElz2GNGXuQpLvLezbwFAroumdyUXy0cT4I3VJZkU4A==}
 
-  '@textlint-rule/textlint-rule-no-invalid-control-character@2.1.0':
-    resolution: {integrity: sha512-Bi/mOIbCOeQMKGgk+hTR4Q8CASkDPi2IQkDaNDkvP3zdrlvHoKbosBu4tQ55bE8jPpT+Q78Km59ZVin5xiogxw==}
+  '@textlint-rule/textlint-rule-no-invalid-control-character@3.0.0':
+    resolution: {integrity: sha512-2o9n4z49ntSPtJPlcJtxakyB4dAg2MKSvR9ZCZEHjye0ee27oWYzK6yHz2HjsXQqt9VeCwxNHDOIGIx2CQX0Dw==}
 
   '@textlint-rule/textlint-rule-no-unmatched-pair@2.0.4':
     resolution: {integrity: sha512-g9Ge1xUV9xJy8T7nuutF/2J6Cg2mmPx4gKsC3dCdxVxuL0wMqOOnAi8l6psFpAQ5UFtQuAzwkdclrehPtBT5tg==}
@@ -1407,9 +1408,6 @@ packages:
 
   '@textlint/types@12.6.1':
     resolution: {integrity: sha512-t1SZYahu2olnF8MUhlP6qDIEDyl7WmyIaBYxQdE2qU6xUkZWXS2zIxoAT/pVgvFCzDw3KO5HhIYGVeWRp90dTg==}
-
-  '@textlint/types@13.4.1':
-    resolution: {integrity: sha512-1ApwQa31sFmiJeJ5yTNFqjbb2D1ICZvIDW0tFSM0OtmQCSDFNcKD3YrrwDBgSokZ6gWQq/FpNjlhi6iETUWt0Q==}
 
   '@textlint/types@14.7.2':
     resolution: {integrity: sha512-VpsmtJf9+7cnIxmKtAVVGVzI6f2k09kBZnzjdTAO8JZ+HTmV46jeoVrotpSfQbWDpuQk2UFPfrsZL/LNf/99ew==}
@@ -2061,10 +2059,6 @@ packages:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
     engines: {node: '>=12'}
 
-  clone-regexp@1.0.1:
-    resolution: {integrity: sha512-Fcij9IwRW27XedRIJnSOEupS7RVcXtObJXbcUOX93UCLqqOdRpkvzKywOOSizmEK/Is3S/RHX9dLdfo6R1Q1mw==}
-    engines: {node: '>=0.10.0'}
-
   clone-regexp@2.2.0:
     resolution: {integrity: sha512-beMpP7BOtTipFuW8hrJvREQ2DrRu3BE7by0ZpibtfBA+qfHYvMGTc2Yb1JMYPKg/JUw0CHYvpg796aNTSW9z7Q==}
     engines: {node: '>=6'}
@@ -2578,10 +2572,6 @@ packages:
   execa@9.3.1:
     resolution: {integrity: sha512-gdhefCCNy/8tpH/2+ajP9IQc14vXchNdd0weyzSJEFURhRMGncQ+zKFxwjAufIewPEJm9BPOaJnvg2UtlH2gPQ==}
     engines: {node: ^18.19.0 || >=20.5.0}
-
-  execall@1.0.0:
-    resolution: {integrity: sha512-/J0Q8CvOvlAdpvhfkD/WnTQ4H1eU0exze2nFGPj/RSC7jpQ0NkKe2r28T5eMkhEEs+fzepMZNy1kVRKNlC04nQ==}
-    engines: {node: '>=0.10.0'}
 
   execall@2.0.0:
     resolution: {integrity: sha512-0FU2hZ5Hh6iQnarpRtQurM/aAvp3RIbfvgLHrcqJYzhXyV2KFruhuChf9NC6waAhiUR7FFtlugkI4p7f2Fqlow==}
@@ -3370,10 +3360,6 @@ packages:
     resolution: {integrity: sha512-MjYsKHO5O7mCsmRGxWcLWheFqN9DJ/2TmngvjKXihe6efViPqc274+Fx/4fYj/r03+ESvBdTXK0V6tA3rgez1g==}
     engines: {node: '>= 0.4'}
 
-  is-regexp@1.0.0:
-    resolution: {integrity: sha512-7zjFAPO4/gwyQAAgRRmqeEeyIICSdmCqa3tsVHMdBzaXXRiqopZL4Cyghg/XulGWrtABTpbnYYzzIRffLkP4oA==}
-    engines: {node: '>=0.10.0'}
-
   is-regexp@2.1.0:
     resolution: {integrity: sha512-OZ4IlER3zmRIoB9AqNhEggVxqIH4ofDns5nRrPS6yQxXE1TPCUpFznBfRQmQa8uC+pXqjMnukiJBxCisIxiLGA==}
     engines: {node: '>=6'}
@@ -3392,10 +3378,6 @@ packages:
   is-stream@4.0.1:
     resolution: {integrity: sha512-Dnz92NInDqYckGEUJv689RbRiTSEHCQ7wOVeALbkOz999YpqT46yMRIGtSNl2iCL1waAZSx40+h59NV/EwzV/A==}
     engines: {node: '>=18'}
-
-  is-supported-regexp-flag@1.0.1:
-    resolution: {integrity: sha512-3vcJecUUrpgCqc/ca0aWeNu64UGgxcvO60K/Fkr1N6RSvfGCTU60UKN68JDmKokgba0rFFJs12EnzOQa14ubKQ==}
-    engines: {node: '>=0.10.0'}
 
   is-text-path@2.0.0:
     resolution: {integrity: sha512-+oDTluR6WEjdXEJMnC2z6A4FRwFoYuvShVVEGsS7ewc0UTi2QtAKMDJuL4BDEVt+5T7MjFo12RP8ghOM75oKJw==}
@@ -3798,8 +3780,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  match-casing@1.0.3:
-    resolution: {integrity: sha512-oMyC3vUVCFbGu+M2Zxl212LPJThcaw7QxB5lFuJPQCgV/dsGBP0yZeCoLmX6CiBkoBcVbAKDJZrBpJVu0XcLMw==}
+  match-casing@2.0.1:
+    resolution: {integrity: sha512-LeCq9FI5u4nppJnt4hklxcchkH9qH9+uFjX17f74a99lLkRXfVE49iL0hCtM5DZolps483viAy5zjvlTz/JNoA==}
 
   match-index@1.0.3:
     resolution: {integrity: sha512-1XjyBWqCvEFFUDW/MPv0RwbITRD4xQXOvKoPYtLDq8IdZTfdF/cQSo5Yn4qvhfSSZgjgkTFsqJD2wOUG4ovV8Q==}
@@ -5497,6 +5479,10 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
+  strip-json-comments@5.0.2:
+    resolution: {integrity: sha512-4X2FR3UwhNUE9G49aIsJW5hRRR3GXGTBTZRMfv568O60ojM8HcWjV/VxAxCDW3SUND33O6ZY66ZuRcdkj73q2g==}
+    engines: {node: '>=14.16'}
+
   strnum@1.0.5:
     resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
 
@@ -5586,12 +5572,12 @@ packages:
   textlint-rule-abbr-within-parentheses@1.0.2:
     resolution: {integrity: sha512-GcAtxXttLsZfN75tSCo3V8/RTlglvhnn7McNTgI0uS4ADr67RoD64bSVIs4p/nY3sMNsf1taPjKnhZIQLuVjZg==}
 
-  textlint-rule-alex@4.0.0:
-    resolution: {integrity: sha512-WdDWGMuwqvj2HzFi7qZ/kyMFEH0wu7FlwXItZZBsH67azzmigMih3X8xxr3Gw5SBqQ4SZoqM/KJErqQ1jSCCBA==}
+  textlint-rule-alex@5.0.0:
+    resolution: {integrity: sha512-8HkUNY0HezGhzQbIMPvZBVdjKIkJ3Wqi29sSMM4Pc89Hdvcpn9Yr8YQoZi/mFn/njSKm/3AYtKoIMx4ziKDDqg==}
 
-  textlint-rule-apostrophe@2.0.0:
-    resolution: {integrity: sha512-iA0YlUBLS4/YNswvOzG44zo/tJ+xhcLYjyzI9iPia9+jxCQ5NGLlRXHTdtwWPvTTpCk3cn9vlcxYma7wdYyWzg==}
-    engines: {node: '>=8.9'}
+  textlint-rule-apostrophe@3.0.0:
+    resolution: {integrity: sha512-V6NQsIeAw/suqCCN2bXLbCUQa40a5Z9CwJdE6yLS7RyzVYSrhwI8sYpNJxazvigJQNbeO+lneghdv0XSNP7jbw==}
+    engines: {node: '>=20'}
 
   textlint-rule-common-misspellings@1.0.1:
     resolution: {integrity: sha512-f5KWhQFJzJBUX3RirAS25aSkAaaOHeSHtBeb7d49O+vxnAX3dZBS5DB/e5M1kR4tifW4qae64oqWZygoGYWkjQ==}
@@ -5599,9 +5585,11 @@ packages:
   textlint-rule-date-weekday-mismatch@1.1.0:
     resolution: {integrity: sha512-vFuSKGpMFcRWh7LSvYKVE7QQBGxm2/1w2oIvMLfHN5EnXiFGQqrK560Otvc0POKf9yUIDI2iIMfT85z+st+LiA==}
 
-  textlint-rule-diacritics@1.0.0:
-    resolution: {integrity: sha512-hhJvDZzhV+sKD7walPQ4VmWkBw5o1T/lFLRsoDsAJF+LYhD89R5/L4yFVtxFRUkP9VZ5cvoUIPkYjZvkPEawTA==}
-    engines: {node: '>=8.6'}
+  textlint-rule-diacritics@2.1.4:
+    resolution: {integrity: sha512-BiE9sYEpIuN/g5LuDmB1ksLKOd6pwr4KwU+1e0eNQX1SFZwSmOZqqIxaBA91yvoHExb+/hQZrop4lrpfM4JbIQ==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      textlint: '>=13'
 
   textlint-rule-en-capitalization@2.0.3:
     resolution: {integrity: sha512-tIx2gzm3okWfK5+0NNV1ap21LHk9PTc2/IXNqFhd7RDVSqv7YFaZnhwL+UrBZXTEfOh6VgnTQd81Os2Akzas5g==}
@@ -5633,9 +5621,9 @@ packages:
   textlint-rule-no-todo@2.0.1:
     resolution: {integrity: sha512-+adoWaBgoTN2g0WNcrERhVq7gdPKQIf1z7Ol+6XwMGv8XmuoFp5vJljHKtCmJBmGhBihjty2b8oaza2MY6UNlw==}
 
-  textlint-rule-terminology@4.0.1:
-    resolution: {integrity: sha512-wKiVhc2B9HP2MFU4x7ZDx+oM5u43ETpKWTLHKvdhPRZ0+davi4M8mFmkZVovDIMO7igsGjixikcvFmnCMg3kmQ==}
-    engines: {node: '>=18'}
+  textlint-rule-terminology@5.2.12:
+    resolution: {integrity: sha512-qLyuqbGN7GBqKR7NT2yLyo8mmYmoCkk8bu3szvLxUkM+1Cc0D9G6MDyaYFrMM26GZuNbTREmuFxon/vTBDR/pw==}
+    engines: {node: '>=20'}
 
   textlint-rule-write-good@2.0.0:
     resolution: {integrity: sha512-yvOJavJD+PgyUzvsoLDDzDtgCVBva/HNhEvsFnYVugrWz0qy2hr+/4B4wkzjro4wfPbwz20GQe5h13N4DeUEeA==}
@@ -6253,29 +6241,28 @@ snapshots:
       - supports-color
       - yaml
 
-  '@anolilab/textlint-config@8.0.16(encoding@0.1.13)(textlint@14.7.2)':
+  '@anolilab/textlint-config@9.0.0(encoding@0.1.13)(textlint@14.7.2)':
     dependencies:
-      '@anolilab/package-json-utils': 3.0.9
-      '@textlint-rule/textlint-rule-no-invalid-control-character': 2.1.0
+      '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-preset-google': 0.1.2
-      '@textlint/ast-node-types': 13.4.1
-      '@textlint/types': 13.4.1
+      '@textlint/ast-node-types': 14.7.2
+      '@textlint/types': 14.7.2
       textlint: 14.7.2
       textlint-filter-rule-comments: 1.2.2(textlint@14.7.2)
       textlint-rule-abbr-within-parentheses: 1.0.2
-      textlint-rule-alex: 4.0.0
-      textlint-rule-apostrophe: 2.0.0
+      textlint-rule-alex: 5.0.0
+      textlint-rule-apostrophe: 3.0.0
       textlint-rule-common-misspellings: 1.0.1
       textlint-rule-date-weekday-mismatch: 1.1.0
-      textlint-rule-diacritics: 1.0.0
+      textlint-rule-diacritics: 2.1.4(textlint@14.7.2)
       textlint-rule-en-capitalization: 2.0.3
       textlint-rule-footnote-order: 1.0.3
       textlint-rule-helper: 2.3.1
       textlint-rule-no-dead-link: 5.2.0(encoding@0.1.13)(textlint@14.7.2)
       textlint-rule-no-empty-section: 1.1.0
       textlint-rule-no-todo: 2.0.1
-      textlint-rule-terminology: 4.0.1
+      textlint-rule-terminology: 5.2.12
       textlint-rule-write-good: 2.0.0
       write-good: 1.0.8
     transitivePeerDependencies:
@@ -8417,9 +8404,7 @@ snapshots:
     dependencies:
       '@textlint-rule/textlint-report-helper-for-google-preset': 0.1.2
 
-  '@textlint-rule/textlint-rule-no-invalid-control-character@2.1.0':
-    dependencies:
-      execall: 1.0.0
+  '@textlint-rule/textlint-rule-no-invalid-control-character@3.0.0': {}
 
   '@textlint-rule/textlint-rule-no-unmatched-pair@2.0.4':
     dependencies:
@@ -8642,10 +8627,6 @@ snapshots:
   '@textlint/types@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
-
-  '@textlint/types@13.4.1':
-    dependencies:
-      '@textlint/ast-node-types': 13.4.1
 
   '@textlint/types@14.7.2':
     dependencies:
@@ -9348,11 +9329,6 @@ snapshots:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
 
-  clone-regexp@1.0.1:
-    dependencies:
-      is-regexp: 1.0.0
-      is-supported-regexp-flag: 1.0.1
-
   clone-regexp@2.2.0:
     dependencies:
       is-regexp: 2.1.0
@@ -9885,10 +9861,6 @@ snapshots:
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
       yoctocolors: 2.1.1
-
-  execall@1.0.0:
-    dependencies:
-      clone-regexp: 1.0.1
 
   execall@2.0.0:
     dependencies:
@@ -10790,8 +10762,6 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  is-regexp@1.0.0: {}
-
   is-regexp@2.1.0: {}
 
   is-ssh@1.4.0:
@@ -10803,8 +10773,6 @@ snapshots:
   is-stream@3.0.0: {}
 
   is-stream@4.0.1: {}
-
-  is-supported-regexp-flag@1.0.1: {}
 
   is-text-path@2.0.0:
     dependencies:
@@ -11192,7 +11160,7 @@ snapshots:
 
   marked@15.0.12: {}
 
-  match-casing@1.0.3: {}
+  match-casing@2.0.1: {}
 
   match-index@1.0.3:
     dependencies:
@@ -13506,6 +13474,8 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
+  strip-json-comments@5.0.2: {}
+
   strnum@1.0.5: {}
 
   structured-source@3.0.2:
@@ -13626,14 +13596,14 @@ snapshots:
     dependencies:
       match-index: 1.0.3
 
-  textlint-rule-alex@4.0.0:
+  textlint-rule-alex@5.0.0:
     dependencies:
       alex: 11.0.1
       textlint-rule-helper: 2.3.1
     transitivePeerDependencies:
       - supports-color
 
-  textlint-rule-apostrophe@2.0.0: {}
+  textlint-rule-apostrophe@3.0.0: {}
 
   textlint-rule-common-misspellings@1.0.1:
     dependencies:
@@ -13648,10 +13618,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  textlint-rule-diacritics@1.0.0:
+  textlint-rule-diacritics@2.1.4(textlint@14.7.2):
     dependencies:
-      match-casing: 1.0.3
-      strip-json-comments: 3.1.1
+      match-casing: 2.0.1
+      strip-json-comments: 5.0.2
+      textlint: 14.7.2
 
   textlint-rule-en-capitalization@2.0.3:
     dependencies:
@@ -13699,10 +13670,10 @@ snapshots:
     dependencies:
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-terminology@4.0.1:
+  textlint-rule-terminology@5.2.12:
     dependencies:
       lodash: 4.17.21
-      strip-json-comments: 3.1.1
+      strip-json-comments: 5.0.2
       textlint-rule-helper: 2.3.1
 
   textlint-rule-write-good@2.0.0:
