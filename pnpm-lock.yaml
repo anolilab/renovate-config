@@ -28,8 +28,8 @@ importers:
         specifier: ^2.1.7
         version: 2.1.7(husky@9.1.7)(lint-staged@16.0.0)(prettier@3.5.3)(secretlint@9.3.2)
       '@anolilab/prettier-config':
-        specifier: ^5.0.14
-        version: 5.0.14(prettier@3.5.3)
+        specifier: ^6.0.0
+        version: 6.0.0(prettier@3.5.3)
       '@anolilab/semantic-release-preset':
         specifier: ^10.0.5
         version: 10.0.5(@semantic-release/npm@12.0.1(semantic-release@24.2.5(typescript@5.6.2)))(semantic-release@24.2.5(typescript@5.6.2))(yaml@2.8.0)
@@ -121,11 +121,12 @@ packages:
     engines: {node: '>=18.* <=21.*'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  '@anolilab/prettier-config@5.0.14':
-    resolution: {integrity: sha512-P7nVwARFM0SKQ0j8Q2y6Q3acHaPNtXOKEX9lgZcf5veFdvNjzK79iZcFdpQikyix4VQBs8x6wBPAD0yDfpC6pQ==}
-    engines: {node: '>=18.* <=21.*'}
+  '@anolilab/prettier-config@6.0.0':
+    resolution: {integrity: sha512-BlVa77/CxXv6zQKHDo7wyQM2bCjHm6hbGlVdFHhSyLFVK3XdG/VQYEjDg3fwZTjS6pqRTqh+z9eHjk49FPNE6g==}
+    engines: {node: '>=20.18.* <=24.*'}
+    hasBin: true
     peerDependencies:
-      prettier: 2.x || 3.x
+      prettier: 3.x
 
   '@anolilab/semantic-release-clean-package-json@2.0.2':
     resolution: {integrity: sha512-O5RjQqSC9vwi7LnrjfdwCJ1fdrfryYnsSqMh7+6yK1H5hEgHSg2iFXaM1oAwXp4OFaBonVgQcRnpauW+jx5PfQ==}
@@ -6223,9 +6224,8 @@ snapshots:
       dot-path-value: 0.0.10
       read-pkg-up: 7.0.1
 
-  '@anolilab/prettier-config@5.0.14(prettier@3.5.3)':
+  '@anolilab/prettier-config@6.0.0(prettier@3.5.3)':
     dependencies:
-      '@anolilab/package-json-utils': 3.0.9
       prettier: 3.5.3
 
   '@anolilab/semantic-release-clean-package-json@2.0.2(yaml@2.8.0)':
