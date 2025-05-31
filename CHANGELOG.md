@@ -1,3 +1,27 @@
+## [8.0.0](https://github.com/anolilab/renovate-config/compare/v7.0.1...v8.0.0) (2025-05-31)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update secretlint monorepo to ^9.3.3 ([#191](https://github.com/anolilab/renovate-config/issues/191)) ([19eb51d](https://github.com/anolilab/renovate-config/commit/19eb51dba11492467091206730d7f39b2b3c0fcb))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/commitlint-config to v6 ([#192](https://github.com/anolilab/renovate-config/issues/192)) ([2df9355](https://github.com/anolilab/renovate-config/commit/2df9355a4e46bf32778a824e0cbcefeb5fba0d20))
+* **deps:** update dependency @anolilab/prettier-config to v6 ([#194](https://github.com/anolilab/renovate-config/issues/194)) ([4be42e2](https://github.com/anolilab/renovate-config/commit/4be42e21446db3ef858600088e7854dc04110180))
+* **deps:** update dependency @anolilab/textlint-config to v9 ([#195](https://github.com/anolilab/renovate-config/issues/195)) ([de025b0](https://github.com/anolilab/renovate-config/commit/de025b045c555809831553a38a31225e08c25b40))
+
 ## [7.0.1](https://github.com/anolilab/renovate-config/compare/v7.0.0...v7.0.1) (2025-05-29)
 
 ### Bug Fixes
