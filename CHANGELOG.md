@@ -1,3 +1,15 @@
+## [9.0.0](https://github.com/anolilab/renovate-config/compare/v8.0.0...v9.0.0) (2025-06-02)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/lint-staged-config to v3 ([#193](https://github.com/anolilab/renovate-config/issues/193)) ([15ca3c4](https://github.com/anolilab/renovate-config/commit/15ca3c4b7cccd554c8c269e359700d714165cbec))
+
 ## [8.0.0](https://github.com/anolilab/renovate-config/compare/v7.0.1...v8.0.0) (2025-05-31)
 
 ### ⚠ BREAKING CHANGES
