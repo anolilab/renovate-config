@@ -26,7 +26,7 @@ importers:
         version: 6.0.0(@commitlint/cli@19.8.1(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
       '@anolilab/lint-staged-config':
         specifier: ^3.0.8
-        version: 3.0.13(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.0.0)(prettier@3.5.3)(secretlint@9.3.3)(yaml@2.8.0)
+        version: 3.0.13(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.0)(prettier@3.5.3)(secretlint@9.3.3)(yaml@2.8.0)
       '@anolilab/prettier-config':
         specifier: ^6.0.0
         version: 6.0.0(prettier@3.5.3)
@@ -58,8 +58,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       lint-staged:
-        specifier: ^16.0.0
-        version: 16.0.0
+        specifier: ^16.1.0
+        version: 16.1.0
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -2091,6 +2091,10 @@ packages:
     resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
 
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
+
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
@@ -3558,9 +3562,9 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
-  lint-staged@16.0.0:
-    resolution: {integrity: sha512-sUCprePs6/rbx4vKC60Hez6X10HPkpDJaGcy3D1NdwR7g1RcNkWL8q9mJMreOqmHBTs+1sNFp+wOiX9fr+hoOQ==}
-    engines: {node: '>=20.18'}
+  lint-staged@16.1.0:
+    resolution: {integrity: sha512-HkpQh69XHxgCjObjejBT3s2ILwNjFx8M3nw+tJ/ssBauDlIpkx2RpqWSi1fBgkXLSSXnbR3iEq1NkVtpvV+FLQ==}
+    engines: {node: '>=20.17'}
     hasBin: true
 
   listr2@8.3.3:
@@ -6157,14 +6161,14 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@anolilab/lint-staged-config@3.0.13(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.0.0)(prettier@3.5.3)(secretlint@9.3.3)(yaml@2.8.0)':
+  '@anolilab/lint-staged-config@3.0.13(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.0)(prettier@3.5.3)(secretlint@9.3.3)(yaml@2.8.0)':
     dependencies:
       '@visulima/fs': 3.1.3(yaml@2.8.0)
       '@visulima/package': 3.5.6(@types/node@22.5.5)(yaml@2.8.0)
       husky: 9.1.7
       shell-quote: 1.8.3
     optionalDependencies:
-      lint-staged: 16.0.0
+      lint-staged: 16.1.0
       prettier: 3.5.3
       secretlint: 9.3.3
     transitivePeerDependencies:
@@ -7237,7 +7241,7 @@ snapshots:
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -8331,14 +8335,14 @@ snapshots:
   '@textlint/ast-tester@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
   '@textlint/ast-tester@14.7.2':
     dependencies:
       '@textlint/ast-node-types': 14.7.2
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -8357,7 +8361,7 @@ snapshots:
       '@textlint/resolver': 14.7.2
       '@textlint/types': 14.7.2
       '@textlint/utils': 14.7.2
-      debug: 4.4.0
+      debug: 4.4.1
       rc-config-loader: 4.1.3
     transitivePeerDependencies:
       - supports-color
@@ -8372,7 +8376,7 @@ snapshots:
       '@textlint/resolver': 14.7.2
       '@textlint/types': 14.7.2
       chalk: 4.1.2
-      debug: 4.4.0
+      debug: 4.4.1
       diff: 5.2.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
@@ -8389,7 +8393,7 @@ snapshots:
       '@textlint/source-code-fixer': 12.6.1
       '@textlint/types': 12.6.1
       '@textlint/utils': 12.6.1
-      debug: 4.4.0
+      debug: 4.4.1
       deep-equal: 1.1.2
       structured-source: 4.0.0
     transitivePeerDependencies:
@@ -8404,7 +8408,7 @@ snapshots:
       '@textlint/source-code-fixer': 14.7.2
       '@textlint/types': 14.7.2
       '@textlint/utils': 14.7.2
-      debug: 4.4.0
+      debug: 4.4.1
       fast-equals: 4.0.3
       structured-source: 4.0.0
     transitivePeerDependencies:
@@ -8418,7 +8422,7 @@ snapshots:
       '@textlint/resolver': 14.7.2
       '@textlint/types': 14.7.2
       chalk: 4.1.2
-      debug: 4.4.0
+      debug: 4.4.1
       js-yaml: 3.14.1
       lodash: 4.17.21
       pluralize: 2.0.0
@@ -8432,7 +8436,7 @@ snapshots:
   '@textlint/markdown-to-ast@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
-      debug: 4.4.0
+      debug: 4.4.1
       mdast-util-gfm-autolink-literal: 0.1.3
       remark-footnotes: 3.0.0
       remark-frontmatter: 3.0.0
@@ -8446,7 +8450,7 @@ snapshots:
   '@textlint/markdown-to-ast@14.7.2':
     dependencies:
       '@textlint/ast-node-types': 14.7.2
-      debug: 4.4.0
+      debug: 4.4.1
       mdast-util-gfm-autolink-literal: 0.1.3
       neotraverse: 0.6.18
       remark-footnotes: 3.0.0
@@ -8473,14 +8477,14 @@ snapshots:
   '@textlint/source-code-fixer@12.6.1':
     dependencies:
       '@textlint/types': 12.6.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
   '@textlint/source-code-fixer@14.7.2':
     dependencies:
       '@textlint/types': 14.7.2
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -8766,7 +8770,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -9266,6 +9270,8 @@ snapshots:
   comma-separated-tokens@2.0.3: {}
 
   commander@13.1.0: {}
+
+  commander@14.0.0: {}
 
   commander@2.20.3: {}
 
@@ -10069,7 +10075,7 @@ snapshots:
 
   git-spawned-stream@1.0.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       spawn-to-readstream: 0.1.3
     transitivePeerDependencies:
       - supports-color
@@ -10380,7 +10386,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -10397,7 +10403,7 @@ snapshots:
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -10842,11 +10848,11 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  lint-staged@16.0.0:
+  lint-staged@16.1.0:
     dependencies:
       chalk: 5.4.1
-      commander: 13.1.0
-      debug: 4.4.0
+      commander: 14.0.0
+      debug: 4.4.1
       lilconfig: 3.1.3
       listr2: 8.3.3
       micromatch: 4.0.8
@@ -11647,7 +11653,7 @@ snapshots:
 
   micromark@2.11.4:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       parse-entities: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -11655,7 +11661,7 @@ snapshots:
   micromark@3.2.0:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -12430,7 +12436,7 @@ snapshots:
 
   rc-config-loader@4.1.3:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       js-yaml: 4.1.0
       json5: 2.2.3
       require-from-string: 2.0.2
@@ -12844,7 +12850,7 @@ snapshots:
 
   require-in-the-middle@7.4.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       module-details-from-path: 1.0.3
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -13162,7 +13168,7 @@ snapshots:
   socks-proxy-agent@8.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
@@ -13790,7 +13796,7 @@ snapshots:
       '@types/node': 18.19.98
       '@types/unist': 2.0.11
       concat-stream: 2.0.0
-      debug: 4.4.0
+      debug: 4.4.1
       fault: 2.0.1
       glob: 8.1.0
       ignore: 5.3.2
