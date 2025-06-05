@@ -54,11 +54,11 @@
         "update:deps": "taze"
     },
     "devDependencies": {
-        "@anolilab/commitlint-config": "^6.0.0",
-        "@anolilab/lint-staged-config": "^3.0.8",
-        "@anolilab/prettier-config": "^6.0.0",
+        "@anolilab/commitlint-config": "^6.0.1",
+        "@anolilab/lint-staged-config": "^3.0.13",
+        "@anolilab/prettier-config": "^6.0.1",
         "@anolilab/semantic-release-preset": "^10.0.5",
-        "@anolilab/textlint-config": "^9.0.0",
+        "@anolilab/textlint-config": "^9.0.1",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "@secretlint/secretlint-rule-preset-recommend": "^9.3.3",
@@ -75,7 +75,7 @@
         "taze": "^19.1.0",
         "textlint": "^14.7.2"
     },
-    "packageManager": "pnpm@10.11.0",
+    "packageManager": "pnpm@10.11.1",
     "engines": {
         "node": ">=20"
     },
@@ -86,7 +86,7 @@
     "pnpm": {
         "overrides": {
             "braces@<3.0.3": ">=3.0.3",
-            "chrono-node@<2.2.4": ">=2.8.1",
+            "chrono-node@<2.2.4": ">=2.8.2",
             "tar@<6.2.1": ">=7.4.3",
             "micromatch@<4.0.8": ">=4.0.8",
             "cross-spawn@>=7.0.0 <7.0.5": ">=7.0.6",
