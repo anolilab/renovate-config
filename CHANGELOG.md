@@ -1,3 +1,13 @@
+## [9.0.1](https://github.com/anolilab/renovate-config/compare/v9.0.0...v9.0.1) (2025-06-05)
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/runtime-corejs3@&lt;7.26.10 to >=7.27.4 ([#196](https://github.com/anolilab/renovate-config/issues/196)) ([f765b80](https://github.com/anolilab/renovate-config/commit/f765b8019ff7334707b72067b8be0e44211ea7e3))
+* **deps:** update dependency @octokit/plugin-paginate-rest@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.3.0-beta.1 &lt;11.4.1 to >=13.0.1 ([#197](https://github.com/anolilab/renovate-config/issues/197)) ([d4f2c6b](https://github.com/anolilab/renovate-config/commit/d4f2c6b20f0c1cfce89cc98b6c51c893a075c791)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency lint-staged to ^16.1.0 ([#199](https://github.com/anolilab/renovate-config/issues/199)) ([d37cec9](https://github.com/anolilab/renovate-config/commit/d37cec9a5017c8673b09d19d4863722ab15699b0))
+* **deps:** update dependency renovate to v40.37.1 ([#200](https://github.com/anolilab/renovate-config/issues/200)) ([e888217](https://github.com/anolilab/renovate-config/commit/e88821732b2924f4839e5e5f916529594be0a531))
+* **deps:** update ossf/scorecard-action action to v2.4.2 ([#198](https://github.com/anolilab/renovate-config/issues/198)) ([d8348ec](https://github.com/anolilab/renovate-config/commit/d8348ec5dcd23037665d1154a9ea847956a9702f))
+
 ## [9.0.0](https://github.com/anolilab/renovate-config/compare/v8.0.0...v9.0.0) (2025-06-02)
 
 ### ⚠ BREAKING CHANGES
