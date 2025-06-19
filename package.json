@@ -54,28 +54,28 @@
         "update:deps": "taze"
     },
     "devDependencies": {
-        "@anolilab/commitlint-config": "^6.0.0",
-        "@anolilab/lint-staged-config": "^3.0.8",
-        "@anolilab/prettier-config": "^6.0.0",
-        "@anolilab/semantic-release-preset": "^10.0.5",
-        "@anolilab/textlint-config": "^9.0.0",
+        "@anolilab/commitlint-config": "^6.0.1",
+        "@anolilab/lint-staged-config": "^3.0.17",
+        "@anolilab/prettier-config": "^6.0.1",
+        "@anolilab/semantic-release-preset": "^11.0.0",
+        "@anolilab/textlint-config": "^9.0.1",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "@secretlint/secretlint-rule-preset-recommend": "^9.3.3",
+        "@secretlint/secretlint-rule-preset-recommend": "^10.1.0",
         "audit-ci": "^7.1.0",
         "conventional-changelog-conventionalcommits": "9.0.0",
         "husky": "^9.1.7",
         "is-ci": "^4.1.0",
-        "lint-staged": "^16.1.0",
+        "lint-staged": "^16.1.2",
         "prettier": "^3.5.3",
-        "renovate": "40.37.1",
-        "secretlint": "9.3.3",
+        "renovate": "41.1.0",
+        "secretlint": "10.1.0",
         "semantic-release": "^24.2.5",
         "sort-package-json": "^3.2.1",
         "taze": "^19.1.0",
-        "textlint": "^14.7.2"
+        "textlint": "^14.8.4"
     },
-    "packageManager": "pnpm@10.11.0",
+    "packageManager": "pnpm@10.12.1",
     "engines": {
         "node": ">=20"
     },
@@ -95,7 +95,13 @@
             "@octokit/request@>=9.0.0-beta.1 <9.2.1": ">=10.0.2",
             "@octokit/plugin-paginate-rest@>=9.3.0-beta.1 <11.4.1": ">=13.0.1",
             "tar-fs@>=2.0.0 <2.1.2": ">=3.0.9",
-            "@babel/runtime-corejs3@<7.26.10": ">=7.27.4"
-        }
+            "@babel/runtime-corejs3@<7.26.10": ">=7.27.4",
+            "brace-expansion@>=1.0.0 <=1.1.11": ">=1.1.12",
+            "brace-expansion@>=2.0.0 <=2.0.1": ">=2.0.2"
+        },
+        "onlyBuiltDependencies": [
+            "protobufjs",
+            "re2"
+        ]
     }
 }
