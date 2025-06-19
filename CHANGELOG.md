@@ -1,3 +1,14 @@
+## [9.0.2](https://github.com/anolilab/renovate-config/compare/v9.0.1...v9.0.2) (2025-06-19)
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#202](https://github.com/anolilab/renovate-config/issues/202)) ([96c4f8a](https://github.com/anolilab/renovate-config/commit/96c4f8a5f56c81e619f12f5973a6fc29a823fbfa))
+
+### Miscellaneous Chores
+
+* **deps:** update [@octokit](https://github.com/octokit) packages and other dependencies ([1298101](https://github.com/anolilab/renovate-config/commit/129810180962ce2bac848fa7b52b9889a685409c))
+* **deps:** update dependencies to latest versions ([1a65aba](https://github.com/anolilab/renovate-config/commit/1a65aba59c1245bd7ee72ad01e89da666bef0eae))
+
 ## [9.0.1](https://github.com/anolilab/renovate-config/compare/v9.0.0...v9.0.1) (2025-06-05)
 
 ### Bug Fixes
