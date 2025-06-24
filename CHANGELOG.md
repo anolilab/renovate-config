@@ -1,3 +1,13 @@
+## [9.0.3](https://github.com/anolilab/renovate-config/compare/v9.0.2...v9.0.3) (2025-06-24)
+
+### Bug Fixes
+
+* **deps:** update patch updates ([#203](https://github.com/anolilab/renovate-config/issues/203)) ([cce0cbe](https://github.com/anolilab/renovate-config/commit/cce0cbee0deebff8bcef38197c7a4c409dd365f0))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency brace-expansion@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);2.0.0 &lt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);2.0.1 to v4 ([#213](https://github.com/anolilab/renovate-config/issues/213)) ([3fd9714](https://github.com/anolilab/renovate-config/commit/3fd97145a4462497dbac6283cd2291aa71a74587)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3) [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+
 ## [9.0.2](https://github.com/anolilab/renovate-config/compare/v9.0.1...v9.0.2) (2025-06-19)
 
 ### Bug Fixes
