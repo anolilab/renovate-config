@@ -73,7 +73,7 @@
         "semantic-release": "^24.2.5",
         "sort-package-json": "^3.2.1",
         "taze": "^19.1.0",
-        "textlint": "^14.8.4"
+        "textlint": "^15.0.1"
     },
     "packageManager": "pnpm@10.12.1",
     "engines": {
