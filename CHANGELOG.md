@@ -1,3 +1,14 @@
+## [9.0.4](https://github.com/anolilab/renovate-config/compare/v9.0.3...v9.0.4) (2025-06-27)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v41.5.0 ([#215](https://github.com/anolilab/renovate-config/issues/215)) ([d057cea](https://github.com/anolilab/renovate-config/commit/d057cea7dc92a6b8a0dd554aa6de2235d96a6f3d))
+* **deps:** update dependency sort-package-json to ^3.3.1 ([#206](https://github.com/anolilab/renovate-config/issues/206)) ([0c81c97](https://github.com/anolilab/renovate-config/commit/0c81c97ae51179f53b6abc91d0245693df138c94))
+
+### Styles
+
+* **deps:** update dependency textlint to v15 ([#216](https://github.com/anolilab/renovate-config/issues/216)) ([347b199](https://github.com/anolilab/renovate-config/commit/347b19944672593128962ba6203bf5c8d3117fdf))
+
 ## [9.0.3](https://github.com/anolilab/renovate-config/compare/v9.0.2...v9.0.3) (2025-06-24)
 
 ### Bug Fixes
