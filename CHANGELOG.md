@@ -1,3 +1,21 @@
+## [10.0.0](https://github.com/anolilab/renovate-config/compare/v9.0.4...v10.0.0) (2025-07-01)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Daniel Bannert <prisis@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/plugin-paginate-rest@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.3.0-beta.1 &lt;11.4.1 to >=13.1.1 ([#208](https://github.com/anolilab/renovate-config/issues/208)) ([d7c04a9](https://github.com/anolilab/renovate-config/commit/d7c04a95edcc4b89b9c166638877377bc099645b)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update dependency prettier to ^3.6.2 ([#214](https://github.com/anolilab/renovate-config/issues/214)) ([a92625b](https://github.com/anolilab/renovate-config/commit/a92625b03ba74a6926faca1858803bba1161b484))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency brace-expansion@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);1.0.0 &lt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);1.1.11 to v4 ([#211](https://github.com/anolilab/renovate-config/issues/211)) ([bc2ada3](https://github.com/anolilab/renovate-config/commit/bc2ada39c6246dc80a710be4885a9bf50de9df72)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3) [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+
 ## [9.0.4](https://github.com/anolilab/renovate-config/compare/v9.0.3...v9.0.4) (2025-06-27)
 
 ### Bug Fixes
