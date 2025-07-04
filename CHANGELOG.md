@@ -1,3 +1,11 @@
+## [10.0.1](https://github.com/anolilab/renovate-config/compare/v10.0.0...v10.0.1) (2025-07-04)
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/runtime-corejs3@&lt;7.26.10 to >=7.27.6 ([#201](https://github.com/anolilab/renovate-config/issues/201)) ([e736384](https://github.com/anolilab/renovate-config/commit/e7363843f6f8f303666a07dc6febc91f2f047104))
+* **deps:** update dependency @octokit/request@&gt;&[#x3d](https://github.com/anolilab/renovate-config/issues/x3d);9.0.0-beta.1 &lt;9.2.1 to >=10.0.3 ([#217](https://github.com/anolilab/renovate-config/issues/217)) ([a9585ae](https://github.com/anolilab/renovate-config/commit/a9585ae5d987005dcc72feea8d55be90ad115f10)), closes [#x3](https://github.com/anolilab/renovate-config/issues/x3)
+* **deps:** update secretlint monorepo to ^10.1.1 ([#218](https://github.com/anolilab/renovate-config/issues/218)) ([e1ab51f](https://github.com/anolilab/renovate-config/commit/e1ab51f56dbf51cc1d1d431f397515dfa80118e8))
+
 ## [10.0.0](https://github.com/anolilab/renovate-config/compare/v9.0.4...v10.0.0) (2025-07-01)
 
 ### ⚠ BREAKING CHANGES
