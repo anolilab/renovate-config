@@ -27,17 +27,17 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(@commitlint/cli@19.8.1(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
       '@anolilab/lint-staged-config':
-        specifier: ^3.0.17
-        version: 3.0.17(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.2)(prettier@3.6.2)(secretlint@10.1.1)(yaml@2.8.0)
+        specifier: ^3.0.19
+        version: 3.0.19(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.2)(prettier@3.6.2)(secretlint@10.1.1)(yaml@2.8.0)
       '@anolilab/prettier-config':
-        specifier: ^6.0.1
-        version: 6.0.1(prettier@3.6.2)
+        specifier: ^6.0.2
+        version: 6.0.2(prettier@3.6.2)
       '@anolilab/semantic-release-preset':
-        specifier: ^11.0.0
-        version: 11.0.0(@semantic-release/npm@12.0.2(semantic-release@24.2.6(typescript@5.6.2)))(semantic-release@24.2.6(typescript@5.6.2))(yaml@2.8.0)
+        specifier: ^11.0.2
+        version: 11.0.2(@semantic-release/npm@12.0.2(semantic-release@24.2.6(typescript@5.6.2)))(semantic-release@24.2.6(typescript@5.6.2))(yaml@2.8.0)
       '@anolilab/textlint-config':
-        specifier: ^9.0.1
-        version: 9.0.1(encoding@0.1.13)(textlint@15.0.1)
+        specifier: ^9.0.2
+        version: 9.0.2(encoding@0.1.13)(textlint@15.0.1)
       '@commitlint/cli':
         specifier: ^19.8.1
         version: 19.8.1(@types/node@22.5.5)(typescript@5.6.2)
@@ -93,8 +93,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^17.6.5 || ^18.x || ^19.x
 
-  '@anolilab/lint-staged-config@3.0.17':
-    resolution: {integrity: sha512-nt59OWI5PFMEpzhcRiT25eYRcQgXK5SsYPA9V2ZE/glEPtjbqt3iXfwXUFf06KexMen9ahZnuZo2Kc/A2c+2gg==}
+  '@anolilab/lint-staged-config@3.0.19':
+    resolution: {integrity: sha512-FWVXYLi5VHxhQUhzizOsrC3uMpUYGSvX1kOfjL9V8dI5Iob2pJBtPTOgFHWpJSSKCiVgilqM5U4pV8z2qhOSXg==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
@@ -125,23 +125,23 @@ packages:
       vitest:
         optional: true
 
-  '@anolilab/prettier-config@6.0.1':
-    resolution: {integrity: sha512-dsuhOa2PhoAu6TwvW62j0E8LEOKP2uqtGuXkCwGRTzqHmKN+4/2jqNKq4KLbnGGeqGlDw4pHf9qry6UBtAjJ2A==}
+  '@anolilab/prettier-config@6.0.2':
+    resolution: {integrity: sha512-yLT61zGJuCzXuiGRxzhCVYIj/aVmVVTTjyLvzfIH5u/14DlWlmG0X3C8qmuKOwHvo1JNfOLc6pvgqhGOR+9OfQ==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
       prettier: 3.0.3
 
-  '@anolilab/semantic-release-clean-package-json@3.0.0':
-    resolution: {integrity: sha512-Zhyx4zMt/OJtJmA4lChA0+jICl4bxDn9m05hGaS/s88v52Q8z6d6RmgaAA2TnIqC5PdO9SWYf9CnQsYViU8dFQ==}
+  '@anolilab/semantic-release-clean-package-json@3.0.2':
+    resolution: {integrity: sha512-BffuRvhE6xC8ts831ZM8XsJkEhdWV/W7kjuQIxehdztjgaJee1dc2k/MnBFT2fPSHHoLVbHHrG16Zp6a6rm31w==}
     engines: {node: '>=20.8.1'}
 
-  '@anolilab/semantic-release-preset@11.0.0':
-    resolution: {integrity: sha512-tKz9mNuGWAGiVQHSIMZe0yKZG/0Mv7T0v3b73/rQvmiB/Y2mDZx9DKpevdTs/E9SEcjOfANup0C2kpuNFgeLQA==}
+  '@anolilab/semantic-release-preset@11.0.2':
+    resolution: {integrity: sha512-uXcA0jK5inZfIa65lCPHceI3OxqazIqwSvc2X3cXGB1/UdNaK+CPl5mLJ2jnN4K43db2RIzOdwP+QsXum7KR3g==}
     engines: {node: '>=20.8.1'}
     os: [darwin, linux, win32]
     peerDependencies:
-      '@anolilab/semantic-release-pnpm': 2.0.0
+      '@anolilab/semantic-release-pnpm': 2.0.2
       '@semantic-release/npm': ^12.0.1
       semantic-release: ^24.2.3
       semantic-release-yarn: ^3.0.2
@@ -153,12 +153,12 @@ packages:
       semantic-release-yarn:
         optional: true
 
-  '@anolilab/textlint-config@9.0.1':
-    resolution: {integrity: sha512-is6ZQzIYn+/v9x8LkFPXg+o9bjBATtExdoFDqrt5mbM7fSfsYCGhoVhXADsTYW+e/js32X4Z+xZIRNTXC2x7sA==}
+  '@anolilab/textlint-config@9.0.2':
+    resolution: {integrity: sha512-j8XhdOfDIVdIXarAY0pWvRtqPw2zgTo26oLMdzohXUDjl9gnZcdl+vqjBu0qXg+W5C8zhzCgEQ0uCYjg/2g0EQ==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
-      textlint: ^13.3.3
+      textlint: ^13.4.1
 
   '@antfu/ni@24.3.0':
     resolution: {integrity: sha512-wBSav4mBxvHEW9RbdSo1SWLQ6MAlT0Dc423weC58yOWqW4OcMvtnNDdDrxOZeJ88fEIyPK93gDUWIelBxzSf8g==}
@@ -1312,6 +1312,9 @@ packages:
   '@textlint/ast-node-types@15.0.1':
     resolution: {integrity: sha512-e93SMkYpyHsAy62UDfOm3P91M/6Lm4akVfYd7cGqsAW8VjvGeJTEuo1kDJxlddOrck3WWid8h8KwGPCBbHfRBg==}
 
+  '@textlint/ast-node-types@15.2.0':
+    resolution: {integrity: sha512-nr9wEiZCNYafGZ++uWFZgPlDX3Bi7u4T2d5swpaoMvc1G2toXsBfe7UNVwXZq5dvYDbQN7vDeb3ltlKQ8JnPNQ==}
+
   '@textlint/ast-node-types@4.4.3':
     resolution: {integrity: sha512-qi2jjgO6Tn3KNPGnm6B7p6QTEPvY95NFsIAaJuwbulur8iJUEenp1OnoUfiDaC/g2WPPEFkcfXpmnu8XEMFo2A==}
 
@@ -1404,6 +1407,9 @@ packages:
 
   '@textlint/types@15.0.1':
     resolution: {integrity: sha512-ACekqqM0TCUw+PtTsiXkjigCSYWHut9ZKXpJ0t6IvTVBABgGDz+jLhTkUp1scrMFSJhYKNrWLVAxPV7ukoSVgw==}
+
+  '@textlint/types@15.2.0':
+    resolution: {integrity: sha512-wpF+xjGJgJK2JiwUdYjuNZrbuas3KfC9VDnHKac6aBLFyrI1iXuXtuxKXQDFi5/hebACactSJOuVVbuQbdJZ1Q==}
 
   '@textlint/utils@12.6.1':
     resolution: {integrity: sha512-HJkqYXT2FAAHDM5XLFpQLF/CEdm8c2ltMeKmPBSSty1VfPXQMi8tGPT1b58b8KWh6dVmi7w0YYB7NrquuzXOKA==}
@@ -1531,16 +1537,6 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@visulima/fs@3.1.3':
-    resolution: {integrity: sha512-AA1DZIAwtg5v4nT5ABJnrgq/YWPiqndeaTG/qePE1h7Tr+ZwOlsrqZ6CGzwjgHsbblNG05US4beNaqmzdC6whQ==}
-    engines: {node: '>=18.0.0 <=23.x'}
-    os: [darwin, linux, win32]
-    peerDependencies:
-      yaml: ^2.7.0
-    peerDependenciesMeta:
-      yaml:
-        optional: true
-
   '@visulima/fs@3.1.5':
     resolution: {integrity: sha512-0m2iVLB/rxwmmuyuC7yTikzV45osj38Lrp+WYKWq8kdtdxDnd0NXDL+MHB4qv1wp+wmy+iOiaXQcd98aZuc1XQ==}
     engines: {node: '>=18.0.0 <=23.x'}
@@ -1551,13 +1547,8 @@ packages:
       yaml:
         optional: true
 
-  '@visulima/package@3.5.6':
-    resolution: {integrity: sha512-HAmGBMv7trBi87cGrBDGs1M9x7i2Qw+k1hws9Yec1u1BEo+ukTLOpwIR/2FMuoJ62YyrCFGVgzodCnCtapE1Dw==}
-    engines: {node: '>=18.0.0 <=23.x'}
-    os: [darwin, linux, win32]
-
-  '@visulima/path@1.3.6':
-    resolution: {integrity: sha512-qQAtyUNQU/weg7oVY0BYBZzQOY2p9+kgAshXNWJHf6zCoJkx6YS3gTPbhG495QuEqXXuH5POEIWDwhrNbEtQww==}
+  '@visulima/package@3.5.8':
+    resolution: {integrity: sha512-QFSyx8CmoWXfCDeaGSgvskmpZ7cS61+yGhXF8g1v1UdOv6DFNY2dtbb6Q4xSYqZjqJ7P8ANNHkZMxTn4Pg6aDg==}
     engines: {node: '>=18.0.0 <=23.x'}
     os: [darwin, linux, win32]
 
@@ -5794,8 +5785,8 @@ packages:
   textlint-rule-common-misspellings@1.0.1:
     resolution: {integrity: sha512-f5KWhQFJzJBUX3RirAS25aSkAaaOHeSHtBeb7d49O+vxnAX3dZBS5DB/e5M1kR4tifW4qae64oqWZygoGYWkjQ==}
 
-  textlint-rule-date-weekday-mismatch@1.1.0:
-    resolution: {integrity: sha512-vFuSKGpMFcRWh7LSvYKVE7QQBGxm2/1w2oIvMLfHN5EnXiFGQqrK560Otvc0POKf9yUIDI2iIMfT85z+st+LiA==}
+  textlint-rule-date-weekday-mismatch@1.1.1:
+    resolution: {integrity: sha512-gxkRW31j1ON1V2Qr+JB+LOWsJY5ex24g0mr60FkR9Pnj1r08qOVr67G4O6Xc1fSXdj2gKz7RaKXMjuTr2e+b0Q==}
 
   textlint-rule-diacritics@2.1.4:
     resolution: {integrity: sha512-BiE9sYEpIuN/g5LuDmB1ksLKOd6pwr4KwU+1e0eNQX1SFZwSmOZqqIxaBA91yvoHExb+/hQZrop4lrpfM4JbIQ==}
@@ -5833,8 +5824,8 @@ packages:
   textlint-rule-no-todo@2.0.1:
     resolution: {integrity: sha512-+adoWaBgoTN2g0WNcrERhVq7gdPKQIf1z7Ol+6XwMGv8XmuoFp5vJljHKtCmJBmGhBihjty2b8oaza2MY6UNlw==}
 
-  textlint-rule-terminology@5.2.12:
-    resolution: {integrity: sha512-qLyuqbGN7GBqKR7NT2yLyo8mmYmoCkk8bu3szvLxUkM+1Cc0D9G6MDyaYFrMM26GZuNbTREmuFxon/vTBDR/pw==}
+  textlint-rule-terminology@5.2.13:
+    resolution: {integrity: sha512-NHCjVue34iP8P+zko39hut0iJ/sc8QfsSSqSOvWHuRZWIt6jUoQrpkfGdRNTkzN++l2uv9qBIhtRPkYv25LY8w==}
     engines: {node: '>=20'}
 
   textlint-rule-write-good@2.0.0:
@@ -6465,10 +6456,10 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@anolilab/lint-staged-config@3.0.17(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.2)(prettier@3.6.2)(secretlint@10.1.1)(yaml@2.8.0)':
+  '@anolilab/lint-staged-config@3.0.19(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.1.2)(prettier@3.6.2)(secretlint@10.1.1)(yaml@2.8.0)':
     dependencies:
-      '@visulima/fs': 3.1.3(yaml@2.8.0)
-      '@visulima/package': 3.5.6(@types/node@22.5.5)(yaml@2.8.0)
+      '@visulima/fs': 3.1.5(yaml@2.8.0)
+      '@visulima/package': 3.5.8(@types/node@22.5.5)(yaml@2.8.0)
       husky: 9.1.7
       shell-quote: 1.8.3
     optionalDependencies:
@@ -6479,11 +6470,11 @@ snapshots:
       - '@types/node'
       - yaml
 
-  '@anolilab/prettier-config@6.0.1(prettier@3.6.2)':
+  '@anolilab/prettier-config@6.0.2(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
-  '@anolilab/semantic-release-clean-package-json@3.0.0(yaml@2.8.0)':
+  '@anolilab/semantic-release-clean-package-json@3.0.2(yaml@2.8.0)':
     dependencies:
       '@semantic-release/error': 4.0.0
       '@visulima/fs': 3.1.5(yaml@2.8.0)
@@ -6491,9 +6482,9 @@ snapshots:
     transitivePeerDependencies:
       - yaml
 
-  '@anolilab/semantic-release-preset@11.0.0(@semantic-release/npm@12.0.2(semantic-release@24.2.6(typescript@5.6.2)))(semantic-release@24.2.6(typescript@5.6.2))(yaml@2.8.0)':
+  '@anolilab/semantic-release-preset@11.0.2(@semantic-release/npm@12.0.2(semantic-release@24.2.6(typescript@5.6.2)))(semantic-release@24.2.6(typescript@5.6.2))(yaml@2.8.0)':
     dependencies:
-      '@anolilab/semantic-release-clean-package-json': 3.0.0(yaml@2.8.0)
+      '@anolilab/semantic-release-clean-package-json': 3.0.2(yaml@2.8.0)
       '@semantic-release/changelog': 6.0.3(semantic-release@24.2.6(typescript@5.6.2))
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@24.2.6(typescript@5.6.2))
       '@semantic-release/exec': 7.1.0(semantic-release@24.2.6(typescript@5.6.2))
@@ -6508,20 +6499,20 @@ snapshots:
       - supports-color
       - yaml
 
-  '@anolilab/textlint-config@9.0.1(encoding@0.1.13)(textlint@15.0.1)':
+  '@anolilab/textlint-config@9.0.2(encoding@0.1.13)(textlint@15.0.1)':
     dependencies:
       '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-preset-google': 0.1.2
-      '@textlint/ast-node-types': 14.8.4
-      '@textlint/types': 14.8.4
+      '@textlint/ast-node-types': 15.2.0
+      '@textlint/types': 15.2.0
       textlint: 15.0.1
       textlint-filter-rule-comments: 1.2.2(textlint@15.0.1)
       textlint-rule-abbr-within-parentheses: 1.0.2
       textlint-rule-alex: 5.0.0
       textlint-rule-apostrophe: 3.0.0
       textlint-rule-common-misspellings: 1.0.1
-      textlint-rule-date-weekday-mismatch: 1.1.0
+      textlint-rule-date-weekday-mismatch: 1.1.1
       textlint-rule-diacritics: 2.1.4(textlint@15.0.1)
       textlint-rule-en-capitalization: 2.0.3
       textlint-rule-footnote-order: 1.0.3
@@ -6529,7 +6520,7 @@ snapshots:
       textlint-rule-no-dead-link: 5.2.0(encoding@0.1.13)(textlint@15.0.1)
       textlint-rule-no-empty-section: 1.1.0
       textlint-rule-no-todo: 2.0.1
-      textlint-rule-terminology: 5.2.12
+      textlint-rule-terminology: 5.2.13
       textlint-rule-write-good: 2.0.0
       write-good: 1.0.8
     transitivePeerDependencies:
@@ -8653,6 +8644,8 @@ snapshots:
 
   '@textlint/ast-node-types@15.0.1': {}
 
+  '@textlint/ast-node-types@15.2.0': {}
+
   '@textlint/ast-node-types@4.4.3': {}
 
   '@textlint/ast-tester@12.6.1':
@@ -8877,6 +8870,10 @@ snapshots:
     dependencies:
       '@textlint/ast-node-types': 15.0.1
 
+  '@textlint/types@15.2.0':
+    dependencies:
+      '@textlint/ast-node-types': 15.2.0
+
   '@textlint/utils@12.6.1': {}
 
   '@textlint/utils@15.0.1': {}
@@ -9016,29 +9013,21 @@ snapshots:
       '@types/node': 22.5.5
     optional: true
 
-  '@visulima/fs@3.1.3(yaml@2.8.0)':
-    dependencies:
-      '@visulima/path': 1.3.6
-    optionalDependencies:
-      yaml: 2.8.0
-
   '@visulima/fs@3.1.5(yaml@2.8.0)':
     dependencies:
       '@visulima/path': 1.4.0
     optionalDependencies:
       yaml: 2.8.0
 
-  '@visulima/package@3.5.6(@types/node@22.5.5)(yaml@2.8.0)':
+  '@visulima/package@3.5.8(@types/node@22.5.5)(yaml@2.8.0)':
     dependencies:
       '@inquirer/confirm': 5.1.12(@types/node@22.5.5)
-      '@visulima/fs': 3.1.3(yaml@2.8.0)
-      '@visulima/path': 1.3.6
+      '@visulima/fs': 3.1.5(yaml@2.8.0)
+      '@visulima/path': 1.4.0
       normalize-package-data: 7.0.0
     transitivePeerDependencies:
       - '@types/node'
       - yaml
-
-  '@visulima/path@1.3.6': {}
 
   '@visulima/path@1.4.0': {}
 
@@ -14211,7 +14200,7 @@ snapshots:
       misspellings: 1.1.0
       textlint-rule-helper: 1.2.0
 
-  textlint-rule-date-weekday-mismatch@1.1.0:
+  textlint-rule-date-weekday-mismatch@1.1.1:
     dependencies:
       chrono-node: 2.8.3
       moment: 2.30.1
@@ -14271,7 +14260,7 @@ snapshots:
     dependencies:
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-terminology@5.2.12:
+  textlint-rule-terminology@5.2.13:
     dependencies:
       lodash: 4.17.21
       strip-json-comments: 5.0.2
