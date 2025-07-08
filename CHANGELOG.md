@@ -1,3 +1,10 @@
+## [10.0.2](https://github.com/anolilab/renovate-config/compare/v10.0.1...v10.0.2) (2025-07-08)
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to ^24.2.6 ([#219](https://github.com/anolilab/renovate-config/issues/219)) ([8813f2c](https://github.com/anolilab/renovate-config/commit/8813f2c662cc61278ae554d5ece43b998ab074c1))
+* **deps:** update github-actions ([#220](https://github.com/anolilab/renovate-config/issues/220)) ([0755aed](https://github.com/anolilab/renovate-config/commit/0755aed165658f0ff4623a6c0f01074aa6d7f0cd))
+
 ## [10.0.1](https://github.com/anolilab/renovate-config/compare/v10.0.0...v10.0.1) (2025-07-04)
 
 ### Bug Fixes
