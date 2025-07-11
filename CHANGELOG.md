@@ -1,3 +1,10 @@
+## [10.0.3](https://github.com/anolilab/renovate-config/compare/v10.0.2...v10.0.3) (2025-07-11)
+
+### Bug Fixes
+
+* **deps:** update minor updates ([#224](https://github.com/anolilab/renovate-config/issues/224)) ([4e2098b](https://github.com/anolilab/renovate-config/commit/4e2098b45edc4ecf4f9a067f6a1be7ad2d1c68e9))
+* **deps:** update secretlint monorepo to ^10.2.0 ([#225](https://github.com/anolilab/renovate-config/issues/225)) ([b573113](https://github.com/anolilab/renovate-config/commit/b5731131df65a9f32304898717b77f1706e83691))
+
 ## [10.0.2](https://github.com/anolilab/renovate-config/compare/v10.0.1...v10.0.2) (2025-07-08)
 
 ### Bug Fixes
