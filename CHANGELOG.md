@@ -1,3 +1,10 @@
+## [10.0.4](https://github.com/anolilab/renovate-config/compare/v10.0.3...v10.0.4) (2025-07-15)
+
+### Bug Fixes
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#226](https://github.com/anolilab/renovate-config/issues/226)) ([680b93b](https://github.com/anolilab/renovate-config/commit/680b93b1aaafd144c8b639dc505aa2577a0262d2))
+* **deps:** update pnpm to v10.13.1 ([#227](https://github.com/anolilab/renovate-config/issues/227)) ([ed43f47](https://github.com/anolilab/renovate-config/commit/ed43f47d28e09ddc69b50fed26309c55d16edbac))
+
 ## [10.0.3](https://github.com/anolilab/renovate-config/compare/v10.0.2...v10.0.3) (2025-07-11)
 
 ### Bug Fixes
