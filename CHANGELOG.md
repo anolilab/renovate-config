@@ -1,3 +1,12 @@
+## [10.0.6](https://github.com/anolilab/renovate-config/compare/v10.0.5...v10.0.6) (2025-08-05)
+
+### Bug Fixes
+
+* **deps:** update dependency textlint to ^15.2.1 ([#223](https://github.com/anolilab/renovate-config/issues/223)) ([1dcb30b](https://github.com/anolilab/renovate-config/commit/1dcb30be0ff605802f86fb96b0567ff5464ba350))
+* **deps:** update github-actions ([#231](https://github.com/anolilab/renovate-config/issues/231)) ([4bdaa53](https://github.com/anolilab/renovate-config/commit/4bdaa53af00b54ec6676f50440157231f4888cac))
+* **deps:** update pnpm to v10.14.0 ([#232](https://github.com/anolilab/renovate-config/issues/232)) ([ee74e1e](https://github.com/anolilab/renovate-config/commit/ee74e1efcbef863d613f88f582322b80f6b5a4b1))
+* **deps:** update secretlint monorepo to ^10.2.1 ([#229](https://github.com/anolilab/renovate-config/issues/229)) ([310ac44](https://github.com/anolilab/renovate-config/commit/310ac4423580146336b6299a47352ad367ff849e))
+
 ## [10.0.5](https://github.com/anolilab/renovate-config/compare/v10.0.4...v10.0.5) (2025-08-02)
 
 ### Bug Fixes
