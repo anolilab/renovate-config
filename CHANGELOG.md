@@ -1,3 +1,25 @@
+## [10.0.7](https://github.com/anolilab/renovate-config/compare/v10.0.6...v10.0.7) (2025-09-21)
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#237](https://github.com/anolilab/renovate-config/issues/237)) ([cbf0fb1](https://github.com/anolilab/renovate-config/commit/cbf0fb1b77781e6c8f939da1076aa2bf0ecdf555))
+* **deps:** update github-actions ([#242](https://github.com/anolilab/renovate-config/issues/242)) ([261bb07](https://github.com/anolilab/renovate-config/commit/261bb078c1bda9be492756d37c62b965f2cf8446))
+* **deps:** update github-actions ([#244](https://github.com/anolilab/renovate-config/issues/244)) ([c5363e9](https://github.com/anolilab/renovate-config/commit/c5363e9b78a751ecdc43c464a4aa9e7460ae3ad2))
+* **deps:** update github/codeql-action action to v3.29.8 ([#233](https://github.com/anolilab/renovate-config/issues/233)) ([47272c4](https://github.com/anolilab/renovate-config/commit/47272c4320cc842b142bd31dbabeb574ce9b6098))
+* **deps:** update lewagon/wait-on-check-action action to v1.4.1 ([#247](https://github.com/anolilab/renovate-config/issues/247)) ([e045b9a](https://github.com/anolilab/renovate-config/commit/e045b9a32515014d38c8ead51709cf2a8076b2c7))
+* **deps:** update secretlint monorepo to ^10.2.2 ([#234](https://github.com/anolilab/renovate-config/issues/234)) ([f6f5de8](https://github.com/anolilab/renovate-config/commit/f6f5de84bf990d4fb11cefa001bfb56c3ff5cd76))
+
+### Miscellaneous Chores
+
+* update package dependencies and configurations ([0fd0b31](https://github.com/anolilab/renovate-config/commit/0fd0b31d462c58ff26de068bf4e0f7aeff26788f))
+
+### Continuous Integration
+
+* **deps:** update actions/checkout action to v5 ([#236](https://github.com/anolilab/renovate-config/issues/236)) ([f1202c5](https://github.com/anolilab/renovate-config/commit/f1202c5477f092f9d3afee8b797d50a2531f811b))
+* **deps:** update actions/first-interaction action to v3 ([#238](https://github.com/anolilab/renovate-config/issues/238)) ([41c857c](https://github.com/anolilab/renovate-config/commit/41c857c31d775a2d8438b9f5ea98199cbe4d5163))
+* **deps:** update actions/stale action to v10 ([#243](https://github.com/anolilab/renovate-config/issues/243)) ([acc8db0](https://github.com/anolilab/renovate-config/commit/acc8db0695e3363a48b22f3e341367cb6ab34eb1))
+* **deps:** update amannn/action-semantic-pull-request action to v6 ([#239](https://github.com/anolilab/renovate-config/issues/239)) ([3e295c2](https://github.com/anolilab/renovate-config/commit/3e295c28e6477a28f8f9a743f43cd994f59a583c))
+
 ## [10.0.6](https://github.com/anolilab/renovate-config/compare/v10.0.5...v10.0.6) (2025-08-05)
 
 ### Bug Fixes
