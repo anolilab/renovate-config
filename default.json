@@ -35,15 +35,21 @@
         {
             "groupName": "style tools",
             "matchPackageNames": [
-                "stylelint", "stylelint-.*", "@ronilaukkarinen/stylelint-a11y",
-                "postcss", "postcss-loader",
-                "sass", "node-sass", "sass-loader", "@sass/*",
-                "less", "less-loader",
-                "stylus", "stylus-loader"
+                "stylelint",
+                "stylelint-.*",
+                "@ronilaukkarinen/stylelint-a11y",
+                "postcss",
+                "postcss-loader",
+                "sass",
+                "node-sass",
+                "sass-loader",
+                "@sass/*",
+                "less",
+                "less-loader",
+                "stylus",
+                "stylus-loader"
             ],
-            "matchPackagePatterns": [
-                "^stylelint", "^postcss-.*", "^sass-.*", "^less-.*", "^stylus-.*"
-            ],
+            "matchPackagePatterns": ["^stylelint", "^postcss-.*", "^sass-.*", "^less-.*", "^stylus-.*"],
             "matchPackagePrefixes": ["@postcss/"],
             "extends": [":semanticCommitType(style)"],
             "automerge": true,
