@@ -7,8 +7,8 @@ settings:
 catalogs:
   cli:
     '@anolilab/semantic-release-preset':
-      specifier: ^11.0.3
-      version: 11.0.3
+      specifier: ^11.0.4
+      version: 11.0.4
     semantic-release:
       specifier: ^24.2.9
       version: 24.2.9
@@ -88,7 +88,7 @@ importers:
         version: 6.0.4(prettier@3.6.2)
       '@anolilab/semantic-release-preset':
         specifier: catalog:cli
-        version: 11.0.3(@semantic-release/npm@12.0.2(semantic-release@24.2.9(typescript@5.6.2)))(semantic-release@24.2.9(typescript@5.6.2))(yaml@2.8.1)
+        version: 11.0.4(@semantic-release/npm@12.0.2(semantic-release@24.2.9(typescript@5.6.2)))(semantic-release@24.2.9(typescript@5.6.2))(yaml@2.8.1)
       '@anolilab/textlint-config':
         specifier: catalog:lint
         version: 9.0.5(textlint@15.2.2)
@@ -186,18 +186,18 @@ packages:
     peerDependencies:
       prettier: 3.6.2
 
-  '@anolilab/semantic-release-clean-package-json@3.0.3':
-    resolution: {integrity: sha512-4Yzf1YK6/ATebTv99Hwzzle9pxGD/hkJGyM1FlhBpsBSnawR8757ZG3YEp/YmayVcP2S6wPn8fi7hQX2c1KT9A==}
+  '@anolilab/semantic-release-clean-package-json@3.0.4':
+    resolution: {integrity: sha512-O8nJAXTpIR0Mx7mq86TPDeV+xvH29DYyh4gYHSVsT+FaFSDwCC5hFZ1ZSDk8jvPDJ4YGZYb5ing9UPL4WRHDcA==}
     engines: {node: '>=20.8.1'}
 
-  '@anolilab/semantic-release-preset@11.0.3':
-    resolution: {integrity: sha512-Y0gRPo68klIMwjtDeUJuDE5t+IDrIf52n1+JiAn5r2xzhZrAUzbThXj/Ilsn33LOfKWRlq8Lyg5jkrBoSUyzUg==}
+  '@anolilab/semantic-release-preset@11.0.4':
+    resolution: {integrity: sha512-22J5ydQRxEBavZ4E7ipxqeynZmM4h9MFE8aSDYqvy36SP8R2wxWphMEHZlxqXNcmJRSc1/AcJI5SlsOOYTEKKQ==}
     engines: {node: '>=20.8.1'}
     os: [darwin, linux, win32]
     peerDependencies:
-      '@anolilab/semantic-release-pnpm': 2.0.3
-      '@semantic-release/npm': ^12.0.1
-      semantic-release: ^24.2.3
+      '@anolilab/semantic-release-pnpm': 2.0.4
+      '@semantic-release/npm': ^12.0.2
+      semantic-release: ^24.2.9
       semantic-release-yarn: ^3.0.2
     peerDependenciesMeta:
       '@anolilab/semantic-release-pnpm':
@@ -1049,6 +1049,12 @@ packages:
     peerDependencies:
       semantic-release: '>=24.1.0'
 
+  '@semantic-release/github@11.0.6':
+    resolution: {integrity: sha512-ctDzdSMrT3H+pwKBPdyCPty6Y47X8dSrjd3aPZ5KKIKKWTwZBE9De8GtsH3TyAlw3Uyo2stegMx6rJMXKpJwJA==}
+    engines: {node: '>=20.8.1'}
+    peerDependencies:
+      semantic-release: '>=24.1.0'
+
   '@semantic-release/npm@12.0.2':
     resolution: {integrity: sha512-+M9/Lb35IgnlUO6OSJ40Ie+hUsZLuph2fqXC/qrKn0fMvUU/jiCjpoL6zEm69vzcmaZJ8yNKtMBEKHWN49WBbQ==}
     engines: {node: '>=20.8.1'}
@@ -1057,6 +1063,12 @@ packages:
 
   '@semantic-release/release-notes-generator@14.0.3':
     resolution: {integrity: sha512-XxAZRPWGwO5JwJtS83bRdoIhCiYIx8Vhr+u231pQAsdFIAbm19rSVJLdnBN+Avvk7CKvNQE/nJ4y7uqKH6WTiw==}
+    engines: {node: '>=20.8.1'}
+    peerDependencies:
+      semantic-release: '>=20.1.0'
+
+  '@semantic-release/release-notes-generator@14.1.0':
+    resolution: {integrity: sha512-CcyDRk7xq+ON/20YNR+1I/jP7BYKICr1uKd1HHpROSnnTdGqOTburi4jcRiTYz0cpfhxSloQO3cGhnoot7IEkA==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -6539,7 +6551,7 @@ snapshots:
     dependencies:
       prettier: 3.6.2
 
-  '@anolilab/semantic-release-clean-package-json@3.0.3(yaml@2.8.1)':
+  '@anolilab/semantic-release-clean-package-json@3.0.4(yaml@2.8.1)':
     dependencies:
       '@semantic-release/error': 4.0.0
       '@visulima/fs': 3.1.8(yaml@2.8.1)
@@ -6547,15 +6559,15 @@ snapshots:
     transitivePeerDependencies:
       - yaml
 
-  '@anolilab/semantic-release-preset@11.0.3(@semantic-release/npm@12.0.2(semantic-release@24.2.9(typescript@5.6.2)))(semantic-release@24.2.9(typescript@5.6.2))(yaml@2.8.1)':
+  '@anolilab/semantic-release-preset@11.0.4(@semantic-release/npm@12.0.2(semantic-release@24.2.9(typescript@5.6.2)))(semantic-release@24.2.9(typescript@5.6.2))(yaml@2.8.1)':
     dependencies:
-      '@anolilab/semantic-release-clean-package-json': 3.0.3(yaml@2.8.1)
+      '@anolilab/semantic-release-clean-package-json': 3.0.4(yaml@2.8.1)
       '@semantic-release/changelog': 6.0.3(semantic-release@24.2.9(typescript@5.6.2))
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@24.2.9(typescript@5.6.2))
       '@semantic-release/exec': 7.1.0(semantic-release@24.2.9(typescript@5.6.2))
       '@semantic-release/git': 10.0.1(semantic-release@24.2.9(typescript@5.6.2))
-      '@semantic-release/github': 11.0.3(semantic-release@24.2.9(typescript@5.6.2))
-      '@semantic-release/release-notes-generator': 14.0.3(semantic-release@24.2.9(typescript@5.6.2))
+      '@semantic-release/github': 11.0.6(semantic-release@24.2.9(typescript@5.6.2))
+      '@semantic-release/release-notes-generator': 14.1.0(semantic-release@24.2.9(typescript@5.6.2))
       conventional-changelog-conventionalcommits: 9.1.0
       semantic-release: 24.2.9(typescript@5.6.2)
     optionalDependencies:
@@ -8225,6 +8237,28 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@semantic-release/github@11.0.6(semantic-release@24.2.9(typescript@5.6.2))':
+    dependencies:
+      '@octokit/core': 7.0.2
+      '@octokit/plugin-paginate-rest': 13.1.0(@octokit/core@7.0.2)
+      '@octokit/plugin-retry': 8.0.1(@octokit/core@7.0.2)
+      '@octokit/plugin-throttling': 11.0.1(@octokit/core@7.0.2)
+      '@semantic-release/error': 4.0.0
+      aggregate-error: 5.0.0
+      debug: 4.4.1
+      dir-glob: 3.0.1
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.5
+      issue-parser: 7.0.1
+      lodash-es: 4.17.21
+      mime: 4.0.4
+      p-filter: 4.1.0
+      semantic-release: 24.2.9(typescript@5.6.2)
+      tinyglobby: 0.2.15
+      url-join: 5.0.0
+    transitivePeerDependencies:
+      - supports-color
+
   '@semantic-release/npm@12.0.2(semantic-release@24.2.9(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 4.0.0
@@ -8243,6 +8277,22 @@ snapshots:
       tempy: 3.1.0
 
   '@semantic-release/release-notes-generator@14.0.3(semantic-release@24.2.9(typescript@5.6.2))':
+    dependencies:
+      conventional-changelog-angular: 8.0.0
+      conventional-changelog-writer: 8.0.0
+      conventional-commits-filter: 5.0.0
+      conventional-commits-parser: 6.0.0
+      debug: 4.4.1
+      get-stream: 7.0.1
+      import-from-esm: 2.0.0
+      into-stream: 7.0.0
+      lodash-es: 4.17.21
+      read-package-up: 11.0.0
+      semantic-release: 24.2.9(typescript@5.6.2)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@semantic-release/release-notes-generator@14.1.0(semantic-release@24.2.9(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
