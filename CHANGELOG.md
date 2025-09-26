@@ -1,3 +1,10 @@
+## [10.0.9](https://github.com/anolilab/renovate-config/compare/v10.0.8...v10.0.9) (2025-09-26)
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to ^16.2.0 ([#241](https://github.com/anolilab/renovate-config/issues/241)) ([4a8fa75](https://github.com/anolilab/renovate-config/commit/4a8fa7507f893eeb2752c2560ce3aab60cc89f51))
+* **deps:** update patch updates ([#221](https://github.com/anolilab/renovate-config/issues/221)) ([12ee206](https://github.com/anolilab/renovate-config/commit/12ee2066a4fa3e155dbe2a26881f5d5390a49d8f))
+
 ## [10.0.8](https://github.com/anolilab/renovate-config/compare/v10.0.7...v10.0.8) (2025-09-26)
 
 ### Bug Fixes
