@@ -1,3 +1,9 @@
+## [10.0.8](https://github.com/anolilab/renovate-config/compare/v10.0.7...v10.0.8) (2025-09-26)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v41.123.0 ([#245](https://github.com/anolilab/renovate-config/issues/245)) ([cab873e](https://github.com/anolilab/renovate-config/commit/cab873e5d3c723a46ca1a89751b7283cc3fbaaaa))
+
 ## [10.0.7](https://github.com/anolilab/renovate-config/compare/v10.0.6...v10.0.7) (2025-09-21)
 
 ### Bug Fixes
