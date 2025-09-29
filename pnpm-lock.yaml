@@ -57,8 +57,8 @@ catalogs:
       specifier: ^9.1.7
       version: 9.1.7
     lint-staged:
-      specifier: ^16.2.0
-      version: 16.2.0
+      specifier: ^16.2.1
+      version: 16.2.3
     prettier:
       specifier: ^3.6.2
       version: 3.6.2
@@ -82,7 +82,7 @@ importers:
         version: 6.0.3(@commitlint/cli@19.8.1(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
       '@anolilab/lint-staged-config':
         specifier: catalog:lint
-        version: 3.0.31(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.0)(prettier@3.6.2)(secretlint@11.2.4)(yaml@2.8.1)
+        version: 3.0.31(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.3)(prettier@3.6.2)(secretlint@11.2.4)(yaml@2.8.1)
       '@anolilab/prettier-config':
         specifier: catalog:lint
         version: 6.0.4(prettier@3.6.2)
@@ -115,7 +115,7 @@ importers:
         version: 4.1.0
       lint-staged:
         specifier: catalog:lint
-        version: 16.2.0
+        version: 16.2.3
       prettier:
         specifier: catalog:lint
         version: 3.6.2
@@ -3731,8 +3731,8 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
-  lint-staged@16.2.0:
-    resolution: {integrity: sha512-spdYSOCQ2MdZ9CM1/bu/kDmaYGsrpNOeu1InFFV8uhv14x6YIubGxbCpSmGILFoxkiheNQPDXSg5Sbb5ZuVnug==}
+  lint-staged@16.2.3:
+    resolution: {integrity: sha512-1OnJEESB9zZqsp61XHH2fvpS1es3hRCxMplF/AJUDa8Ho8VrscYDIuxGrj3m8KPXbcWZ8fT9XTMUhEQmOVKpKw==}
     engines: {node: '>=20.17'}
     hasBin: true
 
@@ -6528,7 +6528,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@anolilab/lint-staged-config@3.0.31(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.0)(prettier@3.6.2)(secretlint@11.2.4)(yaml@2.8.1)':
+  '@anolilab/lint-staged-config@3.0.31(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.3)(prettier@3.6.2)(secretlint@11.2.4)(yaml@2.8.1)':
     dependencies:
       '@visulima/fs': 3.1.6(yaml@2.8.1)
       '@visulima/package': 3.5.11(@types/node@22.5.5)(yaml@2.8.1)
@@ -6536,7 +6536,7 @@ snapshots:
       shell-quote: 1.8.3
       type-fest: 4.41.0
     optionalDependencies:
-      lint-staged: 16.2.0
+      lint-staged: 16.2.3
       prettier: 3.6.2
       secretlint: 11.2.4
     transitivePeerDependencies:
@@ -11438,7 +11438,7 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  lint-staged@16.2.0:
+  lint-staged@16.2.3:
     dependencies:
       commander: 14.0.1
       listr2: 9.0.4
