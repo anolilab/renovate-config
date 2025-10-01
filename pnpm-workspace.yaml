@@ -21,7 +21,7 @@ catalogs:
     '@commitlint/config-conventional': ^19.8.1
     '@secretlint/secretlint-rule-preset-recommend': ^11.2.4
     husky: ^9.1.7
-    lint-staged: ^16.2.0
+    lint-staged: ^16.2.1
     prettier: ^3.6.2
     secretlint: 11.2.4
     textlint: ^15.2.2
