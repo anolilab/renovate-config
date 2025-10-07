@@ -45,7 +45,7 @@ catalogs:
       specifier: ^9.0.5
       version: 9.0.5
     '@commitlint/cli':
-      specifier: ^20.0.0
+      specifier: ^20.1.0
       version: 20.1.0
     '@commitlint/config-conventional':
       specifier: ^20.0.0
@@ -10080,7 +10080,7 @@ snapshots:
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.8.1(@types/node@22.5.5)(typescript@5.6.2)
+      '@commitlint/load': 20.1.0(@types/node@22.5.5)(typescript@5.6.2)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
