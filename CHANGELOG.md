@@ -1,3 +1,13 @@
+## [10.0.11](https://github.com/anolilab/renovate-config/compare/v10.0.10...v10.0.11) (2025-10-07)
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to ^20.1.0 ([#250](https://github.com/anolilab/renovate-config/issues/250)) ([0eb4ead](https://github.com/anolilab/renovate-config/commit/0eb4ead5355e972dfa0f9bc2bae47e1a78e501e4))
+
+### Miscellaneous Chores
+
+* **deps:** update commitlint monorepo to v20 ([#248](https://github.com/anolilab/renovate-config/issues/248)) ([1af04a6](https://github.com/anolilab/renovate-config/commit/1af04a69aa44af2f519359c53727526d62d17621))
+
 ## [10.0.10](https://github.com/anolilab/renovate-config/compare/v10.0.9...v10.0.10) (2025-10-01)
 
 ### Bug Fixes
