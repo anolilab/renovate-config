@@ -1,3 +1,10 @@
+## [10.0.12](https://github.com/anolilab/renovate-config/compare/v10.0.11...v10.0.12) (2025-10-09)
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#252](https://github.com/anolilab/renovate-config/issues/252)) ([8affbab](https://github.com/anolilab/renovate-config/commit/8affbab8e8cb9807238a960ddade593d2685cf31))
+* **deps:** update patch updates ([#251](https://github.com/anolilab/renovate-config/issues/251)) ([fbb2395](https://github.com/anolilab/renovate-config/commit/fbb23952d9b71aadb3b343f2518095585920944b))
+
 ## [10.0.11](https://github.com/anolilab/renovate-config/compare/v10.0.10...v10.0.11) (2025-10-07)
 
 ### Bug Fixes
