@@ -1,3 +1,9 @@
+## [10.0.13](https://github.com/anolilab/renovate-config/compare/v10.0.12...v10.0.13) (2025-10-14)
+
+### Bug Fixes
+
+* **deps:** update minor updates ([#253](https://github.com/anolilab/renovate-config/issues/253)) ([e328e66](https://github.com/anolilab/renovate-config/commit/e328e66fc91e06b44a83418bd26f3671fb68771d))
+
 ## [10.0.12](https://github.com/anolilab/renovate-config/compare/v10.0.11...v10.0.12) (2025-10-09)
 
 ### Bug Fixes
