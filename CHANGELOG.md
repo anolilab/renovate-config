@@ -1,3 +1,10 @@
+## [10.0.15](https://github.com/anolilab/renovate-config/compare/v10.0.14...v10.0.15) (2025-10-17)
+
+### Bug Fixes
+
+* **deps:** update dependency textlint to ^15.2.3 ([#255](https://github.com/anolilab/renovate-config/issues/255)) ([f1bdd70](https://github.com/anolilab/renovate-config/commit/f1bdd7089eae6d8217428a35463c7b251b0c4d37))
+* **deps:** update patch updates ([#254](https://github.com/anolilab/renovate-config/issues/254)) ([3cc0270](https://github.com/anolilab/renovate-config/commit/3cc0270b24b1c215fe675909285c189d2b11618b))
+
 ## [10.0.14](https://github.com/anolilab/renovate-config/compare/v10.0.13...v10.0.14) (2025-10-17)
 
 ### Bug Fixes
