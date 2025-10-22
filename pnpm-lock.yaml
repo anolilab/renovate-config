@@ -33,17 +33,17 @@ catalogs:
       version: 3.4.0
   lint:
     '@anolilab/commitlint-config':
-      specifier: ^6.0.5
-      version: 6.0.5
-    '@anolilab/lint-staged-config':
-      specifier: ^3.0.34
-      version: 3.0.34
-    '@anolilab/prettier-config':
       specifier: ^6.0.6
       version: 6.0.6
+    '@anolilab/lint-staged-config':
+      specifier: ^3.0.37
+      version: 3.0.37
+    '@anolilab/prettier-config':
+      specifier: ^6.0.7
+      version: 6.0.7
     '@anolilab/textlint-config':
-      specifier: ^9.0.7
-      version: 9.0.7
+      specifier: ^9.0.8
+      version: 9.0.8
     '@commitlint/cli':
       specifier: ^20.1.0
       version: 20.1.0
@@ -79,19 +79,19 @@ importers:
     devDependencies:
       '@anolilab/commitlint-config':
         specifier: catalog:lint
-        version: 6.0.5(@commitlint/cli@20.1.0(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
+        version: 6.0.6(@commitlint/cli@20.1.0(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)
       '@anolilab/lint-staged-config':
         specifier: catalog:lint
-        version: 3.0.34(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.4)(prettier@3.6.2)(secretlint@11.2.5)(yaml@2.8.1)
+        version: 3.0.37(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.4)(prettier@3.6.2)(secretlint@11.2.5)(yaml@2.8.1)
       '@anolilab/prettier-config':
         specifier: catalog:lint
-        version: 6.0.6(prettier@3.6.2)
+        version: 6.0.7(prettier@3.6.2)
       '@anolilab/semantic-release-preset':
         specifier: catalog:cli
         version: 11.0.4(@semantic-release/npm@12.0.2(semantic-release@25.0.1(typescript@5.6.2)))(semantic-release@25.0.1(typescript@5.6.2))(yaml@2.8.1)
       '@anolilab/textlint-config':
         specifier: catalog:lint
-        version: 9.0.7(textlint@15.2.3)
+        version: 9.0.8(textlint@15.2.3)
       '@commitlint/cli':
         specifier: catalog:lint
         version: 20.1.0(@types/node@22.5.5)(typescript@5.6.2)
@@ -152,21 +152,21 @@ packages:
   '@actions/io@1.1.3':
     resolution: {integrity: sha512-wi9JjgKLYS7U/z8PPbco+PvTb/nRWjeoFlJ1Qer83k/3C5PHQi28hiVdeE2kHXmIL99mQFawx8qt/JPjZilJ8Q==}
 
-  '@anolilab/commitlint-config@6.0.5':
-    resolution: {integrity: sha512-dAWDUFs+y3x1WwfNba26toJK0CMkv0VPV0mtMnSTxPZqJCMtOkHdWM+vPz8yjHG9i7zyiwMpmxDIHdqPmI0qlA==}
+  '@anolilab/commitlint-config@6.0.6':
+    resolution: {integrity: sha512-/f+7KhliRI2q+xjAfbTprd+WkDcdQZtpqdiki10AWTIrt1asMQ5biFNUdsDkgWr6rMo3yPgMGb14U6Po/SQKwA==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
       '@commitlint/cli': ^17.6.5 || ^18.x || ^19.x
 
-  '@anolilab/lint-staged-config@3.0.34':
-    resolution: {integrity: sha512-DcSDIw6DMluEXbXEFLK2OikopCV029vj4g+c50zELYaFqACnm+j0RlYz6u7RY3vWWi3diyFZ1/lnoav0N414+w==}
+  '@anolilab/lint-staged-config@3.0.37':
+    resolution: {integrity: sha512-E578y7Xck7iMEtYqBWnS4MiMpaSz6sspDhMo3RmwU3Jtoi1mGMj8hwPRosJrzTElKEYhNzvQR+lij9iZMfOd6A==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
       eslint: ^9.36.0
       husky: ^8.x || ^9.x
-      jest: ^27.x || ^28.x
+      jest: ^27.x || ^28.x || ^29.0.0
       lint-staged: ^13.x || ^14.x|| ^15.x || ^16.x
       nano-staged: ^0.8
       prettier: ^3.6.2
@@ -191,8 +191,8 @@ packages:
       vitest:
         optional: true
 
-  '@anolilab/prettier-config@6.0.6':
-    resolution: {integrity: sha512-ZqWywCwi9pvonMgVH0SSXqPOXBat41ruwkDwIxzXBmRR1JXi5QeeaMRTSeS1HuuMDLoxXRKf5s35/6hqVhg23A==}
+  '@anolilab/prettier-config@6.0.7':
+    resolution: {integrity: sha512-2lIZNOHvl+AWX4csUO8kbvrmR2DIMJMlkuKfW1t3Acz+M8Xif4WA/KLH8O8nqzclo+Eq5EMhJbYgLoA7VLHY9Q==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
@@ -219,12 +219,12 @@ packages:
       semantic-release-yarn:
         optional: true
 
-  '@anolilab/textlint-config@9.0.7':
-    resolution: {integrity: sha512-P3U17l3Sq9CiugDcr0maCNaYhhPrDcpjvMj13Xg+1MMAVeLtGgkawqNxqns70UCBGyl8pfLWGTieP0iqNXzjjw==}
+  '@anolilab/textlint-config@9.0.8':
+    resolution: {integrity: sha512-+3jPKmXAugCCvoGnQocQhkeTAF3I8oegGmedMHDwxjD2focZqxal4BvzrCO+JCYOnvBgByYlbaO562h3Arv9HQ==}
     engines: {node: '>=20.18.* <=24.*'}
     hasBin: true
     peerDependencies:
-      textlint: ^15.2.2
+      textlint: ^15.2.3
 
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
@@ -6216,8 +6216,8 @@ packages:
     resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
     engines: {node: '>=16'}
 
-  type-fest@5.0.1:
-    resolution: {integrity: sha512-9MpwAI52m8H6ssA542UxSLnSiSD2dsC3/L85g6hVubLSXd82wdI80eZwTWhdOfN67NlA+D+oipAs1MlcTcu3KA==}
+  type-fest@5.1.0:
+    resolution: {integrity: sha512-wQ531tuWvB6oK+pchHIu5lHe5f5wpSCqB8Kf4dWQRbOYc9HTge7JL0G4Qd44bh6QuJCccIzL3bugb8GI0MwHrg==}
     engines: {node: '>=20'}
 
   type-is@2.0.1:
@@ -6681,7 +6681,7 @@ snapshots:
 
   '@actions/io@1.1.3': {}
 
-  '@anolilab/commitlint-config@6.0.5(@commitlint/cli@20.1.0(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)':
+  '@anolilab/commitlint-config@6.0.6(@commitlint/cli@20.1.0(@types/node@22.5.5)(typescript@5.6.2))(@types/node@22.5.5)(typescript@5.6.2)':
     dependencies:
       '@commitlint/cli': 20.1.0(@types/node@22.5.5)(typescript@5.6.2)
       '@commitlint/config-conventional': 20.0.0
@@ -6693,13 +6693,13 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@anolilab/lint-staged-config@3.0.34(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.4)(prettier@3.6.2)(secretlint@11.2.5)(yaml@2.8.1)':
+  '@anolilab/lint-staged-config@3.0.37(@types/node@22.5.5)(husky@9.1.7)(lint-staged@16.2.4)(prettier@3.6.2)(secretlint@11.2.5)(yaml@2.8.1)':
     dependencies:
       '@visulima/fs': 3.1.9(yaml@2.8.1)
       '@visulima/package': 4.0.2(@types/node@22.5.5)
       husky: 9.1.7
       shell-quote: 1.8.3
-      type-fest: 5.0.1
+      type-fest: 5.1.0
     optionalDependencies:
       lint-staged: 16.2.4
       prettier: 3.6.2
@@ -6708,7 +6708,7 @@ snapshots:
       - '@types/node'
       - yaml
 
-  '@anolilab/prettier-config@6.0.6(prettier@3.6.2)':
+  '@anolilab/prettier-config@6.0.7(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
@@ -6737,13 +6737,13 @@ snapshots:
       - supports-color
       - yaml
 
-  '@anolilab/textlint-config@9.0.7(textlint@15.2.3)':
+  '@anolilab/textlint-config@9.0.8(textlint@15.2.3)':
     dependencies:
       '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-preset-google': 0.1.2
-      '@textlint/ast-node-types': 15.2.2
-      '@textlint/types': 15.2.2
+      '@textlint/ast-node-types': 15.2.3
+      '@textlint/types': 15.2.3
       textlint: 15.2.3
       textlint-filter-rule-comments: 1.2.2(textlint@15.2.3)
       textlint-rule-abbr-within-parentheses: 1.0.2
@@ -8297,7 +8297,7 @@ snapshots:
       '@secretlint/types': 11.2.5
       '@textlint/linter-formatter': 15.2.2
       '@textlint/module-interop': 15.2.2
-      '@textlint/types': 15.2.2
+      '@textlint/types': 15.2.3
       chalk: 5.6.2
       debug: 4.4.3
       pluralize: 8.0.0
@@ -14678,7 +14678,7 @@ snapshots:
 
   textlint-rule-helper@2.5.0:
     dependencies:
-      '@textlint/ast-node-types': 15.2.2
+      '@textlint/ast-node-types': 15.2.3
       structured-source: 4.0.0
       unist-util-visit: 2.0.3
 
@@ -14896,7 +14896,7 @@ snapshots:
 
   type-fest@4.41.0: {}
 
-  type-fest@5.0.1:
+  type-fest@5.1.0:
     dependencies:
       tagged-tag: 1.0.0
 
