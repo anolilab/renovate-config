@@ -3,9 +3,9 @@ packages: []
 catalogs:
   cli:
     '@anolilab/semantic-release-preset': ^11.0.4
-    pncat: ^0.7.1
+    pncat: ^0.7.3
     semantic-release: ^25.0.1
-    taze: ^19.8.0
+    taze: ^19.8.1
   dev:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.1.0
@@ -21,7 +21,7 @@ catalogs:
     '@commitlint/config-conventional': ^20.0.0
     '@secretlint/secretlint-rule-preset-recommend': ^11.2.5
     husky: ^9.1.7
-    lint-staged: ^16.2.4
+    lint-staged: ^16.2.6
     prettier: ^3.6.2
     secretlint: 11.2.5
     textlint: ^15.2.3
