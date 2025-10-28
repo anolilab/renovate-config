@@ -13,7 +13,7 @@ catalogs:
       specifier: ^25.0.1
       version: 25.0.1
     taze:
-      specifier: ^19.8.0
+      specifier: ^19.8.1
       version: 19.8.1
   dev:
     audit-ci:
@@ -57,7 +57,7 @@ catalogs:
       specifier: ^9.1.7
       version: 9.1.7
     lint-staged:
-      specifier: ^16.2.4
+      specifier: ^16.2.6
       version: 16.2.6
     prettier:
       specifier: ^3.6.2
