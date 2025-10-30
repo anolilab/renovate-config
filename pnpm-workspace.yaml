@@ -3,7 +3,7 @@ packages: []
 catalogs:
   cli:
     '@anolilab/semantic-release-preset': ^11.0.4
-    pncat: ^0.7.3
+    pncat: ^0.7.4
     semantic-release: ^25.0.1
     taze: ^19.8.1
   dev:
