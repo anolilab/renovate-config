@@ -1,3 +1,17 @@
+## [11.0.1](https://github.com/anolilab/renovate-config/compare/v11.0.0...v11.0.1) (2025-11-20)
+
+### Bug Fixes
+
+* **deps:** update github/codeql-action action to v4.31.4 ([#276](https://github.com/anolilab/renovate-config/issues/276)) ([9563a31](https://github.com/anolilab/renovate-config/commit/9563a312b3acd9393d56e376f2b69e5ce369d191))
+
+### Miscellaneous Chores
+
+* **deps:** update dependencies in pnpm-lock and pnpm-workspace ([51e573b](https://github.com/anolilab/renovate-config/commit/51e573bc20e9d63a5c67471a5a23a01ff536e174))
+
+### Continuous Integration
+
+* **deps:** update actions/checkout action to v6 ([#277](https://github.com/anolilab/renovate-config/issues/277)) ([4fc4dbb](https://github.com/anolilab/renovate-config/commit/4fc4dbbae612fb97716840af78628986fc38d9f3))
+
 ## [11.0.0](https://github.com/anolilab/renovate-config/compare/v10.0.15...v11.0.0) (2025-11-20)
 
 ### ⚠ BREAKING CHANGES
