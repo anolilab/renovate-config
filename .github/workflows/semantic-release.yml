@@ -55,7 +55,7 @@ jobs:
               id: "setup"
               uses: "anolilab/workflows/step/setup@main"
               with:
-                  node-version: "23"
+                  node-version: "24"
                   install-bun: false
                   enable-nx-cache: false
 
