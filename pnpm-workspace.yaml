@@ -10,7 +10,7 @@ catalogs:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.1.0
     is-ci: ^4.1.0
-    renovate: 41.123.0
+    renovate: 42.11.0
     sort-package-json: ^3.4.0
   lint:
     '@anolilab/commitlint-config': ^6.0.6
