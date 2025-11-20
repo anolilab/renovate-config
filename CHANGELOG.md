@@ -1,3 +1,35 @@
+## [11.0.0](https://github.com/anolilab/renovate-config/compare/v10.0.15...v11.0.0) (2025-11-20)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Daniel Bannert <prisis@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to ^25.0.1 ([#264](https://github.com/anolilab/renovate-config/issues/264)) ([727d8bc](https://github.com/anolilab/renovate-config/commit/727d8bcf43f91faab3c32da67da093fd634012d0))
+* **deps:** update github-actions ([#269](https://github.com/anolilab/renovate-config/issues/269)) ([60601b4](https://github.com/anolilab/renovate-config/commit/60601b4a193a3a36d31fcb5ee6c06898912d34dd))
+* **deps:** update github/codeql-action action to v4.31.0 ([#259](https://github.com/anolilab/renovate-config/issues/259)) ([87e6cf8](https://github.com/anolilab/renovate-config/commit/87e6cf87d6e1a9efb303b0ea830daf1adb7a6a16))
+* **deps:** update minor updates ([#261](https://github.com/anolilab/renovate-config/issues/261)) ([63bec4b](https://github.com/anolilab/renovate-config/commit/63bec4b301ba95f53d67a163713343c90279e839))
+* **deps:** update patch updates ([#260](https://github.com/anolilab/renovate-config/issues/260)) ([bd6c4cf](https://github.com/anolilab/renovate-config/commit/bd6c4cff2ad11e5758eef3416acdc24ffec6e508))
+* **deps:** update patch updates ([#265](https://github.com/anolilab/renovate-config/issues/265)) ([9b58be6](https://github.com/anolilab/renovate-config/commit/9b58be67e6ed0eed5df3731537a5586a6c84a7ff))
+* **deps:** update pnpm to v10.19.0 ([#263](https://github.com/anolilab/renovate-config/issues/263)) ([df126a8](https://github.com/anolilab/renovate-config/commit/df126a8c9185cd0fe1db3f913ac62bab2f39b1b5))
+
+### Miscellaneous Chores
+
+* **ci:** update node version to 24 in workflow files ([b0cff3f](https://github.com/anolilab/renovate-config/commit/b0cff3ff109edba6c483f154f192ad865e4ab418))
+* **deps:** lock file maintenance ([#205](https://github.com/anolilab/renovate-config/issues/205)) ([c5964a2](https://github.com/anolilab/renovate-config/commit/c5964a2e31d6905843ce10500dd125726e2575c6))
+* **deps:** update dependency renovate to v42 ([#275](https://github.com/anolilab/renovate-config/issues/275)) ([f670b18](https://github.com/anolilab/renovate-config/commit/f670b18ba2360dea8507dec4c5c5d4152e51c828))
+* **deps:** update dependency semantic-release to v25 ([#258](https://github.com/anolilab/renovate-config/issues/258)) ([4b7b9e9](https://github.com/anolilab/renovate-config/commit/4b7b9e98cb64366e775b205777f7f31266cb460f))
+* **deps:** update pnpm to v10.23.0 and adjust package overrides ([5ac45fd](https://github.com/anolilab/renovate-config/commit/5ac45fdf6027d176775a03f8b373c88c143b744a))
+
+### Continuous Integration
+
+* **deps:** update actions/upload-artifact action to v5 ([#267](https://github.com/anolilab/renovate-config/issues/267)) ([db2fce4](https://github.com/anolilab/renovate-config/commit/db2fce4c648d3c50447a0c2cc6675ca61439fb85))
+* **deps:** update github/codeql-action action to v4 ([#262](https://github.com/anolilab/renovate-config/issues/262)) ([ee441a4](https://github.com/anolilab/renovate-config/commit/ee441a4bdd578a172232bad0a7add2b22c8bbd0c))
+
 ## [10.0.15](https://github.com/anolilab/renovate-config/compare/v10.0.14...v10.0.15) (2025-10-17)
 
 ### Bug Fixes
