@@ -1,3 +1,9 @@
+## [11.0.2](https://github.com/anolilab/renovate-config/compare/v11.0.1...v11.0.2) (2025-11-21)
+
+### Bug Fixes
+
+* **deps:** update dependency pncat to ^0.7.6 ([#266](https://github.com/anolilab/renovate-config/issues/266)) ([52e72e4](https://github.com/anolilab/renovate-config/commit/52e72e4dba489968e27dd9137388549b341e5bfa))
+
 ## [11.0.1](https://github.com/anolilab/renovate-config/compare/v11.0.0...v11.0.1) (2025-11-20)
 
 ### Bug Fixes
