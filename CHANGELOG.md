@@ -1,3 +1,17 @@
+## [11.0.3](https://github.com/anolilab/renovate-config/compare/v11.0.2...v11.0.3) (2025-12-08)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^3.7.3 ([#282](https://github.com/anolilab/renovate-config/issues/282)) ([d123c51](https://github.com/anolilab/renovate-config/commit/d123c515f0010c1b083b8073b3605891b1c12649))
+* **deps:** update dependency renovate to v42.19.10 ([#279](https://github.com/anolilab/renovate-config/issues/279)) ([378a7bf](https://github.com/anolilab/renovate-config/commit/378a7bfe6f17123cf81810dd7d0476452c1873e5))
+* **deps:** update dependency renovate to v42.19.5 ([#272](https://github.com/anolilab/renovate-config/issues/272)) ([893efa9](https://github.com/anolilab/renovate-config/commit/893efa91267d04afb4bc83433424f8ab8c7585eb))
+* **deps:** update github/codeql-action action to v4.31.5 ([#278](https://github.com/anolilab/renovate-config/issues/278)) ([2580171](https://github.com/anolilab/renovate-config/commit/2580171098b207f7a757b4755cf93213bfb74e18))
+* **deps:** update patch updates ([#280](https://github.com/anolilab/renovate-config/issues/280)) ([588e4d6](https://github.com/anolilab/renovate-config/commit/588e4d6135f57910bfc3e45fe88c2e9d12c91e6a))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#274](https://github.com/anolilab/renovate-config/issues/274)) ([71ec5cc](https://github.com/anolilab/renovate-config/commit/71ec5cc007468e5a2ccac95095409c07b4eb750b))
+
 ## [11.0.2](https://github.com/anolilab/renovate-config/compare/v11.0.1...v11.0.2) (2025-11-21)
 
 ### Bug Fixes
