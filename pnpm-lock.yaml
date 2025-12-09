@@ -45,10 +45,10 @@ catalogs:
       specifier: ^9.0.9
       version: 9.0.9
     '@commitlint/cli':
-      specifier: ^20.1.0
+      specifier: ^20.2.0
       version: 20.2.0
     '@commitlint/config-conventional':
-      specifier: ^20.0.0
+      specifier: ^20.2.0
       version: 20.2.0
     '@secretlint/secretlint-rule-preset-recommend':
       specifier: ^11.2.5
@@ -9279,7 +9279,7 @@ snapshots:
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 18.19.130
+      '@types/node': 24.10.1
 
   '@types/conventional-commits-parser@5.0.2':
     dependencies:
@@ -9731,7 +9731,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -13176,7 +13176,7 @@ snapshots:
 
   node-abi@3.85.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     optional: true
 
   node-domexception@1.0.0: {}
@@ -13243,7 +13243,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@4.0.1:
