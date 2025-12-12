@@ -7,7 +7,7 @@ settings:
 catalogs:
   cli:
     '@anolilab/semantic-release-preset':
-      specifier: ^12.0.1
+      specifier: ^12.1.2
       version: 12.1.2
     semantic-release:
       specifier: ^25.0.2
@@ -29,8 +29,8 @@ catalogs:
       specifier: 42.19.10
       version: 42.19.10
     sort-package-json:
-      specifier: ^3.4.0
-      version: 3.5.0
+      specifier: ^3.5.1
+      version: 3.5.1
   lint:
     '@anolilab/commitlint-config':
       specifier: ^6.0.7
@@ -135,7 +135,7 @@ importers:
         version: 25.0.2(typescript@5.9.3)
       sort-package-json:
         specifier: catalog:dev
-        version: 3.5.0
+        version: 3.5.1
       taze:
         specifier: catalog:cli
         version: 19.9.2
@@ -5793,8 +5793,8 @@ packages:
   sort-object-keys@2.0.1:
     resolution: {integrity: sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==}
 
-  sort-package-json@3.5.0:
-    resolution: {integrity: sha512-moY4UtptUuP5sPuu9H9dp8xHNel7eP5/Kz/7+90jTvC0IOiPH2LigtRM/aSFSxreaWoToHUVUpEV4a2tAs2oKQ==}
+  sort-package-json@3.5.1:
+    resolution: {integrity: sha512-LfwyHQuTnJ3336Sexi6yDz1QxvSjXKbc78pOw2HQy8BJHFXzONu+zLvLald0NpLWM0exsYyI7M8PeJAngNgpbA==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -7981,7 +7981,7 @@ snapshots:
 
   '@npmcli/fs@4.0.0':
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@npmcli/map-workspaces@3.0.6':
     dependencies:
@@ -9411,7 +9411,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.7.2
+      semver: 7.7.3
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -9731,7 +9731,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -10360,7 +10360,7 @@ snapshots:
       '@one-ini/wasm': 0.2.0
       commander: 14.0.2
       minimatch: 10.0.1
-      semver: 7.7.2
+      semver: 7.7.3
 
   ee-first@1.1.1: {}
 
@@ -11088,7 +11088,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.2
+      semver: 7.7.3
       serialize-error: 7.0.1
 
   global-directory@4.0.1:
@@ -13176,7 +13176,7 @@ snapshots:
 
   node-abi@3.85.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     optional: true
 
   node-domexception@1.0.0: {}
@@ -13210,7 +13210,7 @@ snapshots:
       make-fetch-happen: 14.0.3
       nopt: 8.1.0
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       tar: 7.5.2
       tinyglobby: 0.2.15
       which: 5.0.0
@@ -13243,7 +13243,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@4.0.1:
@@ -14616,7 +14616,7 @@ snapshots:
 
   sort-object-keys@2.0.1: {}
 
-  sort-package-json@3.5.0:
+  sort-package-json@3.5.1:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
