@@ -66,7 +66,7 @@ catalogs:
       specifier: 11.2.5
       version: 11.2.5
     textlint:
-      specifier: ^15.4.0
+      specifier: ^15.4.1
       version: 15.5.0
 
 overrides:
@@ -3089,6 +3089,7 @@ packages:
   glob@13.0.0:
     resolution: {integrity: sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==}
     engines: {node: 20 || >=22}
+    hasBin: true
 
   glob@6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
@@ -9748,7 +9749,7 @@ snapshots:
     dependencies:
       '@npmcli/fs': 4.0.0
       fs-minipass: 3.0.3
-      glob: 11.1.0
+      glob: 13.0.0
       lru-cache: 10.4.3
       minipass: 7.1.2
       minipass-collect: 2.0.1
@@ -14285,7 +14286,7 @@ snapshots:
 
   rimraf@5.0.10:
     dependencies:
-      glob: 11.1.0
+      glob: 13.0.0
 
   roarr@2.15.4:
     dependencies:
