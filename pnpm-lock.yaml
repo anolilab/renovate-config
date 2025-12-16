@@ -45,10 +45,10 @@ catalogs:
       specifier: ^9.0.9
       version: 9.0.9
     '@commitlint/cli':
-      specifier: ^20.1.0
+      specifier: ^20.2.0
       version: 20.2.0
     '@commitlint/config-conventional':
-      specifier: ^20.0.0
+      specifier: ^20.2.0
       version: 20.2.0
     '@secretlint/secretlint-rule-preset-recommend':
       specifier: ^11.2.5
@@ -9280,7 +9280,7 @@ snapshots:
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 18.19.130
+      '@types/node': 24.10.1
 
   '@types/conventional-commits-parser@5.0.2':
     dependencies:
