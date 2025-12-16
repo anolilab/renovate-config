@@ -1,3 +1,21 @@
+## [12.0.0](https://github.com/anolilab/renovate-config/compare/v11.0.4...v12.0.0) (2025-12-16)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to ^20.2.0 ([#283](https://github.com/anolilab/renovate-config/issues/283)) ([6e38d6f](https://github.com/anolilab/renovate-config/commit/6e38d6f6e0968c2ff52233923e2cdc8c462f542e))
+* **deps:** update dependency prettier to ^3.7.4 ([#284](https://github.com/anolilab/renovate-config/issues/284)) ([8ca1a9f](https://github.com/anolilab/renovate-config/commit/8ca1a9fb75c29bba965a9e8c21db65d9bc37ac1c))
+* **deps:** update dependency textlint to ^15.4.1 ([#285](https://github.com/anolilab/renovate-config/issues/285)) ([af7a734](https://github.com/anolilab/renovate-config/commit/af7a73418c4aa91848ef146ebcdacdfebd0e797e))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/commitlint-config to v7 ([#288](https://github.com/anolilab/renovate-config/issues/288)) ([177ee68](https://github.com/anolilab/renovate-config/commit/177ee68b9cf2c5db24fb7e92bcad954d2a43dcca))
+
 ## [11.0.4](https://github.com/anolilab/renovate-config/compare/v11.0.3...v11.0.4) (2025-12-14)
 
 ### Bug Fixes
