@@ -1,3 +1,14 @@
+## [12.0.1](https://github.com/anolilab/renovate-config/compare/v12.0.0...v12.0.1) (2025-12-25)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v42.64.1 ([#295](https://github.com/anolilab/renovate-config/issues/295)) ([2112c41](https://github.com/anolilab/renovate-config/commit/2112c419592fbb9aead264bb4649689351c6cfc6))
+* **deps:** update github-actions ([#292](https://github.com/anolilab/renovate-config/issues/292)) ([a090f14](https://github.com/anolilab/renovate-config/commit/a090f14997e753d0f1494ce25bf0dcf4f2d1846c))
+
+### Continuous Integration
+
+* **deps:** update actions/upload-artifact action to v6 ([#293](https://github.com/anolilab/renovate-config/issues/293)) ([2dedfac](https://github.com/anolilab/renovate-config/commit/2dedfacd4d65c294c5e67960f87e7fa0b8c5ad36))
+
 ## [12.0.0](https://github.com/anolilab/renovate-config/compare/v11.0.4...v12.0.0) (2025-12-16)
 
 ### ⚠ BREAKING CHANGES
