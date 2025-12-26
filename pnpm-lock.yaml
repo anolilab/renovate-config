@@ -42,8 +42,8 @@ catalogs:
       specifier: ^6.0.8
       version: 6.0.8
     '@anolilab/textlint-config':
-      specifier: ^9.0.9
-      version: 9.0.9
+      specifier: ^10.0.0
+      version: 10.0.0
     '@commitlint/cli':
       specifier: ^20.2.0
       version: 20.2.0
@@ -96,7 +96,7 @@ importers:
         version: 12.1.2(@semantic-release/npm@13.1.2(semantic-release@25.0.2(typescript@5.9.3)))(semantic-release@25.0.2(typescript@5.9.3))(yaml@2.8.2)
       '@anolilab/textlint-config':
         specifier: catalog:lint
-        version: 9.0.9(textlint@15.5.0)
+        version: 10.0.0(textlint@15.5.0)
       '@commitlint/cli':
         specifier: catalog:lint
         version: 20.2.0(@types/node@24.10.1)(typescript@5.9.3)
@@ -224,12 +224,12 @@ packages:
       semantic-release-yarn:
         optional: true
 
-  '@anolilab/textlint-config@9.0.9':
-    resolution: {integrity: sha512-xOw5JDWeW0InWUek0qu9Roz2RJ5wZUOI+3vcCcl53pi4ZWR7Zn5FrOUGh4+HcHLV8i9sCD2v+zDcnfrd/g7eHQ==}
+  '@anolilab/textlint-config@10.0.0':
+    resolution: {integrity: sha512-/yiPFXEHtGkTWx/MzLA3DADSJhfqNo9bIq29fWSy8Mrt4XtnNlLgXnVhy8yjP3ei1hfVigADefAU6Y59/jDbNg==}
     engines: {node: '>=20.18.* <=25.*'}
     hasBin: true
     peerDependencies:
-      textlint: ^15.3.0
+      textlint: ^15.5.0
 
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
@@ -6847,7 +6847,7 @@ snapshots:
       - supports-color
       - yaml
 
-  '@anolilab/textlint-config@9.0.9(textlint@15.5.0)':
+  '@anolilab/textlint-config@10.0.0(textlint@15.5.0)':
     dependencies:
       '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
