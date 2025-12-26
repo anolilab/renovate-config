@@ -24,7 +24,7 @@ catalogs:
     lint-staged: ^16.2.7
     prettier: ^3.7.4
     secretlint: 11.2.5
-    textlint: ^15.4.1
+    textlint: ^15.5.0
 
 onlyBuiltDependencies:
   - better-sqlite3
