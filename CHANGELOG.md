@@ -1,3 +1,16 @@
+## [14.0.0](https://github.com/anolilab/renovate-config/compare/v13.0.0...v14.0.0) (2025-12-27)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Daniel Bannert <prisis@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/textlint-config to v10 ([#290](https://github.com/anolilab/renovate-config/issues/290)) ([04aa779](https://github.com/anolilab/renovate-config/commit/04aa779770d442678bf1fef89f5bbb8d5de15d59))
+
 ## [13.0.0](https://github.com/anolilab/renovate-config/compare/v12.0.1...v13.0.0) (2025-12-26)
 
 ### ⚠ BREAKING CHANGES
