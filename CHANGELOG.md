@@ -1,3 +1,15 @@
+## [13.0.0](https://github.com/anolilab/renovate-config/compare/v12.0.1...v13.0.0) (2025-12-26)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/lint-staged-config to v4 ([#297](https://github.com/anolilab/renovate-config/issues/297)) ([8b5d619](https://github.com/anolilab/renovate-config/commit/8b5d61977e5fc5975d5db4520d05195476d09af0))
+
 ## [12.0.1](https://github.com/anolilab/renovate-config/compare/v12.0.0...v12.0.1) (2025-12-25)
 
 ### Bug Fixes
