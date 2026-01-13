@@ -2,7 +2,7 @@ packages:
 catalogs:
   cli:
     '@anolilab/semantic-release-preset': ^12.1.2
-    pncat: ^0.7.7
+    pncat: ^0.7.8
     semantic-release: ^25.0.2
     taze: ^19.9.2
   dev:
@@ -13,8 +13,8 @@ catalogs:
     sort-package-json: 3.6.0
   lint:
     '@anolilab/commitlint-config': 8.0.0
-    '@anolilab/lint-staged-config': ^4.0.0
-    '@anolilab/prettier-config': 8.0.0
+    '@anolilab/lint-staged-config': ^4.0.1
+    '@anolilab/prettier-config': 8.0.1
     '@anolilab/textlint-config': 11.0.0
     '@commitlint/cli': ^20.3.0
     '@commitlint/config-conventional': ^20.3.0
