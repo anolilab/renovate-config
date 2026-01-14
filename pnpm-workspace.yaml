@@ -12,7 +12,7 @@ catalogs:
     renovate: 42.71.0
     sort-package-json: 3.6.0
   lint:
-    '@anolilab/commitlint-config': 8.0.0
+    '@anolilab/commitlint-config': 9.0.0
     '@anolilab/lint-staged-config': ^4.0.0
     '@anolilab/prettier-config': 8.0.0
     '@anolilab/textlint-config': 11.0.0
