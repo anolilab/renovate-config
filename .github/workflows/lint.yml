@@ -28,7 +28,7 @@ jobs:
             yaml_lintable: "${{ steps.changes.outputs.yaml_lintable }}"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e" # v2.14.2
+              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
               with:
                   egress-policy: "audit"
 
@@ -40,7 +40,7 @@ jobs:
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
             - name: "Check for file changes"
-              uses: "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36" # v3.0.2
+              uses: "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590" # v3.0.3
               id: "changes"
               with:
                   token: "${{ github.token }}"
@@ -53,7 +53,7 @@ jobs:
         runs-on: "ubuntu-latest"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e" # v2.14.2
+              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
               with:
                   egress-policy: "audit"
 
@@ -80,7 +80,7 @@ jobs:
         runs-on: "ubuntu-latest"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e" # v2.14.2
+              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
               with:
                   egress-policy: "audit"
 
@@ -93,13 +93,13 @@ jobs:
                   GIT_AUTHOR_NAME: "GitHub Actions Shell"
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
-            - uses: "pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061" # v4.2.0
+            - uses: "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320" # v4.4.0
               with:
                   run_install: false
 
             - name: "Setup resources and environment"
               id: "setup"
-              uses: "anolilab/workflows/step/setup@main"
+              uses: "anolilab/workflows/step/setup@78c0eab008e6a0cf4dd4ca579b5177f6d610b5f3" # main
               with:
                   node-version: "24"
                   install-bun: false
@@ -125,7 +125,7 @@ jobs:
             # If any jobs we depend on fail, we will fail since this is a required check
             # NOTE: A timeout is considered a failure
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e" # v2.14.2
+              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
               with:
                   egress-policy: "audit"
 
