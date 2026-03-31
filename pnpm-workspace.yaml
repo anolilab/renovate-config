@@ -15,7 +15,7 @@ catalogs:
     '@anolilab/commitlint-config': 8.1.0
     '@anolilab/lint-staged-config': ^4.0.0
     '@anolilab/prettier-config': 8.0.0
-    '@anolilab/textlint-config': 11.1.0
+    '@anolilab/textlint-config': 12.1.4
     '@commitlint/cli': ^20.3.0
     '@commitlint/config-conventional': ^20.3.0
     '@secretlint/secretlint-rule-preset-recommend': ^11.2.5
