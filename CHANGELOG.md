@@ -1,3 +1,22 @@
+## [14.0.1](https://github.com/anolilab/renovate-config/compare/v14.0.0...v14.0.1) (2026-03-31)
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to ^20.3.0 ([#300](https://github.com/anolilab/renovate-config/issues/300)) ([52661be](https://github.com/anolilab/renovate-config/commit/52661be7a98c7f19d96817800cc2a6d9e9bc8a23))
+* **deps:** update dependency renovate to v42.66.14 ([#299](https://github.com/anolilab/renovate-config/issues/299)) ([1d5e716](https://github.com/anolilab/renovate-config/commit/1d5e7164041b030bcef536fdbfbf65bbc3c68a40))
+* **deps:** update dependency renovate to v42.71.0 ([#302](https://github.com/anolilab/renovate-config/issues/302)) ([e92de13](https://github.com/anolilab/renovate-config/commit/e92de13b55d122b1eb6d6d8f2543e2816ffbcb12))
+* **deps:** update dependency renovate to v42.99.0 ([#311](https://github.com/anolilab/renovate-config/issues/311)) ([386fc4d](https://github.com/anolilab/renovate-config/commit/386fc4dd12d1a9539282c48021e884f3b8a7c302))
+* **deps:** update github-actions ([#314](https://github.com/anolilab/renovate-config/issues/314)) ([c57957b](https://github.com/anolilab/renovate-config/commit/c57957b798fe9eb2680993f6a6b84607355c5b4f))
+* **deps:** update github-actions ([#320](https://github.com/anolilab/renovate-config/issues/320)) ([7cbe0bc](https://github.com/anolilab/renovate-config/commit/7cbe0bc0d35ef343a227bb279af48f7f71bb627a))
+* **deps:** update minor updates (minor) ([#304](https://github.com/anolilab/renovate-config/issues/304)) ([5be3a87](https://github.com/anolilab/renovate-config/commit/5be3a87ad666e91e100b5d4084ca39bf44cadd1b))
+* **deps:** update pnpm to v10.27.0 ([#301](https://github.com/anolilab/renovate-config/issues/301)) ([7003ad8](https://github.com/anolilab/renovate-config/commit/7003ad850feda1ee395f0922f1544e50d649b941))
+
+### Miscellaneous Chores
+
+* **deps:** update all dependencies to latest versions ([#324](https://github.com/anolilab/renovate-config/issues/324)) ([75161b4](https://github.com/anolilab/renovate-config/commit/75161b45d93ed3b7e59a671c4acf94299309dfc2))
+* **deps:** update node.js to v24 ([#268](https://github.com/anolilab/renovate-config/issues/268)) ([4170785](https://github.com/anolilab/renovate-config/commit/41707857c2240e84eba980fa7712f3926f6d85d7))
+* **deps:** update package versions in package.json and pnpm-lock.yaml ([4a4a379](https://github.com/anolilab/renovate-config/commit/4a4a37993257ec98de7d30b07af6843985840e8a))
+
 ## [14.0.0](https://github.com/anolilab/renovate-config/compare/v13.0.0...v14.0.0) (2025-12-27)
 
 ### ⚠ BREAKING CHANGES
