@@ -18,11 +18,11 @@ catalogs:
     '@anolilab/textlint-config': 11.1.0
     '@commitlint/cli': ^20.3.0
     '@commitlint/config-conventional': ^20.3.0
-    '@secretlint/secretlint-rule-preset-recommend': ^11.2.5
+    '@secretlint/secretlint-rule-preset-recommend': ^11.4.0
     husky: ^9.1.7
     lint-staged: ^16.4.0
     prettier: ^3.7.4
-    secretlint: 11.2.5
+    secretlint: 11.4.0
     textlint: 15.5.0
 onlyBuiltDependencies:
   - better-sqlite3
