@@ -1,3 +1,20 @@
+## [14.0.2](https://github.com/anolilab/renovate-config/compare/v14.0.1...v14.0.2) (2026-04-07)
+
+### Bug Fixes
+
+* **deps:** update dependency @anolilab/textlint-config to v12.1.6 ([#318](https://github.com/anolilab/renovate-config/issues/318)) ([9993678](https://github.com/anolilab/renovate-config/commit/999367800d70bfc9346f1ff39f4a074fc0b4ca68))
+* update deps and remove taze ([cb634da](https://github.com/anolilab/renovate-config/commit/cb634da9ee5233bf6a615a2e5366b31a45d5a5f1))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @anolilab/lint-staged-config to v10 ([#329](https://github.com/anolilab/renovate-config/issues/329)) ([dce8baf](https://github.com/anolilab/renovate-config/commit/dce8bafe76c725cae35e48792fb117aecc42d8db))
+
+### Continuous Integration
+
+* **deps:** update actions/upload-artifact action to v7 ([#326](https://github.com/anolilab/renovate-config/issues/326)) ([a1b3505](https://github.com/anolilab/renovate-config/commit/a1b350594e90fe84834b265af1611c4512bc45c8))
+* **deps:** update dorny/paths-filter action to v4 ([#327](https://github.com/anolilab/renovate-config/issues/327)) ([13991c6](https://github.com/anolilab/renovate-config/commit/13991c6ca2a1ecbdec2ddf33463123f8a3e68635))
+* **deps:** update pnpm/action-setup action to v5 ([#328](https://github.com/anolilab/renovate-config/issues/328)) ([b6f4641](https://github.com/anolilab/renovate-config/commit/b6f464101d85e1a2e761b890f1afe03aa8ae044c))
+
 ## [14.0.1](https://github.com/anolilab/renovate-config/compare/v14.0.0...v14.0.1) (2026-03-31)
 
 ### Bug Fixes
