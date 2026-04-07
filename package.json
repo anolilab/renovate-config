@@ -50,8 +50,7 @@
         "lint:text:fix": "textlint ./.github/ ./README.md ./UPGRADE.md --parallel --experimental --fix",
         "prepare": "is-ci || husky || exit 0",
         "sort-package-json": "sort-package-json ./package.json",
-        "test": "renovate-config-validator default.json",
-        "update:deps": "taze"
+        "test": "renovate-config-validator default.json"
     },
     "devDependencies": {
         "@anolilab/commitlint-config": "catalog:lint",
@@ -72,7 +71,6 @@
         "secretlint": "catalog:lint",
         "semantic-release": "catalog:cli",
         "sort-package-json": "catalog:dev",
-        "taze": "catalog:cli",
         "textlint": "catalog:lint"
     },
     "packageManager": "pnpm@10.33.0",
