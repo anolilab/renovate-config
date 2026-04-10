@@ -28,7 +28,7 @@ jobs:
             yaml_lintable: "${{ steps.changes.outputs.yaml_lintable }}"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
+              uses: "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d" # v2.16.1
               with:
                   egress-policy: "audit"
 
@@ -53,7 +53,7 @@ jobs:
         runs-on: "ubuntu-latest"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
+              uses: "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d" # v2.16.1
               with:
                   egress-policy: "audit"
 
@@ -80,7 +80,7 @@ jobs:
         runs-on: "ubuntu-latest"
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
+              uses: "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d" # v2.16.1
               with:
                   egress-policy: "audit"
 
@@ -99,7 +99,7 @@ jobs:
 
             - name: "Setup resources and environment"
               id: "setup"
-              uses: "anolilab/workflows/step/setup@78c0eab008e6a0cf4dd4ca579b5177f6d610b5f3" # main
+              uses: "anolilab/workflows/step/setup@2bffe2e3dd252dcd89e8357cceafd4ecc6cd55a2" # main
               with:
                   node-version: "24"
                   install-bun: false
@@ -125,7 +125,7 @@ jobs:
             # If any jobs we depend on fail, we will fail since this is a required check
             # NOTE: A timeout is considered a failure
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
+              uses: "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d" # v2.16.1
               with:
                   egress-policy: "audit"
 

@@ -27,12 +27,12 @@ jobs:
 
         steps:
             - name: "Harden Runner"
-              uses: "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594" # v2.16.0
+              uses: "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d" # v2.16.1
               with:
                   egress-policy: "audit"
 
             - name: "Wait for tests to succeed"
-              uses: "lewagon/wait-on-check-action@74049309dfeff245fe8009a0137eacf28136cb3c" # v1.5.0
+              uses: "lewagon/wait-on-check-action@78dd4dd5d9b337c14c3c81f79e53bf7d222435c1" # v1.6.1
               timeout-minutes: 20
               with:
                   ref: "${{ github.event.pull_request.head.sha || github.sha }}"
@@ -53,7 +53,7 @@ jobs:
 
             - name: "Setup resources and environment"
               id: "setup"
-              uses: "anolilab/workflows/step/setup@78c0eab008e6a0cf4dd4ca579b5177f6d610b5f3" # main
+              uses: "anolilab/workflows/step/setup@2bffe2e3dd252dcd89e8357cceafd4ecc6cd55a2" # main
               with:
                   node-version: "24"
                   install-bun: false
