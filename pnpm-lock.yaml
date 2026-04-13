@@ -23,8 +23,8 @@ catalogs:
       specifier: ^4.1.0
       version: 4.1.0
     renovate:
-      specifier: 43.104.10
-      version: 43.104.10
+      specifier: 43.104.11
+      version: 43.104.11
     sort-package-json:
       specifier: 3.6.1
       version: 3.6.1
@@ -166,7 +166,7 @@ importers:
         version: 3.8.1
       renovate:
         specifier: catalog:dev
-        version: 43.104.10(typanion@3.14.0)
+        version: 43.104.11(typanion@3.14.0)
       secretlint:
         specifier: catalog:lint
         version: 11.6.0
@@ -5266,8 +5266,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.104.10:
-    resolution: {integrity: sha512-zN+OqxQjHByNsEqI+yNLutmmpA+ncCkKimOaWZCMoWECcbR5M3+mUhX0TwojqJmUsyyPOiEvcHKZylisB6XT6A==}
+  renovate@43.104.11:
+    resolution: {integrity: sha512-Xa4PxjMZ/Vq72ktVkFo0EIk5I1zhmOTZBm9yQ3LuS2RnOAo/o1d5fMFsvINRLy/C8c9iXWLKcW/HA8dY1fSZNw==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -13477,7 +13477,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.104.10(typanion@3.14.0):
+  renovate@43.104.11(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
