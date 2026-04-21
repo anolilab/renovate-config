@@ -20,7 +20,7 @@ catalogs:
     '@secretlint/secretlint-rule-preset-recommend': 11.6.0
     husky: ^9.1.7
     lint-staged: ^16.4.0
-    prettier: ^3.8.1
+    prettier: ^3.8.3
     secretlint: 11.6.0
     textlint: 15.5.2
 onlyBuiltDependencies:
