@@ -8,7 +8,7 @@ catalogs:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.3.1
     is-ci: ^4.1.0
-    renovate: 43.104.10
+    renovate: 43.129.0
     sort-package-json: 3.6.1
   lint:
     '@anolilab/commitlint-config': 9.5.0
@@ -68,7 +68,7 @@ overrides:
   picomatch@<2.3.2: '>=2.3.2'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
   qs@<6.14.1: '>=6.14.1'
-  renovate@>=32.124.0 <42.68.5: '>=42.68.5'
+  renovate@>=32.124.0 <42.68.5: '>=42.99.0'
   tar@<7.5.7: '>=7.5.7'
   tar@<7.5.8: '>=7.5.8'
   tar@<=7.5.10: '>=7.5.11'
