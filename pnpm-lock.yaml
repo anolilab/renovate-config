@@ -23,8 +23,8 @@ catalogs:
       specifier: ^4.1.0
       version: 4.1.0
     renovate:
-      specifier: 43.129.0
-      version: 43.129.0
+      specifier: 43.129.1
+      version: 43.129.1
     sort-package-json:
       specifier: 3.6.1
       version: 3.6.1
@@ -166,7 +166,7 @@ importers:
         version: 3.8.1
       renovate:
         specifier: catalog:dev
-        version: 43.129.0(typanion@3.14.0)
+        version: 43.129.1(typanion@3.14.0)
       secretlint:
         specifier: catalog:lint
         version: 11.6.0
@@ -3921,10 +3921,6 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.2.4:
-    resolution: {integrity: sha512-B5Y16Jr9LB9dHVkh6ZevG+vAbOsNOYCX+sXvFWFu7B3Iz5mijW3zdbMyhsh8ANd2mSWBYdJgnqi+mL7/LrOPYg==}
-    engines: {node: 20 || >=22}
-
   lru-cache@11.3.5:
     resolution: {integrity: sha512-NxVFwLAnrd9i7KUBxC4DrUhmgjzOs+1Qm50D3oF1/oL+r1NpZ4gA7xvG0/zJ8evR7zIKn4vLf7qTNduWFtCrRw==}
     engines: {node: 20 || >=22}
@@ -5276,8 +5272,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.129.0:
-    resolution: {integrity: sha512-y9jfyw6g53xnbgM8ynqFjPUt+qFADQL53ckIPE2625bTKXQSXxt4U4nSfyRHs7Y6vo2jmF/JCJy4Q0KAarOD5w==}
+  renovate@43.129.1:
+    resolution: {integrity: sha512-AqRkKgX/PNbkKCCqwFcie4hSG9Lx8b5sM/mRiTpfOFoRgn2IrHvudWmhOIY+dKwoeFENZWuISrBMxXGiQVkK9g==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5543,8 +5539,8 @@ packages:
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
 
-  simple-git@3.35.2:
-    resolution: {integrity: sha512-ZMjl06lzTm1EScxEGuM6+mEX+NQd14h/B3x0vWU+YOXAMF8sicyi1K4cjTfj5is+35ChJEHDl1EjypzYFWH2FA==}
+  simple-git@3.36.0:
+    resolution: {integrity: sha512-cGQjLjK8bxJw4QuYT7gxHw3/IouVESbhahSsHrX97MzCL1gu2u7oy38W6L2ZIGECEfIBG4BabsWDPjBxJENv9Q==}
 
   skin-tone@2.0.0:
     resolution: {integrity: sha512-kUMbT1oBJCpgrnKoSr0o6wPtvRWT9W9UKvGLwfJYO2WuahZRHOpEyL1ckyMGgMWh0UdpmaoFqKKD29WTomNEGA==}
@@ -10903,7 +10899,7 @@ snapshots:
 
   hosted-git-info@9.0.2:
     dependencies:
-      lru-cache: 11.2.4
+      lru-cache: 11.3.5
 
   hpagent@1.2.0: {}
 
@@ -11528,8 +11524,6 @@ snapshots:
   lowercase-keys@3.0.0: {}
 
   lru-cache@10.4.3: {}
-
-  lru-cache@11.2.4: {}
 
   lru-cache@11.3.5: {}
 
@@ -13495,7 +13489,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.129.0(typanion@3.14.0):
+  renovate@43.129.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
@@ -13602,7 +13596,7 @@ snapshots:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 3.0.0
-      simple-git: 3.35.2
+      simple-git: 3.36.0
       slugify: 1.6.9
       source-map-support: 0.5.21
       strip-json-comments: 5.0.3
@@ -13982,7 +13976,7 @@ snapshots:
       simple-concat: 1.0.1
     optional: true
 
-  simple-git@3.35.2:
+  simple-git@3.36.0:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
