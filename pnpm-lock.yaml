@@ -7,8 +7,8 @@ settings:
 catalogs:
   cli:
     '@anolilab/semantic-release-preset':
-      specifier: ^13.1.1
-      version: 13.1.1
+      specifier: ^13.4.10
+      version: 13.4.10
     semantic-release:
       specifier: ^25.0.3
       version: 25.0.3
@@ -69,29 +69,29 @@ catalogs:
 overrides:
   '@hono/node-server@<1.19.10': '>=1.19.10'
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
-  '@modelcontextprotocol/sdk@<1.25.2': '>=1.25.2'
-  '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.26.0'
+  '@modelcontextprotocol/sdk@<1.25.2': '>=1.29.0'
+  '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.29.0'
   brace-expansion@<1.1.13: '>=3.0.2'
-  brace-expansion@>=2.0.0 <2.0.3: '>=2.0.3'
+  brace-expansion@>=2.0.0 <2.0.3: '>=2.1.0'
   chrono-node@<2.2.4: '>=2.9.0'
   diff@>=5.0.0 <5.2.2: '>=5.2.2'
   diff@>=6.0.0 <8.0.3: '>=8.0.3'
-  express-rate-limit@>=8.2.0 <8.2.2: '>=8.2.2'
-  fast-xml-parser@>=5.0.9 <=5.3.3: '>=5.3.4'
+  express-rate-limit@>=8.2.0 <8.2.2: '>=8.5.0'
+  fast-xml-parser@>=5.0.9 <=5.3.3: '>=5.7.3'
   flatted@<3.4.0: '>=3.4.0'
   flatted@<=3.4.1: '>=3.4.2'
   glob@>=10.2.0 <10.5.0: '>=13.0.2'
   glob@>=11.0.0 <11.1.0: '>=13.0.2'
-  hono@<4.11.10: '>=4.11.10'
+  hono@<4.11.10: '>=4.12.17'
   hono@<4.12.4: '>=4.12.4'
   hono@<4.12.7: '>=4.12.7'
   js-yaml@<3.14.2: '>=4.1.1'
   js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
   lodash-es@<=4.17.23: '>=4.18.0'
-  lodash-es@>=4.0.0 <=4.17.22: '>=4.17.23'
+  lodash-es@>=4.0.0 <=4.17.22: '>=4.18.1'
   lodash-es@>=4.0.0 <=4.17.23: '>=4.18.0'
   lodash@<=4.17.23: '>=4.18.0'
-  lodash@>=4.0.0 <=4.17.22: '>=4.17.23'
+  lodash@>=4.0.0 <=4.17.22: '>=4.18.1'
   lodash@>=4.0.0 <=4.17.23: '>=4.18.0'
   minimatch@<3.1.3: '>=3.1.3'
   minimatch@<3.1.4: '>=3.1.4'
@@ -102,7 +102,7 @@ overrides:
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.0'
   picomatch@<2.3.2: '>=2.3.2'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
-  qs@<6.14.1: '>=6.14.1'
+  qs@<6.14.1: '>=6.15.1'
   renovate@>=32.124.0 <42.68.5: '>=42.99.0'
   tar@<7.5.7: '>=7.5.7'
   tar@<7.5.8: '>=7.5.8'
@@ -113,10 +113,10 @@ overrides:
   tar@=7.5.1: '>=7.5.7'
   tmp@<=0.2.3: '>=0.2.5'
   underscore@<=1.13.7: '>=1.13.8'
-  undici@<6.23.0: '>=6.23.0'
-  undici@>=7.0.0 <7.18.2: '>=7.18.2'
-  undici@>=7.0.0 <7.24.0: '>=7.24.0'
-  undici@>=7.17.0 <7.24.0: '>=7.24.0'
+  undici@<6.23.0: '>=6.25.0'
+  undici@>=7.0.0 <7.18.2: '>=7.25.0'
+  undici@>=7.0.0 <7.24.0: '>=7.25.0'
+  undici@>=7.17.0 <7.24.0: '>=7.25.0'
 
 importers:
 
@@ -133,7 +133,7 @@ importers:
         version: 9.1.1(prettier@3.8.3)
       '@anolilab/semantic-release-preset':
         specifier: catalog:cli
-        version: 13.1.1(semantic-release@25.0.3(typescript@5.9.3))(yaml@2.8.3)
+        version: 13.4.10(semantic-release@25.0.3(typescript@5.9.3))(yaml@2.8.3)
       '@anolilab/textlint-config':
         specifier: catalog:lint
         version: 12.1.6(textlint@15.5.2)
@@ -240,17 +240,17 @@ packages:
     peerDependencies:
       prettier: 3.8.1
 
-  '@anolilab/semantic-release-clean-package-json@5.2.0':
-    resolution: {integrity: sha512-hiZhrPJnCou7/xB6nnYMTFaEVVQy9LmvB0Dt2XM5q7ZAqI7tgilTh/c9iqUR7NSmWQL1ynOEjX4Pa9LyoJca7w==}
+  '@anolilab/semantic-release-clean-package-json@5.5.7':
+    resolution: {integrity: sha512-aTS1w8BJZOXIb8Oy0GIKyXNaptA8jZyE/MQsNlT9ZAb0RnFC5xXk55LE/benHbkt8GRAg84UckUWEgOm6pcQng==}
     engines: {node: ^22.14.0 || >=24.10.0}
 
-  '@anolilab/semantic-release-preset@13.1.1':
-    resolution: {integrity: sha512-jQKFhPfAJS0uSHri08Q5cNZWIcQYRmSmP2Hc9cxh3fi3se8TDppPcpb/y4uFTZTv0zw6Uo0UvF4kS89rXO9kGQ==}
+  '@anolilab/semantic-release-preset@13.4.10':
+    resolution: {integrity: sha512-sIhay/cqPXF3jXKvjQYtlOi7OslviPn2vVet2LkjkDIF8IrTinHyWFyMuQVIlM+nItowJssb6FCb/3j7MmbuJQ==}
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
     peerDependencies:
-      '@anolilab/semantic-release-pnpm': 5.0.0
-      '@semantic-release/npm': 13.1.3
+      '@anolilab/semantic-release-pnpm': 8.1.9
+      '@semantic-release/npm': 13.1.5
       semantic-release: 25.0.3
       semantic-release-yarn: ^3.0.2
     peerDependenciesMeta:
@@ -1102,6 +1102,12 @@ packages:
 
   '@semantic-release/github@12.0.3':
     resolution: {integrity: sha512-pod3AVGVVVk2rUczMBL4+gfY7hP7A9YYOwjpxVFSusF+pDbFOYBzFRQcHjv1H3IntQyB/Noxzx8LUZ/iwAQQeQ==}
+    engines: {node: ^22.14.0 || >= 24.10.0}
+    peerDependencies:
+      semantic-release: '>=24.1.0'
+
+  '@semantic-release/github@12.0.6':
+    resolution: {integrity: sha512-aYYFkwHW3c6YtHwQF0t0+lAjlU+87NFOZuH2CvWFD0Ylivc7MwhZMiHOJ0FMpIgPpCVib/VUAcOwvrW0KnxQtA==}
     engines: {node: ^22.14.0 || >= 24.10.0}
     peerDependencies:
       semantic-release: '>=24.1.0'
@@ -2240,10 +2246,6 @@ packages:
     resolution: {integrity: sha512-6gfI3otXK5Ph5DfCOI1dblr+kN3FAm5a97hYoQkqNZxOaYa5WKfXH+AnpsmS+iUH2mgVC2Cg2Qw9m5OKcmNrIg==}
     engines: {node: '>=18'}
 
-  conventional-changelog-conventionalcommits@9.1.0:
-    resolution: {integrity: sha512-MnbEysR8wWa8dAEvbj5xcBgJKQlX/m0lhS8DsyAAWDHdfs2faDJxTgzRYlRYpXSe7UiKrIIlB4TrBKU9q9DgkA==}
-    engines: {node: '>=18'}
-
   conventional-changelog-conventionalcommits@9.3.0:
     resolution: {integrity: sha512-kYFx6gAyjSIMwNtASkI3ZE99U1fuVDJr0yTYgVy+I2QG46zNZfl2her+0+eoviG82c5WQvW1jMt1eOQTeJLodA==}
     engines: {node: '>=18'}
@@ -2719,8 +2721,8 @@ packages:
   exponential-backoff@3.1.3:
     resolution: {integrity: sha512-ZgEeZXj30q+I0EN+CbSSpIyPaJ5HVQD18Z1m+u1FXbAeT94mr1zw50q4q6jiiC447Nl/YTcIYSAftiGqetwXCA==}
 
-  express-rate-limit@8.3.2:
-    resolution: {integrity: sha512-77VmFeJkO0/rvimEDuUC5H30oqUC4EyOhyGccfqoLebB0oiEYfM7nwPrsDsBL1gsTpwfzX8SFy2MT3TDyRq+bg==}
+  express-rate-limit@8.5.1:
+    resolution: {integrity: sha512-5O6KYmyJEpuPJV5hNTXKbAHWRqrzyu+OI3vUnSd2kXFubIVpG7ezpgxQy76Zo5GQZtrQBg86hF+CM/NX+cioiQ==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -3385,6 +3387,10 @@ packages:
 
   ip-address@10.1.0:
     resolution: {integrity: sha512-XXADHxXmvT9+CRxhXg56LJovE+bmWnEWB78LB83VZTprKTmaC5QfruXocxzTZ2Kl0DNwKuBdlIhjL8LeY8Sf8Q==}
+    engines: {node: '>= 12'}
+
+  ip-address@10.2.0:
+    resolution: {integrity: sha512-/+S6j4E9AHvW9SWMSEY9Xfy66O5PWvVEJ08O0y5JGyEKQpojb0K0GKpz/v5HJ/G0vi3D2sjGK78119oXZeE0qA==}
     engines: {node: '>= 12'}
 
   ipaddr.js@1.9.1:
@@ -5121,8 +5127,8 @@ packages:
     resolution: {integrity: sha512-kXuQdQTB6oN3KhI6V4acnBSZx8D2I4xzZvn9+wFLLFCoBNQY/sFnCW6c43OL7pOQ2HvGV4lnWIXNmgfp7cTWhQ==}
     engines: {node: '>=20'}
 
-  qs@6.14.2:
-    resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
+  qs@6.15.1:
+    resolution: {integrity: sha512-6YHEFRL9mfgcAvql/XhwTvf5jKcOiiupt2FiJxHkiX1z4j7WL8J/jRHYLluORvc1XxB5rV20KoeK00gVJamspg==}
     engines: {node: '>=0.6'}
 
   queue-microtask@1.2.3:
@@ -6033,12 +6039,12 @@ packages:
     resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
     engines: {node: '>=16'}
 
-  type-fest@5.4.3:
-    resolution: {integrity: sha512-AXSAQJu79WGc79/3e9/CR77I/KQgeY1AhNvcShIH4PTcGYyC4xv6H4R4AUOwkPS5799KlVDAu8zExeCrkGquiA==}
-    engines: {node: '>=20'}
-
   type-fest@5.5.0:
     resolution: {integrity: sha512-PlBfpQwiUvGViBNX84Yxwjsdhd1TUlXr6zjX7eoirtCPIr08NAmxwa+fcYBTeRQxHo9YC9wwF3m9i700sHma8g==}
+    engines: {node: '>=20'}
+
+  type-fest@5.6.0:
+    resolution: {integrity: sha512-8ZiHFm91orbSAe2PSAiSVBVko18pbhbiB3U9GglSzF/zCGkR+rxpHx6sEMCUm4kxY4LjDIUGgCfUMtwfZfjfUA==}
     engines: {node: '>=20'}
 
   type-is@2.0.1:
@@ -6104,6 +6110,10 @@ packages:
   undici@7.24.6:
     resolution: {integrity: sha512-Xi4agocCbRzt0yYMZGMA6ApD7gvtUFaxm4ZmeacWI4cZxaF6C+8I8QfofC20NAePiB/IcvZmzkJ7XPa471AEtA==}
     engines: {node: '>=20.18.1'}
+
+  undici@8.2.0:
+    resolution: {integrity: sha512-Z+4Hx9GE26Lh9Upwfnc8C7SsrpBPGaM/Gm6kMFtiG7c+5IvQKlXi/t+9x9DrrCh29cww5TSP9YdVaBcnLDs5fQ==}
+    engines: {node: '>=22.19.0'}
 
   unherit@3.0.1:
     resolution: {integrity: sha512-akOOQ/Yln8a2sgcLj4U0Jmx0R5jpIg2IUyRrWOzmEbjBtGzBdHtSeFKgoEcoH4KYIG/Pb8GQ/BwtYm0GCq1Sqg==}
@@ -6540,25 +6550,25 @@ snapshots:
     dependencies:
       prettier: 3.8.3
 
-  '@anolilab/semantic-release-clean-package-json@5.2.0(yaml@2.8.3)':
+  '@anolilab/semantic-release-clean-package-json@5.5.7(yaml@2.8.3)':
     dependencies:
       '@semantic-release/error': 4.0.0
       '@visulima/fs': 4.1.0(yaml@2.8.3)
       '@visulima/path': 2.0.5
-      type-fest: 5.4.3
+      type-fest: 5.6.0
     transitivePeerDependencies:
       - yaml
 
-  '@anolilab/semantic-release-preset@13.1.1(semantic-release@25.0.3(typescript@5.9.3))(yaml@2.8.3)':
+  '@anolilab/semantic-release-preset@13.4.10(semantic-release@25.0.3(typescript@5.9.3))(yaml@2.8.3)':
     dependencies:
-      '@anolilab/semantic-release-clean-package-json': 5.2.0(yaml@2.8.3)
+      '@anolilab/semantic-release-clean-package-json': 5.5.7(yaml@2.8.3)
       '@semantic-release/changelog': 6.0.3(semantic-release@25.0.3(typescript@5.9.3))
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.3(typescript@5.9.3))
       '@semantic-release/exec': 7.1.0(semantic-release@25.0.3(typescript@5.9.3))
       '@semantic-release/git': 10.0.1(semantic-release@25.0.3(typescript@5.9.3))
-      '@semantic-release/github': 12.0.3(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/github': 12.0.6(semantic-release@25.0.3(typescript@5.9.3))
       '@semantic-release/release-notes-generator': 14.1.0(semantic-release@25.0.3(typescript@5.9.3))
-      conventional-changelog-conventionalcommits: 9.1.0
+      conventional-changelog-conventionalcommits: 9.3.1
       semantic-release: 25.0.3(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
@@ -7627,7 +7637,7 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.0.6
       express: 5.2.1
-      express-rate-limit: 8.3.2(express@5.2.1)
+      express-rate-limit: 8.5.1(express@5.2.1)
       hono: 4.12.9
       jose: 6.1.3
       json-schema-typed: 8.0.2
@@ -8176,7 +8186,30 @@ snapshots:
       p-filter: 4.1.0
       semantic-release: 25.0.3(typescript@5.9.3)
       tinyglobby: 0.2.15
-      undici: 7.24.6
+      undici: 8.2.0
+      url-join: 5.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@semantic-release/github@12.0.6(semantic-release@25.0.3(typescript@5.9.3))':
+    dependencies:
+      '@octokit/core': 7.0.6
+      '@octokit/plugin-paginate-rest': 14.0.0(@octokit/core@7.0.6)
+      '@octokit/plugin-retry': 8.0.3(@octokit/core@7.0.6)
+      '@octokit/plugin-throttling': 11.0.3(@octokit/core@7.0.6)
+      '@semantic-release/error': 4.0.0
+      aggregate-error: 5.0.0
+      debug: 4.4.3
+      dir-glob: 3.0.1
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.6
+      issue-parser: 7.0.1
+      lodash-es: 4.18.1
+      mime: 4.1.0
+      p-filter: 4.1.0
+      semantic-release: 25.0.3(typescript@5.9.3)
+      tinyglobby: 0.2.15
+      undici: 8.2.0
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
@@ -9326,7 +9359,7 @@ snapshots:
       http-errors: 2.0.1
       iconv-lite: 0.7.0
       on-finished: 2.4.1
-      qs: 6.14.2
+      qs: 6.15.1
       raw-body: 3.0.2
       type-is: 2.0.1
     transitivePeerDependencies:
@@ -9692,10 +9725,6 @@ snapshots:
   content-type@1.0.5: {}
 
   conventional-changelog-angular@8.3.1:
-    dependencies:
-      compare-func: 2.0.0
-
-  conventional-changelog-conventionalcommits@9.1.0:
     dependencies:
       compare-func: 2.0.0
 
@@ -10231,10 +10260,10 @@ snapshots:
   exponential-backoff@3.1.3:
     optional: true
 
-  express-rate-limit@8.3.2(express@5.2.1):
+  express-rate-limit@8.5.1(express@5.2.1):
     dependencies:
       express: 5.2.1
-      ip-address: 10.1.0
+      ip-address: 10.2.0
 
   express@5.2.1:
     dependencies:
@@ -10258,7 +10287,7 @@ snapshots:
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.7
-      qs: 6.14.2
+      qs: 6.15.1
       range-parser: 1.2.1
       router: 2.2.0
       send: 1.2.0
@@ -11061,7 +11090,10 @@ snapshots:
       from2: 2.3.0
       p-is-promise: 3.0.0
 
-  ip-address@10.1.0: {}
+  ip-address@10.1.0:
+    optional: true
+
+  ip-address@10.2.0: {}
 
   ipaddr.js@1.9.1: {}
 
@@ -13202,7 +13234,7 @@ snapshots:
     dependencies:
       hookified: 1.13.0
 
-  qs@6.14.2:
+  qs@6.15.1:
     dependencies:
       side-channel: 1.1.0
 
@@ -14556,11 +14588,11 @@ snapshots:
 
   type-fest@4.41.0: {}
 
-  type-fest@5.4.3:
+  type-fest@5.5.0:
     dependencies:
       tagged-tag: 1.0.0
 
-  type-fest@5.5.0:
+  type-fest@5.6.0:
     dependencies:
       tagged-tag: 1.0.0
 
@@ -14607,7 +14639,7 @@ snapshots:
     dependencies:
       des.js: 1.1.0
       js-md4: 0.3.2
-      qs: 6.14.2
+      qs: 6.15.1
       tunnel: 0.0.6
       underscore: 1.13.8
 
@@ -14649,6 +14681,8 @@ snapshots:
   undici-types@7.16.0: {}
 
   undici@7.24.6: {}
+
+  undici@8.2.0: {}
 
   unherit@3.0.1: {}
 
