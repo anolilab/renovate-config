@@ -71,7 +71,7 @@ overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   '@modelcontextprotocol/sdk@<1.25.2': '>=1.29.0'
   '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.29.0'
-  brace-expansion@<1.1.13: '>=3.0.2'
+  brace-expansion@<1.1.13: '>=4.0.1'
   brace-expansion@>=2.0.0 <2.0.3: '>=2.1.0'
   chrono-node@<2.2.4: '>=2.9.1'
   diff@>=5.0.0 <5.2.2: '>=5.2.2'
@@ -5586,6 +5586,7 @@ packages:
 
   sliced@1.0.1:
     resolution: {integrity: sha512-VZBmZP8WU3sMOZm1bdgTadsQbcscK0UM8oKxKVBs4XAhUo2Xxzm/OFMGBkPusxw9xL3Uy8LrzEqGqJhclsr0yA==}
+    deprecated: Unsupported
 
   slugify@1.6.9:
     resolution: {integrity: sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==}
