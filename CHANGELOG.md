@@ -1,3 +1,30 @@
+## [15.0.0](https://github.com/anolilab/renovate-config/compare/v14.0.2...v15.0.0) (2026-05-21)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^3.8.3 ([#335](https://github.com/anolilab/renovate-config/issues/335)) ([1617ed6](https://github.com/anolilab/renovate-config/commit/1617ed65af6864fecbe0190a87478a0a45e485b6))
+* **deps:** update dependency renovate to v43.129.1 ([#336](https://github.com/anolilab/renovate-config/issues/336)) ([b2bc9d4](https://github.com/anolilab/renovate-config/commit/b2bc9d4e9052b4ceaa5f305ea1ff237f10d10ee9))
+* **deps:** update dependency textlint to v15.5.4 ([#340](https://github.com/anolilab/renovate-config/issues/340)) ([b441cfe](https://github.com/anolilab/renovate-config/commit/b441cfe42336aafcc95aa8e937225962886245f3))
+* **deps:** update dependency textlint to v15.6.1 ([#345](https://github.com/anolilab/renovate-config/issues/345)) ([7d425ce](https://github.com/anolilab/renovate-config/commit/7d425ceb04435f40b5febeceb1bbc072d0952f60))
+* **deps:** update lodash monorepo to >=4.18.1 ([#334](https://github.com/anolilab/renovate-config/issues/334)) ([208a1ca](https://github.com/anolilab/renovate-config/commit/208a1cad50be4156cf08641b7e787fe7bbff80c4))
+* **deps:** update minor updates ([#338](https://github.com/anolilab/renovate-config/issues/338)) ([9327e47](https://github.com/anolilab/renovate-config/commit/9327e47acce84f5357a4962ed2e468a35774e993))
+* **deps:** update patch updates (patch) ([#337](https://github.com/anolilab/renovate-config/issues/337)) ([f7b548e](https://github.com/anolilab/renovate-config/commit/f7b548e4cf0718b52ea81139d5df8b3d74774cc1))
+* **deps:** update renovate ([#339](https://github.com/anolilab/renovate-config/issues/339)) ([3408b6e](https://github.com/anolilab/renovate-config/commit/3408b6e6f506c7c56ca421f715eaac8b04b47da4))
+
+### Miscellaneous Chores
+
+* **ci:** drop require-allow-edits and pin actions to latest ([2ae5e8d](https://github.com/anolilab/renovate-config/commit/2ae5e8de74766dd14c15811709db9783c6c8c7f5))
+* **ci:** migrate to anolilab/workflows reusables ([a9f8cde](https://github.com/anolilab/renovate-config/commit/a9f8cde88bcb47ab0f3dd9e2c5c89efa0dfbb292))
+* **deps:** bump to latest ([4b80d13](https://github.com/anolilab/renovate-config/commit/4b80d138711cab7a0a5041772d2fc3b0a902c05a))
+* **deps:** update dependency brace-expansion@<1.1.13 to v3 ([#331](https://github.com/anolilab/renovate-config/issues/331)) ([4364e47](https://github.com/anolilab/renovate-config/commit/4364e475ef35aa2c15133b561691f68621ac6203))
+* **security:** apply audit overrides ([599c9e9](https://github.com/anolilab/renovate-config/commit/599c9e98ea66faf85d50b301efae3ff09b147e6c))
+
 ## [14.0.2](https://github.com/anolilab/renovate-config/compare/v14.0.1...v14.0.2) (2026-04-07)
 
 ### Bug Fixes
