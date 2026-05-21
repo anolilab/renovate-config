@@ -8,21 +8,21 @@ catalogs:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.3.1
     is-ci: ^4.1.0
-    renovate: 43.129.1
+    renovate: 43.150.0
     sort-package-json: 3.6.1
   lint:
-    '@anolilab/commitlint-config': 9.5.0
-    '@anolilab/lint-staged-config': ^10.0.0
-    '@anolilab/prettier-config': 9.1.1
-    '@anolilab/textlint-config': 12.1.6
-    '@commitlint/cli': ^20.5.0
-    '@commitlint/config-conventional': ^20.5.0
-    '@secretlint/secretlint-rule-preset-recommend': 11.6.0
+    '@anolilab/commitlint-config': 10.0.1
+    '@anolilab/lint-staged-config': ^11.0.1
+    '@anolilab/prettier-config': 10.0.1
+    '@anolilab/textlint-config': 13.0.1
+    '@commitlint/cli': ^21.0.1
+    '@commitlint/config-conventional': ^21.0.1
+    '@secretlint/secretlint-rule-preset-recommend': 13.0.2
     husky: ^9.1.7
-    lint-staged: ^16.4.0
+    lint-staged: ^17.0.5
     prettier: ^3.8.3
-    secretlint: 11.6.0
-    textlint: 15.6.1
+    secretlint: 13.0.2
+    textlint: 15.7.1
 onlyBuiltDependencies:
   - better-sqlite3
   - core-js-pure
