@@ -1,3 +1,26 @@
+## [16.0.0](https://github.com/anolilab/renovate-config/compare/v15.0.0...v16.0.0) (2026-05-23)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update patch updates ([#343](https://github.com/anolilab/renovate-config/issues/343)) ([90d6ea1](https://github.com/anolilab/renovate-config/commit/90d6ea1892926c85eeb0b9f05a4f8541e868934d))
+
+### Miscellaneous Chores
+
+* **ci:** add zizmor static analyzer config ([8b8b201](https://github.com/anolilab/renovate-config/commit/8b8b2011b2b6dcd4ddd322a4d39c2210b39cfc88))
+* **ci:** bump anolilab/workflows pin to 20b8733 (v15.3.1+) ([7444a63](https://github.com/anolilab/renovate-config/commit/7444a638d4b1a65b3e3eda16bb16f6fde6f9a92e))
+* **ci:** bump anolilab/workflows pin to fix pnpm version conflict ([3705b63](https://github.com/anolilab/renovate-config/commit/3705b6394f67b969f9d42c90325b6643b7f65e45))
+* **deps:** update dependency @hono/node-server@<1.19.10 to v2 ([#348](https://github.com/anolilab/renovate-config/issues/348)) ([2b194c0](https://github.com/anolilab/renovate-config/commit/2b194c02209d851da10a5fe32b624bab8b325665))
+* **deps:** update dependency brace-expansion@>=2.0.0 <2.0.3 to v5 ([#351](https://github.com/anolilab/renovate-config/issues/351)) ([dbdcd66](https://github.com/anolilab/renovate-config/commit/dbdcd66baeb25de6a0dc87613ffcc09cbb6c622a))
+
 ## [15.0.0](https://github.com/anolilab/renovate-config/compare/v14.0.2...v15.0.0) (2026-05-21)
 
 ### ⚠ BREAKING CHANGES
