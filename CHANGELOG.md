@@ -1,3 +1,23 @@
+## [17.0.0](https://github.com/anolilab/renovate-config/compare/v16.0.0...v17.0.0) (2026-05-25)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency brace-expansion@<1.1.13 to v4 ([#332](https://github.com/anolilab/renovate-config/issues/332)) ([2ea466a](https://github.com/anolilab/renovate-config/commit/2ea466ac673e6786676a9a54fd5b668577082a6f))
+* **deps:** update dependency brace-expansion@<1.1.13 to v5 ([#333](https://github.com/anolilab/renovate-config/issues/333)) ([d9f0cf7](https://github.com/anolilab/renovate-config/commit/d9f0cf79b833ac16908fae12a5ec5fd0c3b73d8d))
+* **deps:** update dependency diff@>=5.0.0 <5.2.2 to v6 ([#352](https://github.com/anolilab/renovate-config/issues/352)) ([723b2c8](https://github.com/anolilab/renovate-config/commit/723b2c8131e0caa4b19f9dad328afeb487a1f049))
+
 ## [16.0.0](https://github.com/anolilab/renovate-config/compare/v15.0.0...v16.0.0) (2026-05-23)
 
 ### ⚠ BREAKING CHANGES
