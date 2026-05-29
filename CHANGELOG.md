@@ -1,3 +1,21 @@
+## [19.0.0](https://github.com/anolilab/renovate-config/compare/v18.0.0...v19.0.0) (2026-05-29)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: prisis <d.bannert@anolilab.de>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: prisis <d.bannert@anolilab.de>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency diff@>=5.0.0 <5.2.2 to v9 ([#355](https://github.com/anolilab/renovate-config/issues/355)) ([e524cc1](https://github.com/anolilab/renovate-config/commit/e524cc1407a4c93be62b7029039dac83120be3b2))
+* **deps:** update dependency diff@>=6.0.0 <8.0.3 to v9 ([#356](https://github.com/anolilab/renovate-config/issues/356)) ([c5879bc](https://github.com/anolilab/renovate-config/commit/c5879bcc0cf99c1d4201466b0e4d9f89d03f9437))
+
 ## [18.0.0](https://github.com/anolilab/renovate-config/compare/v17.0.0...v18.0.0) (2026-05-29)
 
 ### ⚠ BREAKING CHANGES
