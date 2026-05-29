@@ -114,7 +114,7 @@ overrides:
   tar@<=7.5.3: '>=7.5.15'
   tar@<=7.5.9: '>=7.5.15'
   tar@=7.5.1: '>=7.5.15'
-  tmp@<=0.2.3: '>=0.2.5'
+  tmp@<0.2.6: '>=0.2.6'
   underscore@<=1.13.7: '>=1.13.8'
   undici@<6.23.0: '>=6.25.0'
   undici@>=7.0.0 <7.18.2: '>=7.25.0'
@@ -5870,8 +5870,8 @@ packages:
   tinylogic@2.0.0:
     resolution: {integrity: sha512-dljTkiLLITtsjqBvTA1MRZQK/sGP4kI3UJKc3yA9fMzYbMF2RhcN04SeROVqJBIYYOoJMM8u0WDnhFwMSFQotw==}
 
-  tmp@0.2.5:
-    resolution: {integrity: sha512-voyz6MApa1rQGUxT3E+BK7/ROe8itEx7vD8/HEvt4xwXucvQ5G5oeEiHkmHZJuBO21RpOf+YYm9MOivj709jow==}
+  tmp@0.2.7:
+    resolution: {integrity: sha512-e0votIpp4Uo2AJYSzVHV6xCcawuiez3DzqDAbrTc3YxBkplN6e+dM13ZeIcZnDg/QpSuU2zfZ3rzwY8ukEnaXw==}
     engines: {node: '>=14.14'}
 
   to-regex-range@5.0.1:
@@ -10068,7 +10068,7 @@ snapshots:
     dependencies:
       chardet: 0.7.0
       iconv-lite: 0.4.24
-      tmp: 0.2.5
+      tmp: 0.2.7
 
   extract-zip@2.0.1:
     dependencies:
@@ -14167,7 +14167,7 @@ snapshots:
 
   tinylogic@2.0.0: {}
 
-  tmp@0.2.5: {}
+  tmp@0.2.7: {}
 
   to-regex-range@5.0.1:
     dependencies:
