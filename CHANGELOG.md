@@ -1,3 +1,25 @@
+## [18.0.0](https://github.com/anolilab/renovate-config/compare/v17.0.0...v18.0.0) (2026-05-29)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+* **deps:** update minor updates ([#361](https://github.com/anolilab/renovate-config/issues/361)) ([8f2dae3](https://github.com/anolilab/renovate-config/commit/8f2dae3a40f64673436de5cbc9286d6c3df92654))
+
+### Miscellaneous Chores
+
+* **deps:** apply pnpm audit fixes and dedupe ([c79d8c4](https://github.com/anolilab/renovate-config/commit/c79d8c466d0f30f23402ec552a66403179a10b65))
+* **deps:** update dependency minimatch@<3.1.3 to v7 ([#360](https://github.com/anolilab/renovate-config/issues/360)) ([3993f22](https://github.com/anolilab/renovate-config/commit/3993f223e5dc917adc49da693111de54c9b9f1c8))
+
+### Continuous Integration
+
+* add lock-issues workflow to lock inactive closed issues and PRs ([1d168e2](https://github.com/anolilab/renovate-config/commit/1d168e227b69cb95680a012621557b2f6f0bb540))
+* **lint:** fix yaml-lint violations, bump lint pin, quote shell vars ([#362](https://github.com/anolilab/renovate-config/issues/362)) ([7a37d35](https://github.com/anolilab/renovate-config/commit/7a37d355283306984a16fa447e00a91812116795))
+
 ## [17.0.0](https://github.com/anolilab/renovate-config/compare/v16.0.0...v17.0.0) (2026-05-25)
 
 ### ⚠ BREAKING CHANGES
