@@ -1,3 +1,9 @@
+## [19.0.1](https://github.com/anolilab/renovate-config/compare/v19.0.0...v19.0.1) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate@>=32.124.0 <42.68.5 to >=43.0.10 ([#368](https://github.com/anolilab/renovate-config/issues/368)) ([a30eac3](https://github.com/anolilab/renovate-config/commit/a30eac37a6fdb7c0e2344601e55f1277699825c6))
+
 ## [19.0.0](https://github.com/anolilab/renovate-config/compare/v18.0.0...v19.0.0) (2026-05-29)
 
 ### ⚠ BREAKING CHANGES
