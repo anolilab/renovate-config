@@ -1,3 +1,9 @@
+## [20.0.2](https://github.com/anolilab/renovate-config/compare/v20.0.1...v20.0.2) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** consolidate open Renovate override + dep bumps; align trust policy with sibling repos ([1048fc1](https://github.com/anolilab/renovate-config/commit/1048fc162881f0d2fdaa80496199714dd185a3c6)), closes [#371](https://github.com/anolilab/renovate-config/issues/371) [#372](https://github.com/anolilab/renovate-config/issues/372) [#376](https://github.com/anolilab/renovate-config/issues/376) [#379](https://github.com/anolilab/renovate-config/issues/379) [377/#378](https://github.com/377/renovate-config/issues/378)
+
 ## [20.0.1](https://github.com/anolilab/renovate-config/compare/v20.0.0...v20.0.1) (2026-06-11)
 
 ### Bug Fixes
