@@ -1,3 +1,13 @@
+## [19.0.2](https://github.com/anolilab/renovate-config/compare/v19.0.1...v19.0.2) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update patch updates (patch) ([#370](https://github.com/anolilab/renovate-config/issues/370)) ([9ddb23c](https://github.com/anolilab/renovate-config/commit/9ddb23ca4661c87aacfc46fd0c77d54a21716c1a))
+
+### Miscellaneous Chores
+
+* **deps:** resolve audit vulnerabilities and dedupe lockfile ([abfff63](https://github.com/anolilab/renovate-config/commit/abfff6364f6da89c16461f7d6c73ce95ab3edeef))
+
 ## [19.0.1](https://github.com/anolilab/renovate-config/compare/v19.0.0...v19.0.1) (2026-06-02)
 
 ### Bug Fixes
