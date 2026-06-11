@@ -18,6 +18,7 @@
     "minimumReleaseAge": "3 days",
     "stabilityDays": 3,
     "prCreation": "immediate",
+    "platformAutomerge": true,
     "vulnerabilityAlerts": {
         "labels": ["security", "priority-critical"],
         "enabled": true,
@@ -53,7 +54,7 @@
             "matchPackagePrefixes": ["@postcss/"],
             "extends": [":semanticCommitType(style)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"],
             "labels": ["style"]
         },
@@ -89,7 +90,7 @@
             "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"],
             "extends": [":semanticCommitType(style)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"],
             "labels": ["eslint"]
         },
@@ -98,7 +99,7 @@
             "matchPackageNames": ["prettier", "prettier-.*"],
             "extends": [":semanticCommitType(style)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "labels": ["prettier"]
         },
         {
@@ -127,7 +128,7 @@
             "matchPackageNames": ["typedoc", "typedoc-plugin-.*", "@typedoc/.*"],
             "extends": [":semanticCommitType(docs)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"]
         },
         {
@@ -136,7 +137,7 @@
             "matchPackagePatterns": ["^@vitejs/.*"],
             "extends": [":semanticCommitType(build)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"]
         },
         {
@@ -145,7 +146,7 @@
             "matchPackagePatterns": ["^rollup-plugin-.*", "^@rollup/.*"],
             "extends": [":semanticCommitType(build)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"]
         },
         {
@@ -153,14 +154,14 @@
             "matchPackagePrefixes": ["@visulima/"],
             "extends": [":semanticCommitType(chore)"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "schedule": ["after 1am and before 5am every weekend"]
         },
         {
             "description": "Automerge non-major updates",
             "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
             "automerge": true,
-            "automergeType": "branch",
+            "automergeType": "pr",
             "extends": [":semanticCommitType(fix)"]
         },
         {
@@ -174,7 +175,7 @@
         "labels": ["c: dependencies"],
         "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", "helpers:disableTypesNodeMajor", ":semanticCommitType(chore)"],
         "rangeStrategy": "bump",
-        "automergeType": "branch",
+        "automergeType": "pr",
         "major": {
             "automerge": false,
             "extends": [":semanticCommitType(feat)"],
@@ -199,7 +200,7 @@
     "github-actions": {
         "extends": [":noUnscheduledUpdates", "helpers:pinGitHubActionDigests", ":semanticCommitType(ci)"],
         "rangeStrategy": "bump",
-        "automergeType": "branch",
+        "automergeType": "pr",
         "automerge": true,
         "labels": ["github-actions"]
     },
