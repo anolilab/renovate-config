@@ -23,6 +23,9 @@ catalogs:
     prettier: ^3.8.3
     secretlint: 13.0.2
     textlint: 15.7.1
+minimumReleaseAge: 1440
+trustPolicy: no-downgrade
+blockExoticSubdeps: true
 onlyBuiltDependencies:
   - better-sqlite3
   - core-js-pure
