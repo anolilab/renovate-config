@@ -9,7 +9,7 @@ catalogs:
     conventional-changelog-conventionalcommits: 9.3.1
     is-ci: ^4.1.0
     renovate: 43.150.0
-    sort-package-json: 3.6.1
+    sort-package-json: 3.7.1
   lint:
     '@anolilab/commitlint-config': 10.0.1
     '@anolilab/lint-staged-config': ^11.0.1
@@ -53,8 +53,8 @@ overrides:
   hono@<4.11.10: '>=4.12.23'
   hono@<4.12.4: '>=4.12.23'
   hono@<4.12.7: '>=4.12.23'
-  js-yaml@<3.14.2: '>=4.1.1'
-  js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
+  js-yaml@<3.14.2: '>=4.2.0'
+  js-yaml@>=4.0.0 <4.1.1: '>=4.2.0'
   lodash-es@<=4.17.23: '>=4.18.0'
   lodash-es@>=4.0.0 <=4.17.22: '>=4.18.1'
   lodash-es@>=4.0.0 <=4.17.23: '>=4.18.0'
@@ -70,8 +70,8 @@ overrides:
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.2'
   picomatch@<2.3.2: '>=2.3.2'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
-  protobufjs@>=8.0.0 <8.2.0: '>=8.4.2'
-  protobufjs@>=8.0.0 <=8.0.1: '>=8.4.2'
+  protobufjs@>=8.0.0 <8.2.0: '>=8.6.1'
+  protobufjs@>=8.0.0 <=8.0.1: '>=8.6.1'
   qs@<6.14.1: '>=6.15.2'
   renovate@>=32.124.0 <42.68.5: '>=43.0.10'
   shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
@@ -86,6 +86,6 @@ overrides:
   tmp@<0.2.6: '>=0.2.7'
   underscore@<=1.13.7: '>=1.13.8'
   undici@<6.23.0: '>=6.26.0'
-  undici@>=7.0.0 <7.18.2: '>=7.26.0'
-  undici@>=7.0.0 <7.24.0: '>=7.26.0'
-  undici@>=7.17.0 <7.24.0: '>=7.26.0'
+  undici@>=7.0.0 <7.18.2: '>=7.27.2'
+  undici@>=7.0.0 <7.24.0: '>=7.27.2'
+  undici@>=7.17.0 <7.24.0: '>=7.27.2'
