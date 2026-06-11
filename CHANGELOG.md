@@ -1,3 +1,13 @@
+## [20.0.1](https://github.com/anolilab/renovate-config/compare/v20.0.0...v20.0.1) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#375](https://github.com/anolilab/renovate-config/issues/375)) ([fd3d100](https://github.com/anolilab/renovate-config/commit/fd3d1004a4896a811756149388408302256c3cb8))
+
+### Continuous Integration
+
+* disable markdown lint ([1a11c02](https://github.com/anolilab/renovate-config/commit/1a11c02eea07f385840856875bce8c65ed696d52))
+
 ## [20.0.0](https://github.com/anolilab/renovate-config/compare/v19.0.2...v20.0.0) (2026-06-11)
 
 ### ⚠ BREAKING CHANGES
