@@ -1,3 +1,29 @@
+## [20.0.0](https://github.com/anolilab/renovate-config/compare/v19.0.2...v20.0.0) (2026-06-11)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Daniel Bannert <prisis@users.noreply.github.com>
+
+### Features
+
+* **automerge:** use GitHub platform auto-merge on protected branches ([6b9c683](https://github.com/anolilab/renovate-config/commit/6b9c6837c0821f77f92e3373aa9dfbc4169e2ef6))
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to ^21.0.2 ([#369](https://github.com/anolilab/renovate-config/issues/369)) ([2f595f4](https://github.com/anolilab/renovate-config/commit/2f595f4b45b77aca861ff6df7d338d793644bd03))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency minimatch@<3.1.3 to v10 ([#365](https://github.com/anolilab/renovate-config/issues/365)) ([493cb20](https://github.com/anolilab/renovate-config/commit/493cb20d37c64f8d2fd1b7276f95ad2e973c153a))
+* **security:** harden pnpm supply-chain config and add dev container ([5520498](https://github.com/anolilab/renovate-config/commit/55204985f6e0811ade48b99a195ea20ebabf730d))
+
+### Continuous Integration
+
+* trigger lint workflow on merge_group events ([bbeea7e](https://github.com/anolilab/renovate-config/commit/bbeea7ec98399fb0bf5f12bb1420fcbe73233ce2))
+
 ## [19.0.2](https://github.com/anolilab/renovate-config/compare/v19.0.1...v19.0.2) (2026-06-11)
 
 ### Bug Fixes
