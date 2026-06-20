@@ -23,8 +23,8 @@ catalogs:
       specifier: ^4.1.0
       version: 4.1.0
     renovate:
-      specifier: 43.216.4
-      version: 43.216.4
+      specifier: 43.216.0
+      version: 43.216.0
     sort-package-json:
       specifier: 3.7.1
       version: 3.7.1
@@ -95,7 +95,7 @@ overrides:
   lodash@>=4.0.0 <=4.17.23: '>=4.18.0'
   minimatch@<3.1.3: '>=10.2.5'
   minimatch@<3.1.4: '>=10.2.5'
-  minimatch@>=5.0.0 <5.1.7: '>=8.0.7'
+  minimatch@>=5.0.0 <5.1.7: '>=9.0.9'
   minimatch@>=5.0.0 <5.1.8: '>=5.1.9'
   minimatch@>=9.0.0 <9.0.6: '>=9.0.9'
   minimatch@>=9.0.0 <9.0.7: '>=9.0.9'
@@ -105,7 +105,7 @@ overrides:
   protobufjs@>=8.0.0 <8.2.0: '>=8.6.1'
   protobufjs@>=8.0.0 <=8.0.1: '>=8.6.1'
   qs@<6.14.1: '>=6.15.2'
-  renovate@>=32.124.0 <42.68.5: '>=43.216.4'
+  renovate@>=32.124.0 <42.68.5: '>=43.216.0'
   shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
   simple-git@<3.36.0: '>=3.36.0'
   tar@<7.5.7: '>=7.5.16'
@@ -170,7 +170,7 @@ importers:
         version: 3.8.3
       renovate:
         specifier: catalog:dev
-        version: 43.216.4(typanion@3.14.0)
+        version: 43.216.0(typanion@3.14.0)
       secretlint:
         specifier: catalog:lint
         version: 13.0.2
@@ -3677,6 +3677,10 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
+  lru-cache@11.5.0:
+    resolution: {integrity: sha512-5YgH9UJd7wVb9hIouI2adWpgqrrICkt070Dnj8EUY1+B4B2P9eRLPAkAAo6NICA7CEhOIeBHl46u9zSNpNu7zA==}
+    engines: {node: 20 || >=22}
+
   lru-cache@11.5.1:
     resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
     engines: {node: 20 || >=22}
@@ -4987,8 +4991,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.216.4:
-    resolution: {integrity: sha512-89v9kHfwPWpHd5jiYq5tL1nyrgqY/ZaQa81BjPJHxSh0SUpbsdZ3K4bmm4RV4CWI/4AJTIAkXvlHA2y1hg0JAQ==}
+  renovate@43.216.0:
+    resolution: {integrity: sha512-G2sMGKH6QBKF4yvBasRiPQMe7/kgNo8ASIJ41NnMGf1AHZDKBMvE3wgaYbFVNT6T/r7Ol8O9xyz/G8IqzXynKA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -9937,7 +9941,7 @@ snapshots:
 
   hosted-git-info@9.0.3:
     dependencies:
-      lru-cache: 11.5.1
+      lru-cache: 11.5.0
 
   hpagent@1.2.0: {}
 
@@ -10548,6 +10552,8 @@ snapshots:
   lowercase-keys@4.0.1: {}
 
   lru-cache@10.4.3: {}
+
+  lru-cache@11.5.0: {}
 
   lru-cache@11.5.1: {}
 
@@ -12415,7 +12421,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.216.4(typanion@3.14.0):
+  renovate@43.216.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
