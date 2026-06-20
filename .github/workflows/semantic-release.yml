@@ -58,6 +58,7 @@ jobs:
                   node-version: "24"
                   install-bun: false
                   enable-nx-cache: false
+                  run-signatures-audit: false
 
             - name: "Semantic Release"
               if: "success()"
