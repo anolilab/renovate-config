@@ -1,3 +1,40 @@
+## [21.0.0](https://github.com/anolilab/renovate-config/compare/v20.0.2...v21.0.0) (2026-06-20)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+* **deps:** updated dependencies to major versions
+
+### Bug Fixes
+
+* **deps:** update patch updates ([92aa8da](https://github.com/anolilab/renovate-config/commit/92aa8da795a7c75f102eb80d7cb639a192ba64b4))
+* **deps:** update renovate to v43.216.4 ([f9f13e8](https://github.com/anolilab/renovate-config/commit/f9f13e81a0109ef960c88754b25fdb80f27abb87))
+
+### Miscellaneous Chores
+
+* **deps:** add overrides for undici, protobufjs, and @opentelemetry/core advisories ([48930d5](https://github.com/anolilab/renovate-config/commit/48930d56c45c32516d77e215eb4b44cdb71191c0))
+* **deps:** lock file maintenance ([dd4b89b](https://github.com/anolilab/renovate-config/commit/dd4b89b29da9d577eebf7e19ded53deebc31097b))
+* **deps:** regenerate lockfile after applying renovate updates ([2c68af0](https://github.com/anolilab/renovate-config/commit/2c68af093a470ed7916c7e2362db2fd985e6867d))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.7 to v10 ([0998cbc](https://github.com/anolilab/renovate-config/commit/0998cbc012748b403b8c4c5d6ef9fecf146a5f3e))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.7 to v8 ([942322b](https://github.com/anolilab/renovate-config/commit/942322bdcdc386c2449bd3d306a9773a67f9f52e))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.7 to v9 ([a9b2887](https://github.com/anolilab/renovate-config/commit/a9b28873287b23c00e84166aa82159958eb48970))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.8 to v6 ([2b6a5a1](https://github.com/anolilab/renovate-config/commit/2b6a5a1cf0423e25ce617f26c12508ed7a7519b3))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.8 to v7 ([db9a509](https://github.com/anolilab/renovate-config/commit/db9a5095ab472dd95e1a4d7c88e672fb2bb5d188))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.8 to v8 ([6fe171d](https://github.com/anolilab/renovate-config/commit/6fe171d306755a83b306b57ddf042cc08dc84d18))
+* **deps:** update dependency minimatch@>=5.0.0 <5.1.8 to v9 ([e83795e](https://github.com/anolilab/renovate-config/commit/e83795e5d6f0f973d5ce6dc19eb816065f8b007d))
+* update pnpm to 11.8.0 ([d527290](https://github.com/anolilab/renovate-config/commit/d5272902c15c496ee7ff4923e1eaf378d72a6c72))
+
+### Continuous Integration
+
+* approve build scripts for pnpm 11 install (allowBuilds) ([fc7c6ba](https://github.com/anolilab/renovate-config/commit/fc7c6bab28b0f91be9908d9fc735156e54dff04e))
+* bump anolilab/workflows action pin for npm-version=latest ([54b1319](https://github.com/anolilab/renovate-config/commit/54b1319d49dbd41b7fd8ebcfa99cbe929138cdb6))
+* disable npm audit signatures for pnpm catalog repo ([ee181eb](https://github.com/anolilab/renovate-config/commit/ee181eb1321ed539063fec70b5a26a60e4afdd02))
+
 ## [20.0.2](https://github.com/anolilab/renovate-config/compare/v20.0.1...v20.0.2) (2026-06-11)
 
 ### Bug Fixes
