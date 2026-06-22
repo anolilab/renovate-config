@@ -57,7 +57,7 @@ catalogs:
       specifier: ^17.0.7
       version: 17.0.7
     prettier:
-      specifier: ^3.8.3
+      specifier: ^3.8.4
       version: 3.8.4
     secretlint:
       specifier: 13.0.2
