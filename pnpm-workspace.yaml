@@ -2,7 +2,7 @@ catalogs:
   cli:
     '@anolilab/semantic-release-preset': ^13.4.16
     pncat: ^0.12.0
-    semantic-release: ^25.0.3
+    semantic-release: ^25.0.5
     taze: 19.14.1
   dev:
     audit-ci: ^7.1.0
