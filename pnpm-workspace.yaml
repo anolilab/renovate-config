@@ -8,7 +8,7 @@ catalogs:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.3.1
     is-ci: ^4.1.0
-    renovate: 43.216.0
+    renovate: 43.234.0
     sort-package-json: 3.7.1
   lint:
     '@anolilab/commitlint-config': 10.0.1
@@ -86,7 +86,7 @@ overrides:
   protobufjs@>=8.0.0 <=8.0.1: '>=8.6.4'
   protobufjs@>=8.2.0 <=8.5.0: '>=8.6.4'
   qs@<6.14.1: '>=6.15.2'
-  renovate@>=32.124.0 <42.68.5: '>=43.216.0'
+  renovate@>=32.124.0 <42.68.5: '>=43.234.0'
   shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
   simple-git@<3.36.0: '>=3.36.0'
   tar@<7.5.7: '>=7.5.16'
