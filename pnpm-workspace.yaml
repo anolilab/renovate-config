@@ -17,11 +17,11 @@ catalogs:
     '@anolilab/textlint-config': 13.0.2
     '@commitlint/cli': ^21.0.2
     '@commitlint/config-conventional': ^21.0.2
-    '@secretlint/secretlint-rule-preset-recommend': 13.0.2
+    '@secretlint/secretlint-rule-preset-recommend': 13.0.4
     husky: ^9.1.7
     lint-staged: ^17.0.7
     prettier: ^3.8.3
-    secretlint: 13.0.2
+    secretlint: 13.0.4
     textlint: 15.7.1
 minimumReleaseAge: 1440
 trustPolicy: no-downgrade
