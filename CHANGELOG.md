@@ -1,3 +1,13 @@
+## [21.0.1](https://github.com/anolilab/renovate-config/compare/v21.0.0...v21.0.1) (2026-08-11)
+
+### Bug Fixes
+
+* **build:** resolve pnpm audit advisories ([d226132](https://github.com/anolilab/renovate-config/commit/d2261322362c76c0038b1a8e5ea59f209387b16f))
+
+### Miscellaneous Chores
+
+* **deps:** consolidate renovate dependency updates ([#407](https://github.com/anolilab/renovate-config/issues/407)) ([b2f9cff](https://github.com/anolilab/renovate-config/commit/b2f9cff660039ff289d2176c552aaa8fac9a8ada))
+
 ## [21.0.0](https://github.com/anolilab/renovate-config/compare/v20.0.2...v21.0.0) (2026-06-20)
 
 ### ⚠ BREAKING CHANGES
