@@ -1,6 +1,6 @@
 catalogs:
   cli:
-    '@anolilab/semantic-release-preset': ^13.4.18
+    '@anolilab/semantic-release-preset': ^13.4.22
     pncat: ^0.12.0
     semantic-release: ^25.0.3
     taze: 19.14.1
@@ -12,9 +12,9 @@ catalogs:
     sort-package-json: 3.7.1
   lint:
     '@anolilab/commitlint-config': 10.0.2
-    '@anolilab/lint-staged-config': ^11.0.12
-    '@anolilab/prettier-config': 10.0.2
-    '@anolilab/textlint-config': 13.0.5
+    '@anolilab/lint-staged-config': ^11.1.3
+    '@anolilab/prettier-config': 10.0.3
+    '@anolilab/textlint-config': 13.0.6
     '@commitlint/cli': ^21.0.2
     '@commitlint/config-conventional': ^21.0.2
     '@secretlint/secretlint-rule-preset-recommend': 13.0.4
@@ -81,7 +81,7 @@ overrides:
   minimatch@>=9.0.0 <9.0.7: '>=9.0.9'
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.2'
   picomatch@<2.3.2: '>=2.3.2'
-  picomatch@>=4.0.0 <4.0.4: '>=4.0.5'
+  picomatch@>=4.0.0 <4.0.4: '>=4.0.7'
   protobufjs@>=8.0.0 <8.2.0: '>=8.6.6'
   protobufjs@>=8.0.0 <=8.0.1: '>=8.6.6'
   protobufjs@>=8.2.0 <=8.5.0: '>=8.6.6'
@@ -108,13 +108,13 @@ overrides:
   adm-zip@<0.6.0: '>=0.6.0'
   brace-expansion@>=3.0.0 <5.0.7: '>=5.0.9'
   brace-expansion@>=4.0.0 <5.0.8: '>=5.0.9'
-  js-yaml@>=4.0.0 <4.3.0: '>=4.3.1'
+  js-yaml@>=4.0.0 <4.3.0: '>=4.3.2'
   linkify-it@<=5.0.1: '>=5.0.2'
-  fast-uri@>=3.0.0 <3.1.3: '>=3.1.5'
-  fast-uri@>=3.0.0 <=3.1.3: '>=3.1.5'
-  fast-uri@>=3.0.0 <3.1.5: '>=3.1.5'
+  fast-uri@>=3.0.0 <3.1.3: '>=3.1.6'
+  fast-uri@>=3.0.0 <=3.1.3: '>=3.1.6'
+  fast-uri@>=3.0.0 <3.1.5: '>=3.1.6'
   postcss@<=8.5.22: '>=8.5.23'
   ip-address@>=10.1.1 <=10.2.1: '>=10.3.1'
   ip-address@<=10.3.0: '>=10.3.1'
-  nanoid@<3.3.17: '>=3.3.17'
+  nanoid@<3.3.17: '>=3.3.18'
   re2@<=1.26.0: '>=1.26.1'
