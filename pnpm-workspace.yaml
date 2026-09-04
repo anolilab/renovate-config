@@ -22,7 +22,7 @@ catalogs:
     lint-staged: ^17.0.8
     prettier: ^3.8.3
     secretlint: 13.0.4
-    textlint: 15.7.1
+    textlint: 15.8.0
 minimumReleaseAge: 1440
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 1440
