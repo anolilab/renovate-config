@@ -134,7 +134,7 @@ overrides:
   fast-uri@>=3.0.0 <3.1.3: '>=3.1.5'
   fast-uri@>=3.0.0 <=3.1.3: '>=3.1.5'
   fast-uri@>=3.0.0 <3.1.5: '>=3.1.5'
-  postcss@<=8.5.22: '>=8.5.23'
+  postcss@<=8.5.22: '>=8.5.26'
   ip-address@>=10.1.1 <=10.2.1: '>=10.3.1'
   ip-address@<=10.3.0: '>=10.3.1'
   nanoid@<3.3.17: '>=3.3.17'
@@ -5100,6 +5100,7 @@ packages:
   renovate@43.216.0:
     resolution: {integrity: sha512-G2sMGKH6QBKF4yvBasRiPQMe7/kgNo8ASIJ41NnMGf1AHZDKBMvE3wgaYbFVNT6T/r7Ol8O9xyz/G8IqzXynKA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
+    deprecated: Renovate versions older than the latest major version are unsupported
     hasBin: true
 
   repeat-string@1.6.1:
