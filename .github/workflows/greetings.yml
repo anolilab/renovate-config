@@ -22,6 +22,6 @@ jobs:
 
             - uses: "actions/first-interaction@1c4688942c71f71d4f5502a26ea67c331730fa4d" # v3.1.0
               with:
-                  repo-token: "${{ secrets.GITHUB_TOKEN }}"
-                  issue-message: "Awesome! Thank you for taking the time to create your first issue! Please review the [guidelines](https://narrowspark.com/docs/current/contributing)"
-                  pr-message: "Great! Thank you for taking the time to create your first pull request! Please review the [guidelines](https://narrowspark.com/docs/current/contributing)"
+                  repo_token: "${{ secrets.GITHUB_TOKEN }}"
+                  issue_message: "Awesome! Thank you for taking the time to create your first issue! Please review the [guidelines](https://narrowspark.com/docs/current/contributing)"
+                  pr_message: "Great! Thank you for taking the time to create your first pull request! Please review the [guidelines](https://narrowspark.com/docs/current/contributing)"
