@@ -1,3 +1,9 @@
+## [21.0.2](https://github.com/anolilab/renovate-config/compare/v21.0.1...v21.0.2) (2026-09-06)
+
+### Bug Fixes
+
+* **ci:** unbreak the audit and the greetings action ([#424](https://github.com/anolilab/renovate-config/issues/424)) ([2e126a2](https://github.com/anolilab/renovate-config/commit/2e126a217a679292cef75e4f70dc0903611ed823))
+
 ## [21.0.1](https://github.com/anolilab/renovate-config/compare/v21.0.0...v21.0.1) (2026-08-11)
 
 ### Bug Fixes
