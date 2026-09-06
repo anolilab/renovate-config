@@ -12,7 +12,9 @@
         ":enableVulnerabilityAlerts",
         ":maintainLockFilesWeekly"
     ],
-    "schedule": ["after 10:00 before 19:00 every weekday except after 13:00 before 14:00"],
+    "schedule": [
+        "after 10:00 before 19:00 every weekday except after 13:00 before 14:00"
+    ],
     "prHourlyLimit": 4,
     "prConcurrentLimit": 10,
     "minimumReleaseAge": "3 days",
@@ -20,17 +22,24 @@
     "prCreation": "immediate",
     "platformAutomerge": true,
     "vulnerabilityAlerts": {
-        "labels": ["security", "priority-critical"],
+        "labels": [
+            "security",
+            "priority-critical"
+        ],
         "enabled": true,
         "schedule": "at any time",
         "automerge": true,
-        "extends": [":semanticCommitType(fix)"],
+        "extends": [
+            ":semanticCommitType(fix)"
+        ],
         "commitMessageSuffix": "[SECURITY]"
     },
     "packageRules": [
         {
             "description": "Disable package.json > engines update",
-            "matchDepTypes": ["engines"],
+            "matchDepTypes": [
+                "engines"
+            ],
             "enabled": false
         },
         {
@@ -50,171 +59,359 @@
                 "stylus",
                 "stylus-loader"
             ],
-            "matchPackagePatterns": ["^stylelint", "^postcss-.*", "^sass-.*", "^less-.*", "^stylus-.*"],
-            "matchPackagePrefixes": ["@postcss/"],
-            "extends": [":semanticCommitType(style)"],
+            "matchPackagePatterns": [
+                "^stylelint",
+                "^postcss-.*",
+                "^sass-.*",
+                "^less-.*",
+                "^stylus-.*"
+            ],
+            "matchPackagePrefixes": [
+                "@postcss/"
+            ],
+            "extends": [
+                ":semanticCommitType(style)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"],
-            "labels": ["style"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ],
+            "labels": [
+                "style"
+            ]
         },
         {
             "groupName": "textlint",
-            "matchPackageNames": ["textlint", "textlint-.*", "@textlint/.*", "^textlint$", "^textlint-scripts", "^textlint-tester"],
-            "extends": [":semanticCommitType(style)"],
-            "labels": ["textlint"]
+            "matchPackageNames": [
+                "textlint",
+                "textlint-.*",
+                "@textlint/.*",
+                "^textlint$",
+                "^textlint-scripts",
+                "^textlint-tester"
+            ],
+            "extends": [
+                ":semanticCommitType(style)"
+            ],
+            "labels": [
+                "textlint"
+            ]
         },
         {
             "groupName": "semantic-release",
-            "matchPackagePrefixes": ["semantic-release", "@semantic-release/.*", "conventional-changelog-conventionalcommits"],
-            "extends": [":semanticCommitType(chore)"]
+            "matchPackagePrefixes": [
+                "semantic-release",
+                "@semantic-release/.*",
+                "conventional-changelog-conventionalcommits"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "groupName": "ts-node",
-            "matchPackageNames": ["ts-node", "ts-node-test-register"],
-            "extends": [":semanticCommitType(chore)"]
+            "matchPackageNames": [
+                "ts-node",
+                "ts-node-test-register"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "groupName": "vitest",
-            "matchPackageNames": ["@vitest/coverage-c8", "@vitest/ui", "vitest", "c8"],
-            "extends": [":semanticCommitType(chore)"]
+            "matchPackageNames": [
+                "@vitest/coverage-c8",
+                "@vitest/ui",
+                "vitest",
+                "c8"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "groupName": "secretlint",
-            "matchPackageNames": ["^secretlint", "^@secretlint/.*"],
-            "extends": [":semanticCommitType(chore)"]
+            "matchPackageNames": [
+                "^secretlint",
+                "^@secretlint/.*"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "groupName": "ESLint",
-            "matchPackagePrefixes": ["eslint"],
-            "matchPackagePatterns": ["^eslint", "^@typescript-eslint/.*", "^eslint-plugin-.*"],
-            "extends": [":semanticCommitType(style)"],
+            "matchPackagePrefixes": [
+                "eslint"
+            ],
+            "matchPackagePatterns": [
+                "^eslint",
+                "^@typescript-eslint/.*",
+                "^eslint-plugin-.*"
+            ],
+            "extends": [
+                ":semanticCommitType(style)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"],
-            "labels": ["eslint"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ],
+            "labels": [
+                "eslint"
+            ]
         },
         {
             "groupName": "prettier",
-            "matchPackageNames": ["prettier", "prettier-.*"],
-            "extends": [":semanticCommitType(style)"],
+            "matchPackageNames": [
+                "prettier",
+                "prettier-.*"
+            ],
+            "extends": [
+                ":semanticCommitType(style)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "labels": ["prettier"]
+            "labels": [
+                "prettier"
+            ]
         },
         {
             "groupName": "github-actions",
-            "matchManagers": ["github-actions"],
-            "extends": [":semanticCommitType(ci)"],
-            "labels": ["github-actions"]
+            "matchManagers": [
+                "github-actions"
+            ],
+            "extends": [
+                ":semanticCommitType(ci)"
+            ],
+            "labels": [
+                "github-actions"
+            ]
         },
         {
             "groupName": "type dependencies",
             "groupSlug": "types",
-            "matchPackagePrefixes": ["@types/"],
-            "packageNames": ["type-coverage", "type-fest", "typescript"],
-            "extends": [":semanticCommitType(ci)"],
+            "matchPackagePrefixes": [
+                "@types/"
+            ],
+            "packageNames": [
+                "type-coverage",
+                "type-fest",
+                "typescript"
+            ],
+            "extends": [
+                ":semanticCommitType(ci)"
+            ],
             "automerge": true,
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ]
         },
         {
             "groupName": "renovate",
             "automerge": true,
-            "matchPackageNames": ["renovate"],
-            "extends": [":semanticCommitType(chore)"]
+            "matchPackageNames": [
+                "renovate"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "groupName": "typedoc",
-            "matchPackageNames": ["typedoc", "typedoc-plugin-.*", "@typedoc/.*"],
-            "extends": [":semanticCommitType(docs)"],
+            "matchPackageNames": [
+                "typedoc",
+                "typedoc-plugin-.*",
+                "@typedoc/.*"
+            ],
+            "extends": [
+                ":semanticCommitType(docs)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ]
         },
         {
             "groupName": "vite",
-            "matchPackageNames": ["vite", "vite-plugin-.*"],
-            "matchPackagePatterns": ["^@vitejs/.*"],
-            "extends": [":semanticCommitType(build)"],
+            "matchPackageNames": [
+                "vite",
+                "vite-plugin-.*"
+            ],
+            "matchPackagePatterns": [
+                "^@vitejs/.*"
+            ],
+            "extends": [
+                ":semanticCommitType(build)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ]
         },
         {
             "groupName": "rollup",
-            "matchPackageNames": ["rollup"],
-            "matchPackagePatterns": ["^rollup-plugin-.*", "^@rollup/.*"],
-            "extends": [":semanticCommitType(build)"],
+            "matchPackageNames": [
+                "rollup"
+            ],
+            "matchPackagePatterns": [
+                "^rollup-plugin-.*",
+                "^@rollup/.*"
+            ],
+            "extends": [
+                ":semanticCommitType(build)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ]
         },
         {
             "groupName": "visulima",
-            "matchPackagePrefixes": ["@visulima/"],
-            "extends": [":semanticCommitType(chore)"],
+            "matchPackagePrefixes": [
+                "@visulima/"
+            ],
+            "extends": [
+                ":semanticCommitType(chore)"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "schedule": ["after 1am and before 5am every weekend"]
+            "schedule": [
+                "after 1am and before 5am every weekend"
+            ]
+        },
+        {
+            "description": "Node.js: keep every pinned version on an LTS line. Node only promotes even-numbered majors to LTS, so odd majors are never proposed \u2014 a matrix leg deliberately testing a current release stays where it is rather than being dragged onto it.",
+            "matchDatasources": [
+                "node-version"
+            ],
+            "allowedVersions": "/^(?:\\d*[02468])\\./",
+            "groupName": "node",
+            "extends": [
+                ":semanticCommitType(chore)"
+            ]
         },
         {
             "description": "Automerge non-major updates",
-            "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
             "automerge": true,
             "automergeType": "pr",
-            "extends": [":semanticCommitType(fix)"]
+            "extends": [
+                ":semanticCommitType(fix)"
+            ]
         },
         {
             "description": "Ignore node version in package.json",
-            "matchPackageNames": ["node"],
-            "matchManagers": ["npm"],
+            "matchPackageNames": [
+                "node"
+            ],
+            "matchManagers": [
+                "npm"
+            ],
             "enabled": false
         }
     ],
     "npm": {
-        "labels": ["c: dependencies"],
-        "extends": [":noUnscheduledUpdates", ":separatePatchReleases", "npm:unpublishSafe", "helpers:disableTypesNodeMajor", ":semanticCommitType(chore)"],
+        "labels": [
+            "c: dependencies"
+        ],
+        "extends": [
+            ":noUnscheduledUpdates",
+            ":separatePatchReleases",
+            "npm:unpublishSafe",
+            "helpers:disableTypesNodeMajor",
+            ":semanticCommitType(chore)"
+        ],
         "rangeStrategy": "bump",
         "automergeType": "pr",
         "major": {
             "automerge": false,
-            "extends": [":semanticCommitType(feat)"],
+            "extends": [
+                ":semanticCommitType(feat)"
+            ],
             "commitBody": "BREAKING CHANGE: updated dependencies to major versions"
         },
         "minor": {
             "automerge": true,
             "groupName": "Minor updates",
-            "extends": [":semanticCommitType(feat)"]
+            "extends": [
+                ":semanticCommitType(feat)"
+            ]
         },
         "patch": {
             "automerge": true,
             "groupName": "Patch updates",
-            "extends": [":semanticCommitType(fix)"]
+            "extends": [
+                ":semanticCommitType(fix)"
+            ]
         },
         "lockFileMaintenance": {
             "enabled": true,
             "automerge": true,
-            "schedule": ["before 5am on monday"]
+            "schedule": [
+                "before 5am on monday"
+            ]
         }
     },
     "github-actions": {
-        "extends": [":noUnscheduledUpdates", "helpers:pinGitHubActionDigests", ":semanticCommitType(ci)"],
+        "extends": [
+            ":noUnscheduledUpdates",
+            "helpers:pinGitHubActionDigests",
+            ":semanticCommitType(ci)"
+        ],
         "rangeStrategy": "bump",
         "automergeType": "pr",
         "automerge": true,
-        "labels": ["github-actions"]
+        "labels": [
+            "github-actions"
+        ]
     },
     "dockerfile": {
-        "extends": ["docker:pinDigests", ":semanticCommitType(build)"],
+        "extends": [
+            "docker:pinDigests",
+            ":semanticCommitType(build)"
+        ],
         "enabled": true,
         "automerge": true,
-        "labels": ["docker"]
+        "labels": [
+            "docker"
+        ]
     },
     "docker-compose": {
-        "extends": ["docker:pinDigests", ":semanticCommitType(build)"],
+        "extends": [
+            "docker:pinDigests",
+            ":semanticCommitType(build)"
+        ],
         "enabled": true,
         "automerge": true,
-        "labels": ["docker"]
+        "labels": [
+            "docker"
+        ]
     },
-    "commitBody": "Signed-off-by: Renovate Bot <bot@renovateapp.com>"
+    "commitBody": "Signed-off-by: Renovate Bot <bot@renovateapp.com>",
+    "customManagers": [
+        {
+            "customType": "regex",
+            "description": "Node.js versions written into GitHub Actions workflows: test-matrix legs (node_version) and setup-node inputs (node-version). Renovate's built-in node manager only reads .nvmrc, .node-version, engines and volta, so the versions workflows actually run on are invisible to it without this.",
+            "managerFilePatterns": [
+                "/^\\.github/workflows/.+\\.ya?ml$/"
+            ],
+            "matchStrings": [
+                "[\"']?node[-_]version[\"']?:\\s*[\"'](?<currentValue>\\d+(?:\\.\\d+){0,2})[\"']"
+            ],
+            "depNameTemplate": "node",
+            "datasourceTemplate": "node-version",
+            "versioningTemplate": "node"
+        }
+    ]
 }
