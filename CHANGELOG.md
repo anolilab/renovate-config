@@ -1,3 +1,9 @@
+## [23.0.1](https://github.com/anolilab/renovate-config/compare/v23.0.0...v23.0.1) (2026-09-07)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate@>=32.124.0 <42.68.5 to >=44.64.1 ([#429](https://github.com/anolilab/renovate-config/issues/429)) ([e9b1ef9](https://github.com/anolilab/renovate-config/commit/e9b1ef9697e3d2077e7fab45060740157cecd52f))
+
 ## [23.0.0](https://github.com/anolilab/renovate-config/compare/v22.0.2...v23.0.0) (2026-09-07)
 
 ### ⚠ BREAKING CHANGES
