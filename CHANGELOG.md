@@ -1,3 +1,23 @@
+## [23.0.0](https://github.com/anolilab/renovate-config/compare/v22.0.2...v23.0.0) (2026-09-07)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+* **deps:** updated dependencies to major versions
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Miscellaneous Chores
+
+* **deps:** update dependency ajv>fast-uri to v4 ([#433](https://github.com/anolilab/renovate-config/issues/433)) ([5ad4bcb](https://github.com/anolilab/renovate-config/commit/5ad4bcb4ba32e415860047c4efdeaef6733d8c31))
+* **deps:** update dependency js-yaml@>=4.0.0 <4.1.1 to v5 ([#434](https://github.com/anolilab/renovate-config/issues/434)) ([3436d0d](https://github.com/anolilab/renovate-config/commit/3436d0d8d1a7475fa652105651485b301edda123))
+* **deps:** update dependency linkify-it@<=5.0.1 to v6 ([#436](https://github.com/anolilab/renovate-config/issues/436)) ([637c27e](https://github.com/anolilab/renovate-config/commit/637c27eaf3b3055bca3322880b31180a06ff0930))
+
 ## [22.0.2](https://github.com/anolilab/renovate-config/compare/v22.0.1...v22.0.2) (2026-09-07)
 
 ### Bug Fixes
