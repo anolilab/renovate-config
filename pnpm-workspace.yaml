@@ -21,8 +21,8 @@ catalogs:
     husky: ^9.1.7
     lint-staged: ^17.4.1
     prettier: ^3.8.3
-    secretlint: 13.0.5
-    textlint: 15.7.1
+    secretlint: 13.0.4
+    textlint: 15.8.0
 minimumReleaseAge: 1440
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 1440
