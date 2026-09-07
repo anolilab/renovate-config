@@ -1,3 +1,15 @@
+## [22.0.0](https://github.com/anolilab/renovate-config/compare/v21.1.1...v22.0.0) (2026-09-07)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+* chore(deps): lockfile maintenance
+
+### Miscellaneous Chores
+
+* **deps:** combine all pending renovate updates ([#428](https://github.com/anolilab/renovate-config/issues/428)) ([d78a436](https://github.com/anolilab/renovate-config/commit/d78a4364d264441a7f4bd829c957964ebbdecd18))
+
 ## [21.1.1](https://github.com/anolilab/renovate-config/compare/v21.1.0...v21.1.1) (2026-09-07)
 
 ### Bug Fixes
