@@ -67,7 +67,7 @@ catalogs:
       version: 15.8.0
 
 overrides:
-  ajv>fast-uri: '>=3.1.5 <4'
+  ajv>fast-uri: '>=3.1.5 <5'
   '@hono/node-server@<1.19.10': '>=2.1.1'
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   '@modelcontextprotocol/sdk@<1.25.2': '>=1.30.0'
