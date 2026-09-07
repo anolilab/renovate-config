@@ -1,3 +1,11 @@
+## [22.0.2](https://github.com/anolilab/renovate-config/compare/v22.0.1...v22.0.2) (2026-09-07)
+
+### Bug Fixes
+
+* **deps:** update dependency @opentelemetry/core@<2.8.0 to >=2.11.0 ([#432](https://github.com/anolilab/renovate-config/issues/432)) ([4db014f](https://github.com/anolilab/renovate-config/commit/4db014f7b9a6d037510b6a2382df8fcb58ab5701))
+* **deps:** update patch updates ([#430](https://github.com/anolilab/renovate-config/issues/430)) ([ad62c27](https://github.com/anolilab/renovate-config/commit/ad62c27b40194a69ce9ad70936d12631cc57b4bc))
+* **deps:** update secretlint monorepo to v13.0.5 ([#431](https://github.com/anolilab/renovate-config/issues/431)) ([c8db8cb](https://github.com/anolilab/renovate-config/commit/c8db8cb4adc3dc0aec17a91f4f1939a2a0c7fbab))
+
 ## [22.0.1](https://github.com/anolilab/renovate-config/compare/v22.0.0...v22.0.1) (2026-09-07)
 
 ### Bug Fixes
