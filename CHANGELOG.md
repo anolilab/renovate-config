@@ -1,3 +1,16 @@
+## [21.1.1](https://github.com/anolilab/renovate-config/compare/v21.1.0...v21.1.1) (2026-09-07)
+
+### Bug Fixes
+
+* **deps:** update dependency @opentelemetry/core@<2.8.0 to >=2.11.0 ([#410](https://github.com/anolilab/renovate-config/issues/410)) ([1e49768](https://github.com/anolilab/renovate-config/commit/1e497680bae478367b5cfb7f74b3d67cf45114fd))
+* **deps:** update patch updates ([#409](https://github.com/anolilab/renovate-config/issues/409)) ([8d32ac6](https://github.com/anolilab/renovate-config/commit/8d32ac6a891e4b6b0f1d5a6d2b2a27fe79de8618))
+* **deps:** update renovate ([#425](https://github.com/anolilab/renovate-config/issues/425)) ([337216b](https://github.com/anolilab/renovate-config/commit/337216b3c6a4a31f330b14abbaa3e8dcfdc0a6d2))
+* **deps:** update secretlint monorepo to v13.0.5 ([#426](https://github.com/anolilab/renovate-config/issues/426)) ([05c6af5](https://github.com/anolilab/renovate-config/commit/05c6af509d4cdeea81c43625e9f79b297e52c032))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#417](https://github.com/anolilab/renovate-config/issues/417)) ([ff4260e](https://github.com/anolilab/renovate-config/commit/ff4260e4221b232c75dd5241570f4c0d100ec744))
+
 ## [21.1.0](https://github.com/anolilab/renovate-config/compare/v21.0.2...v21.1.0) (2026-09-07)
 
 ### Features
