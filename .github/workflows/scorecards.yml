@@ -4,7 +4,7 @@ on: # yamllint disable-line rule:truthy
     schedule:
         - cron: "37 14 * * 6"
     push:
-        branches: ["main"]
+        branches: ["main", "master", "alpha", "beta"]
 permissions: {}
 jobs:
     scorecards:
@@ -13,7 +13,7 @@ jobs:
             id-token: "write"
             actions: "read"
             contents: "read"
-        uses: "anolilab/workflows/.github/workflows/scorecards.yml@5b340a228896b01f6d2b6f3bf3b574caed9ee89b" # v15.3.1+
+        uses: "anolilab/workflows/.github/workflows/scorecards.yml@1d2834fe34a15bd35bf49a1b1071a8b71e8d6319" # main
         with:
             branch: "main"
             publish_results: true
