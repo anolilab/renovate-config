@@ -1,3 +1,14 @@
+## [21.1.0](https://github.com/anolilab/renovate-config/compare/v21.0.2...v21.1.0) (2026-09-07)
+
+### Features
+
+* keep workflow Node.js versions on an LTS line ([#423](https://github.com/anolilab/renovate-config/issues/423)) ([51775bb](https://github.com/anolilab/renovate-config/commit/51775bb64b461b21b35159d6c401104e1251472e))
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#412](https://github.com/anolilab/renovate-config/issues/412)) ([8aefd8f](https://github.com/anolilab/renovate-config/commit/8aefd8f4a71ced08aab13f7e2b4011103b12bc98))
+* **scorecards:** bump the pin past the permissions bug that killed every run ([#422](https://github.com/anolilab/renovate-config/issues/422)) ([b7c5c5c](https://github.com/anolilab/renovate-config/commit/b7c5c5ceea2a9aa392056040e1986ba90c90c836))
+
 ## [21.0.2](https://github.com/anolilab/renovate-config/compare/v21.0.1...v21.0.2) (2026-09-06)
 
 ### Bug Fixes
