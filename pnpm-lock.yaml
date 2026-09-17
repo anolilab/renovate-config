@@ -130,7 +130,7 @@ overrides:
   adm-zip@<0.6.0: '>=0.6.0'
   brace-expansion@>=3.0.0 <5.0.7: '>=5.0.9'
   brace-expansion@>=4.0.0 <5.0.8: '>=5.0.9'
-  js-yaml@>=4.0.0 <4.3.0: '>=4.3.2'
+  js-yaml@>=4.0.0 <4.3.0: '>=5.4.2'
   linkify-it@<=5.0.1: '>=6.1.0'
   postcss@<=8.5.22: '>=8.5.23'
   ip-address@>=10.1.1 <=10.2.1: '>=10.7.0'
@@ -3459,6 +3459,10 @@ packages:
 
   js-yaml@5.4.1:
     resolution: {integrity: sha512-28R/k+NAjeuf7+CKlTxWZVExJGwVVLwY06DgEnOMz2gEpfNkDcD7QvyiVPT0xy0XXhU8vHsd4Ot42OOPdJG7dQ==}
+    hasBin: true
+
+  js-yaml@5.4.2:
+    resolution: {integrity: sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==}
     hasBin: true
 
   json-bigint@1.0.0:
@@ -8574,7 +8578,7 @@ snapshots:
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.1
-      js-yaml: 5.4.1
+      js-yaml: 5.4.2
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 7.0.2
@@ -10037,6 +10041,10 @@ snapshots:
       argparse: 2.0.1
 
   js-yaml@5.4.1:
+    dependencies:
+      argparse: 2.0.1
+
+  js-yaml@5.4.2:
     dependencies:
       argparse: 2.0.1
 
@@ -11767,7 +11775,7 @@ snapshots:
   rc-config-loader@4.1.4(supports-color@10.2.2):
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
-      js-yaml: 5.4.1
+      js-yaml: 5.4.2
       json5: 2.2.3
       require-from-string: 2.0.2
     transitivePeerDependencies:
@@ -11835,7 +11843,7 @@ snapshots:
 
   read-yaml-file@2.1.0:
     dependencies:
-      js-yaml: 5.4.1
+      js-yaml: 5.4.2
       strip-bom: 4.0.0
 
   readable-stream@1.0.34:
@@ -13542,7 +13550,7 @@ snapshots:
 
   write-yaml-file@4.2.0:
     dependencies:
-      js-yaml: 5.4.1
+      js-yaml: 5.4.2
       write-file-atomic: 3.0.3
 
   xdg-basedir@5.1.0: {}
