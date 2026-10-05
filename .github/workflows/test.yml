@@ -31,6 +31,8 @@ jobs:
 
             - name: "Git checkout"
               uses: "actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803" # v6.1.0
+              with:
+                  persist-credentials: false
               env:
                   GIT_COMMITTER_NAME: "GitHub Actions Shell"
                   GIT_AUTHOR_NAME: "GitHub Actions Shell"
@@ -38,7 +40,7 @@ jobs:
 
             - name: "Setup resources and environment"
               id: "setup"
-              uses: "anolilab/workflows/step/setup@14407443bfb6117b190ca9585a00c03cd931500e" # main
+              uses: "anolilab/workflows/step/setup@14407443bfb6117b190ca9585a00c03cd931500e" # v20.0.1
               with:
                   node-version: "24"
                   install-bun: false
