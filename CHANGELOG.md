@@ -1,3 +1,50 @@
+## [24.0.0](https://github.com/anolilab/renovate-config/compare/v23.0.1...v24.0.0) (2026-10-05)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency minimatch@>=5.0.0 <5.1.7 to v10
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency minimatch@>=5.0.0 <5.1.8 to v10
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency minimatch@>=9.0.0 <9.0.6 to v10
+* **deps:** updated dependencies to major versions
+
+* fix(deps): update dependency postcss@<=8.5.22 to >=8.5.28
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* chore(deps): update dependency js-yaml@>=4.0.0 <4.3.0 to v5
+* **deps:** updated dependencies to major versions
+
+* fix(deps): update dependency adm-zip@<0.6.0 to >=0.6.1 [security]
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* fix(deps): update patch updates
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* fix(deps): update minor updates
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* fix(deps): update dependency renovate@>=32.124.0 <42.68.5 to >=44.120.0
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+### Bug Fixes
+
+* **ci:** repin zizmor and stop persisting the checkout token ([#452](https://github.com/anolilab/renovate-config/issues/452)) ([29b7b29](https://github.com/anolilab/renovate-config/commit/29b7b2936a0318cd403ab84650b9f93259d809f1))
+* **deps:** clear eight pnpm audit advisories in the Renovate toolchain ([#457](https://github.com/anolilab/renovate-config/issues/457)) ([8606fd0](https://github.com/anolilab/renovate-config/commit/8606fd05a64d8c12d9198a3ad4c7b1ec1bd04020))
+
+### Miscellaneous Chores
+
+* **deps:** consolidate pending dependency updates ([#449](https://github.com/anolilab/renovate-config/issues/449)) ([89a33fc](https://github.com/anolilab/renovate-config/commit/89a33fc97d49bd551648b0a2c66a0155b75397a5))
+
 ## [23.0.1](https://github.com/anolilab/renovate-config/compare/v23.0.0...v23.0.1) (2026-09-07)
 
 ### Bug Fixes
