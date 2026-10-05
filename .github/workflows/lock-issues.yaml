@@ -13,6 +13,6 @@ permissions:
 
 jobs:
     lock-closed:
-        uses: "anolilab/workflows/.github/workflows/lock-closed.yml@d7d84717329a45c2b5ffbda19ae76d8604f61c00" # v19.0.1
+        uses: "anolilab/workflows/.github/workflows/lock-closed.yml@acba5fb15ac98ad23dec1ad233e40e1bb79c1dae" # v19.0.4
         with:
             target-repo: "anolilab/renovate-config"
