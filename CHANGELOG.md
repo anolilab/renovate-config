@@ -1,3 +1,20 @@
+## [24.0.1](https://github.com/anolilab/renovate-config/compare/v24.0.0...v24.0.1) (2026-10-10)
+
+### Bug Fixes
+
+* **deps:** patch audit findings and refresh the zizmor workflow pin ([#473](https://github.com/anolilab/renovate-config/issues/473)) ([f93e608](https://github.com/anolilab/renovate-config/commit/f93e6086dbd86e9ebfbda705228803868ee18f0e))
+* **deps:** update dependency renovate@>=32.124.0 <42.68.5 to >=44.139.0 ([#466](https://github.com/anolilab/renovate-config/issues/466)) ([3dfaa0f](https://github.com/anolilab/renovate-config/commit/3dfaa0f3f731c3624ca1186cbfee6b9806f020e6))
+* **deps:** update github-actions ([#464](https://github.com/anolilab/renovate-config/issues/464)) ([e66fc3c](https://github.com/anolilab/renovate-config/commit/e66fc3ced50ba6abd31a52523f901ae3ff1a67b5))
+* **deps:** update patch updates (patch) ([#462](https://github.com/anolilab/renovate-config/issues/462)) ([8083490](https://github.com/anolilab/renovate-config/commit/8083490f869f691594262209e9c764cbb0d1e65e))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency minimatch@>=9.0.0 <9.0.7 to v10 ([#468](https://github.com/anolilab/renovate-config/issues/468)) ([72a5b42](https://github.com/anolilab/renovate-config/commit/72a5b42b44861929f89cd859361b4a98a9e8eb9d))
+
+### Continuous Integration
+
+* use pinned jactionlint action ([#471](https://github.com/anolilab/renovate-config/issues/471)) ([d174ad9](https://github.com/anolilab/renovate-config/commit/d174ad91ad689f55e4c5c58fe30ccbf7d7d83e0c))
+
 ## [24.0.0](https://github.com/anolilab/renovate-config/compare/v23.0.1...v24.0.0) (2026-10-05)
 
 ### ⚠ BREAKING CHANGES
