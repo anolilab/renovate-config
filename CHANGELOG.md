@@ -1,3 +1,28 @@
+## [25.0.0](https://github.com/anolilab/renovate-config/compare/v24.0.1...v25.0.0) (2026-10-12)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency nanoid@<3.3.17 to v4
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency nanoid@<3.3.17 to v5
+* **deps:** updated dependencies to major versions
+
+* chore(deps): combine open Renovate updates into renovate/combined
+
+Merges every open Renovate PR branch (all commits preserved) and reconciles
+pnpm-workspace.yaml / package.json / workflow pins to the highest proposed version.
+
+### Miscellaneous Chores
+
+* **deps:** combine open Renovate updates ( PRs) ([#481](https://github.com/anolilab/renovate-config/issues/481)) ([48cee39](https://github.com/anolilab/renovate-config/commit/48cee39e118d22163b767753198b2c5d098e19e3))
+
+### Continuous Integration
+
+* label pull requests by author trust and size ([#482](https://github.com/anolilab/renovate-config/issues/482)) ([5a556c9](https://github.com/anolilab/renovate-config/commit/5a556c9030e9b7cb844723e1f54f55159c6b2e57))
+
 ## [24.0.1](https://github.com/anolilab/renovate-config/compare/v24.0.0...v24.0.1) (2026-10-10)
 
 ### Bug Fixes
