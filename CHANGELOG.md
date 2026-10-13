@@ -1,3 +1,9 @@
+## [25.0.1](https://github.com/anolilab/renovate-config/compare/v25.0.0...v25.0.1) (2026-10-13)
+
+### Bug Fixes
+
+* **deps:** update jdx/jactionlint action to v2.1.0 ([#485](https://github.com/anolilab/renovate-config/issues/485)) ([44d210d](https://github.com/anolilab/renovate-config/commit/44d210d62e018ecf7de0e474a6c92db31b182d03))
+
 ## [25.0.0](https://github.com/anolilab/renovate-config/compare/v24.0.1...v25.0.0) (2026-10-12)
 
 ### ⚠ BREAKING CHANGES
