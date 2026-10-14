@@ -3,7 +3,7 @@ catalogs:
     '@anolilab/semantic-release-preset': ^13.4.34
     pncat: ^0.13.4
     semantic-release: ^25.0.3
-    taze: 19.17.2
+    taze: 21.3.0
   dev:
     audit-ci: ^7.1.0
     conventional-changelog-conventionalcommits: 9.3.1
