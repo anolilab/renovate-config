@@ -1,6 +1,6 @@
 catalogs:
   cli:
-    '@anolilab/semantic-release-preset': ^13.4.34
+    '@anolilab/semantic-release-preset': ^13.4.35
     pncat: ^0.13.4
     semantic-release: ^25.0.3
     taze: 19.17.2
@@ -58,7 +58,7 @@ auditConfig:
 
 overrides:
   'ajv>fast-uri': '>=3.1.8 <5'
-  '@hono/node-server@<1.19.10': '>=2.1.4'
+  '@hono/node-server@<1.19.10': '>=2.1.5'
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   '@modelcontextprotocol/sdk@<1.25.2': '>=1.32.1'
   '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.32.1'
@@ -66,7 +66,7 @@ overrides:
   '@simple-git/argv-parser@<2.0.1': '>=2.0.1'
   brace-expansion@<1.1.13: '>=5.0.12'
   brace-expansion@>=2.0.0 <2.0.3: '>=5.0.12'
-  chrono-node@<2.2.4: '>=2.10.2'
+  chrono-node@<2.2.4: '>=2.10.3'
   diff@>=5.0.0 <5.2.2: '>=9.0.0'
   diff@>=6.0.0 <8.0.3: '>=9.0.0'
   express-rate-limit@>=8.2.0 <8.2.2: '>=8.7.1'
@@ -96,9 +96,9 @@ overrides:
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.2'
   picomatch@<2.3.2: '>=4.0.7'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.7'
-  protobufjs@>=8.0.0 <8.2.0: '>=8.8.0'
-  protobufjs@>=8.0.0 <=8.0.1: '>=8.8.0'
-  protobufjs@>=8.2.0 <=8.5.0: '>=8.8.0'
+  protobufjs@>=8.0.0 <8.2.0: '>=8.8.1'
+  protobufjs@>=8.0.0 <=8.0.1: '>=8.8.1'
+  protobufjs@>=8.2.0 <=8.5.0: '>=8.8.1'
   qs@<6.16.0: '>=6.16.0'
   renovate@>=32.124.0 <42.68.5: '>=44.149.2'
   shell-quote@<1.11.0: '>=1.12.0'
@@ -131,7 +131,7 @@ overrides:
   js-yaml@>=4.0.0 <4.3.0: '>=4.3.2'
   linkify-it@<=5.0.1: '>=6.1.0'
   postcss@<=8.5.22: '>=8.5.29'
-  ip-address@>=10.1.1 <=10.2.1: '>=10.7.3'
-  ip-address@<=10.3.0: '>=10.7.3'
+  ip-address@>=10.1.1 <=10.2.1: '>=10.7.4'
+  ip-address@<=10.3.0: '>=10.7.4'
   nanoid@<3.3.17: '>=6.0.2'
   re2@<=1.26.0: '>=1.27.0'
