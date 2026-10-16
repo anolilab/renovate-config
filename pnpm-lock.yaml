@@ -7,8 +7,8 @@ settings:
 catalogs:
   cli:
     '@anolilab/semantic-release-preset':
-      specifier: ^13.4.34
-      version: 13.4.34
+      specifier: ^13.4.35
+      version: 13.4.35
     semantic-release:
       specifier: ^25.0.3
       version: 25.0.9
@@ -23,8 +23,8 @@ catalogs:
       specifier: ^4.1.0
       version: 4.1.0
     renovate:
-      specifier: 44.149.3
-      version: 44.149.3
+      specifier: 44.155.2
+      version: 44.155.2
     sort-package-json:
       specifier: 4.0.0
       version: 4.0.0
@@ -68,7 +68,7 @@ catalogs:
 
 overrides:
   ajv>fast-uri: '>=3.1.8 <5'
-  '@hono/node-server@<1.19.10': '>=2.1.4'
+  '@hono/node-server@<1.19.10': '>=2.1.5'
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   '@modelcontextprotocol/sdk@<1.25.2': '>=1.32.1'
   '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.32.1'
@@ -76,7 +76,7 @@ overrides:
   '@simple-git/argv-parser@<2.0.1': '>=2.0.1'
   brace-expansion@<1.1.13: '>=5.0.12'
   brace-expansion@>=2.0.0 <2.0.3: '>=5.0.12'
-  chrono-node@<2.2.4: '>=2.10.2'
+  chrono-node@<2.2.4: '>=2.10.3'
   diff@>=5.0.0 <5.2.2: '>=9.0.0'
   diff@>=6.0.0 <8.0.3: '>=9.0.0'
   express-rate-limit@>=8.2.0 <8.2.2: '>=8.7.1'
@@ -106,11 +106,11 @@ overrides:
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.2'
   picomatch@<2.3.2: '>=4.0.7'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.7'
-  protobufjs@>=8.0.0 <8.2.0: '>=8.8.0'
-  protobufjs@>=8.0.0 <=8.0.1: '>=8.8.0'
-  protobufjs@>=8.2.0 <=8.5.0: '>=8.8.0'
+  protobufjs@>=8.0.0 <8.2.0: '>=8.8.1'
+  protobufjs@>=8.0.0 <=8.0.1: '>=8.8.1'
+  protobufjs@>=8.2.0 <=8.5.0: '>=8.8.1'
   qs@<6.16.0: '>=6.16.0'
-  renovate@>=32.124.0 <42.68.5: '>=44.149.3'
+  renovate@>=32.124.0 <42.68.5: '>=44.155.2'
   shell-quote@<1.11.0: '>=1.12.0'
   simple-git@<4.0.1: '>=4.0.2'
   tar@<7.5.7: '>=7.5.22'
@@ -122,8 +122,8 @@ overrides:
   tar@=7.5.1: '>=7.5.22'
   tmp@<0.2.6: '>=0.2.7'
   underscore@<=1.13.7: '>=1.13.8'
-  undici@<6.23.0: '>=7.30.0'
-  undici@>=6.23.0 <6.27.0: '>=6.29.0'
+  undici@<6.23.0: '>=8.11.2'
+  undici@>=6.23.0 <6.27.0: '>=7.30.0'
   undici@>=7.0.0 <7.18.2: '>=7.30.0'
   undici@>=7.0.0 <7.24.0: '>=7.30.0'
   undici@>=7.17.0 <7.24.0: '>=7.30.0'
@@ -140,8 +140,8 @@ overrides:
   js-yaml@>=4.0.0 <4.3.0: '>=4.3.2'
   linkify-it@<=5.0.1: '>=6.1.0'
   postcss@<=8.5.22: '>=8.5.29'
-  ip-address@>=10.1.1 <=10.2.1: '>=10.7.3'
-  ip-address@<=10.3.0: '>=10.7.3'
+  ip-address@>=10.1.1 <=10.2.1: '>=10.7.4'
+  ip-address@<=10.3.0: '>=10.7.4'
   nanoid@<3.3.17: '>=6.0.2'
   re2@<=1.26.0: '>=1.27.0'
 
@@ -160,7 +160,7 @@ importers:
         version: 10.0.3(prettier@3.9.10)
       '@anolilab/semantic-release-preset':
         specifier: catalog:cli
-        version: 13.4.34(@semantic-release/npm@13.2.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2)))(json5@2.2.3)(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2))(supports-color@10.2.2)(yaml@2.9.1)
+        version: 13.4.35(@semantic-release/npm@13.2.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2)))(json5@2.2.3)(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2))(supports-color@10.2.2)(yaml@2.9.1)
       '@anolilab/textlint-config':
         specifier: catalog:lint
         version: 13.0.6(supports-color@10.2.2)(textlint@15.8.0(supports-color@10.2.2))
@@ -193,7 +193,7 @@ importers:
         version: 3.9.10
       renovate:
         specifier: catalog:dev
-        version: 44.149.3(supports-color@10.2.2)(typanion@3.14.0)
+        version: 44.155.2(supports-color@10.2.2)(typanion@3.14.0)
       secretlint:
         specifier: catalog:lint
         version: 13.0.7(supports-color@10.2.2)
@@ -271,12 +271,12 @@ packages:
     resolution: {integrity: sha512-dQfpxkB8UqKaa4xlBXB88a0ZSrR3AI78YC8zfKWjC87Nx2tsyZjw9Q+QVJr76iEFvR78fWsO96VHzxkni1R7bA==}
     engines: {node: ^22.14.0 || >=24.10.0}
 
-  '@anolilab/semantic-release-preset@13.4.34':
-    resolution: {integrity: sha512-6W404dbKDHpCN23Mdoqw0JuE9WJcZGM1M9/3BYOhlew8ynKRs6rh0M9krRNHJsYqOU6wyJkzJmJmX+lWhAaw0w==}
+  '@anolilab/semantic-release-preset@13.4.35':
+    resolution: {integrity: sha512-BsvdtjCCk+J83nXigmA2ZTU0QC1OxR1U9eyOwIDm9kDPCs+gVSMZJ7dVBnSpacicTkmi3yQLIpnLCq3VFkmihw==}
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
     peerDependencies:
-      '@anolilab/semantic-release-pnpm': 8.1.32
+      '@anolilab/semantic-release-pnpm': 8.1.33
       '@semantic-release/npm': 13.2.0
       semantic-release: 25.0.9
       semantic-release-yarn: ^3.0.2
@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-sGEA473TlCvhCGNoTBY9OXZVWdscIXdGt0dm8EpB+2MRfmt8LNh/X56P/T3nCtEB+eH5qGEa3odphSAoUxSfSQ==}
     engines: {node: '>=22.12.0'}
 
-  '@containerbase/base@14.31.1':
-    resolution: {integrity: sha512-rGuLqib9mJgeMnVcSdjUptXOywJ2pLTSbD1o4r6EdReYyDuyVqooYdk06RwBLLko7vjq2cGnbtg4IeukSpkJug==}
+  '@containerbase/base@14.32.1':
+    resolution: {integrity: sha512-v0anQD2Jk0nv5yf8YTFVpJGARJ9I1XveaudOIxd8B/QEcAX7zL5upR5vzU3SQp/6NQKEY13/WLweEFQ11SXq3g==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -966,8 +966,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.118.2':
-    resolution: {integrity: sha512-/lAsUNGEHAzRSeEfjJqSRJpHBzNRIWtyyAhoT3PlD4GYHtMQjIMFbI3CfYUZuMYNCbdv7399RatMQUunCN0X1A==}
+  '@renovatebot/base-image@13.121.1':
+    resolution: {integrity: sha512-fxZO9JyGWrQV2q8/8y4SdbQ+d+6AcL4nYZeGzWvK4B2Jr1V30BMnpPDUDPrc8/B3+/MJhaDCFW4rANjIks8s6w==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -2032,8 +2032,8 @@ packages:
     resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
     engines: {node: '>=18'}
 
-  chrono-node@2.10.2:
-    resolution: {integrity: sha512-xBCwGGmodF2YVtzE7/8ewNDajbCg72jgZHyOXvhkuQiYhIQ1KbqyXJJJw2fLaQ603LL4oMVhOyjckEBve45S4w==}
+  chrono-node@2.10.3:
+    resolution: {integrity: sha512-MOfrzXgSMZTH4SZ5gyRKQCVwiCrCKY+uYkSJiWoRLXS88DA6WGJm8UjgS+VVEuUQeew/UUXaxrO+SeDn/WCisg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   chunk-data@0.1.0:
@@ -2244,8 +2244,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.27.0:
-    resolution: {integrity: sha512-AKhV4ilvx73NmicrZCGASdszUIf2ew0A/6jQQTh4pu3lIUzgWOGjT3Gv3CGIcTQ/p8Qy/tZuCmlaOftj8PXaNg==}
+  cronstrue@3.29.0:
+    resolution: {integrity: sha512-jSs7/VEuy9o449mDY5eZFb7lYMByQ7uZWHnIjzOQE5kfpKnwcqFGtfVvKgxLtDOmZkbD0e37BMFGHdpOvESpdg==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -4992,8 +4992,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.149.3:
-    resolution: {integrity: sha512-SaW2Datm5MzRSJz5wHTquE+JWoE0RlgT03UVXyd0YuTCXEIipa8s5FpgcxKLtkRJEt33wp0J9XWJ8DbgWvF9yg==}
+  renovate@44.155.2:
+    resolution: {integrity: sha512-ImJAgMkPhJ23/K9tUpkRqDFGHtiNcoxzJriC8mI30o3jUC80sl8NfL9KkFCBh+/SfFMbGY2UA3JhLabFKkwqVA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -6197,7 +6197,7 @@ snapshots:
       - smol-toml
       - yaml
 
-  '@anolilab/semantic-release-preset@13.4.34(@semantic-release/npm@13.2.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2)))(json5@2.2.3)(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2))(supports-color@10.2.2)(yaml@2.9.1)':
+  '@anolilab/semantic-release-preset@13.4.35(@semantic-release/npm@13.2.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2)))(json5@2.2.3)(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2))(supports-color@10.2.2)(yaml@2.9.1)':
     dependencies:
       '@anolilab/semantic-release-clean-package-json': 5.5.28(json5@2.2.3)(yaml@2.9.1)
       '@semantic-release/changelog': 7.0.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@7.0.2))
@@ -6689,7 +6689,7 @@ snapshots:
       conventional-commits-parser: 7.1.3
       picocolors: 1.1.1
 
-  '@containerbase/base@14.31.1(zod@4.6.5)':
+  '@containerbase/base@14.32.1(zod@4.6.5)':
     optionalDependencies:
       zod: 4.6.5
 
@@ -7155,9 +7155,9 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
 
-  '@renovatebot/base-image@13.118.2(zod@4.6.5)':
+  '@renovatebot/base-image@13.121.1(zod@4.6.5)':
     dependencies:
-      '@containerbase/base': 14.31.1(zod@4.6.5)
+      '@containerbase/base': 14.32.1(zod@4.6.5)
     optionalDependencies:
       zod: 4.6.5
 
@@ -8422,7 +8422,7 @@ snapshots:
 
   chownr@3.0.0: {}
 
-  chrono-node@2.10.2: {}
+  chrono-node@2.10.3: {}
 
   chunk-data@0.1.0: {}
 
@@ -8637,7 +8637,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.27.0: {}
+  cronstrue@3.29.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -12132,7 +12132,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.149.3(supports-color@10.2.2)(typanion@3.14.0):
+  renovate@44.155.2(supports-color@10.2.2)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -12165,7 +12165,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.0(@opentelemetry/api@1.9.1)
-      '@renovatebot/base-image': 13.118.2(zod@4.6.5)
+      '@renovatebot/base-image': 13.121.1(zod@4.6.5)
       '@renovatebot/detect-tools': 4.0.21
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.12(supports-color@10.2.2)
@@ -12188,7 +12188,7 @@ snapshots:
       commander: 15.0.0
       common-tags: 1.8.2
       croner: 10.0.1
-      cronstrue: 3.27.0
+      cronstrue: 3.29.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
@@ -12874,7 +12874,7 @@ snapshots:
 
   textlint-rule-date-weekday-mismatch@1.1.1(supports-color@10.2.2):
     dependencies:
-      chrono-node: 2.10.2
+      chrono-node: 2.10.3
       moment: 2.31.0
       textlint-tester: 12.6.1(supports-color@10.2.2)
     transitivePeerDependencies:
