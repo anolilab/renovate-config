@@ -1,3 +1,60 @@
+## [26.0.0](https://github.com/anolilab/renovate-config/compare/v25.0.1...v26.0.0) (2026-10-16)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency taze to v21
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency undici@<6.23.0 to v7
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency undici@<6.23.0 to v8
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency undici@>=6.23.0 <6.27.0 to v7
+* **deps:** updated dependencies to major versions
+
+* fix(deps): update patch updates
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* fix(deps): update renovate to v44.155.2
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* chore(deps): regenerate lockfile
+
+* fix(deps): update renovate to v44.155.3
+
+Signed-off-by: Renovate Bot <bot@renovateapp.com>
+
+* chore(deps): regenerate lockfile
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency picomatch@<2.3.2 to v3
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency picomatch@<2.3.2 to v4
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency renovate to v44
+* **deps:** updated dependencies to major versions
+
+* chore(deps): update dependency sort-package-json to v4
+* **deps:** updated dependencies to major versions
+
+* chore(deps): combine open Renovate updates into renovate/combined
+
+Merges every open Renovate PR branch (all commits preserved) and reconciles
+pnpm-workspace.yaml / package.json / workflow pins to the highest proposed version.
+
+### Miscellaneous Chores
+
+* **deps:** combine open Renovate updates (0 ([7efe98c](https://github.com/anolilab/renovate-config/commit/7efe98ca05413b6a50be0f6d3231742366e8fba3)), closes [#491](https://github.com/anolilab/renovate-config/issues/491)
+* **deps:** combine open Renovate updates (10 PRs) ([#500](https://github.com/anolilab/renovate-config/issues/500)) ([19d24cf](https://github.com/anolilab/renovate-config/commit/19d24cfe872825e55776b2dd9277bcd6c707d420))
+
 ## [25.0.1](https://github.com/anolilab/renovate-config/compare/v25.0.0...v25.0.1) (2026-10-13)
 
 ### Bug Fixes
