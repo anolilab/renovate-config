@@ -26,8 +26,8 @@ catalogs:
       specifier: 44.155.3
       version: 44.155.3
     sort-package-json:
-      specifier: 4.0.0
-      version: 4.0.0
+      specifier: 4.1.0
+      version: 4.1.0
   lint:
     '@anolilab/commitlint-config':
       specifier: 10.1.5
@@ -90,7 +90,7 @@ overrides:
   hono@<4.12.4: '>=4.13.13'
   hono@<4.12.7: '>=4.13.13'
   js-yaml@<3.14.2: '>=4.3.2'
-  js-yaml@>=4.0.0 <4.1.1: '>=5.4.3'
+  js-yaml@>=4.0.0 <4.1.1: '>=5.5.0'
   lodash-es@<=4.17.23: '>=4.18.0'
   lodash-es@>=4.0.0 <=4.17.22: '>=4.18.1'
   lodash-es@>=4.0.0 <=4.17.23: '>=4.18.0'
@@ -122,13 +122,13 @@ overrides:
   tar@=7.5.1: '>=7.5.22'
   tmp@<0.2.6: '>=0.2.7'
   underscore@<=1.13.7: '>=1.13.8'
-  undici@<6.23.0: '>=8.11.2'
+  undici@<6.23.0: '>=8.12.2'
   undici@>=6.23.0 <6.27.0: '>=7.30.0'
   undici@>=7.0.0 <7.18.2: '>=7.30.0'
   undici@>=7.0.0 <7.24.0: '>=7.30.0'
   undici@>=7.17.0 <7.24.0: '>=7.30.0'
-  undici@>=8.0.0 <8.5.0: '>=8.11.2'
-  undici@>=8.0.0 <8.9.0: '>=8.11.2'
+  undici@>=8.0.0 <8.5.0: '>=8.12.2'
+  undici@>=8.0.0 <8.9.0: '>=8.12.2'
   adm-zip@<0.6.0: '>=0.6.1'
   adm-zip@<=0.6.0: '>=0.6.1 <1'
   brace-expansion@>=3.0.0 <5.0.7: '>=5.0.12'
@@ -202,7 +202,7 @@ importers:
         version: 25.0.9(supports-color@10.2.2)(typescript@7.0.2)
       sort-package-json:
         specifier: catalog:dev
-        version: 4.0.0
+        version: 4.1.0
       textlint:
         specifier: catalog:lint
         version: 15.8.0(supports-color@10.2.2)
@@ -833,12 +833,14 @@ packages:
   '@opentelemetry/sdk-trace-base@2.11.0':
     resolution: {integrity: sha512-H19x/TX/LZdqiYOjM7fqtSxwlplC5pgelavqbQdHbhdq0q/AI/TGkM2dfGuuynTXmJPeF2HoZVoPDu+TGoW78A==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-node@2.11.0':
     resolution: {integrity: sha512-CuvCMJmZxswhNLlM2LfuLOW3h3fZujA4hsG4B+Sz4dX2zvaXO8Ng74cnDHWD64gLszTlhiG3c0iNUjj4g+0/sA==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
@@ -5261,8 +5263,8 @@ packages:
   sort-object-keys@2.1.0:
     resolution: {integrity: sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g==}
 
-  sort-package-json@4.0.0:
-    resolution: {integrity: sha512-6aYOlYI9AWioZ+rzu+4zKLmoFqJP0/fHDxrd7X04yqEibikY+5YVF0EYlyGn4v6X2PJY7yAUWV7oeP+i5rOm/g==}
+  sort-package-json@4.1.0:
+    resolution: {integrity: sha512-CI7HgkV5rCE5dbYYJMuXkxgiSLc3uJczff9ic3kHuY5QRYKUbfsDSKN4DjTpvqejdJEkKLusQ64ykTte5ypr1A==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -5746,6 +5748,10 @@ packages:
 
   undici@8.11.2:
     resolution: {integrity: sha512-u4UB2/IrKdU6lFxumHmmo1a3fCQO5tzQllRorfoRS63txhrB7xTpSn1PftwC4qEHkOaqP95fCWW4lJzwErwzhQ==}
+    engines: {node: '>=22.19.0'}
+
+  undici@8.12.3:
+    resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
     engines: {node: '>=22.19.0'}
 
   unherit@3.0.1:
@@ -11398,7 +11404,7 @@ snapshots:
       semver: 7.8.5
       tar: 7.5.22
       tinyglobby: 0.2.17
-      undici: 8.11.2
+      undici: 8.12.3
       which: 7.0.0
     optional: true
 
@@ -12605,7 +12611,7 @@ snapshots:
 
   sort-object-keys@2.1.0: {}
 
-  sort-package-json@4.0.0:
+  sort-package-json@4.1.0:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
@@ -13199,6 +13205,9 @@ snapshots:
   undici-types@8.9.0: {}
 
   undici@8.11.2: {}
+
+  undici@8.12.3:
+    optional: true
 
   unherit@3.0.1: {}
 
