@@ -23,8 +23,8 @@ catalogs:
       specifier: ^4.1.0
       version: 4.1.0
     renovate:
-      specifier: 44.168.1
-      version: 44.168.1
+      specifier: 44.168.4
+      version: 44.168.4
     sort-package-json:
       specifier: 4.1.0
       version: 4.1.0
@@ -110,7 +110,7 @@ overrides:
   protobufjs@>=8.0.0 <=8.0.1: '>=8.8.1'
   protobufjs@>=8.2.0 <=8.5.0: '>=8.8.1'
   qs@<6.16.0: '>=6.16.1'
-  renovate@>=32.124.0 <42.68.5: '>=44.168.1'
+  renovate@>=32.124.0 <42.68.5: '>=44.168.4'
   shell-quote@<1.11.0: '>=1.12.0'
   simple-git@<4.0.1: '>=4.0.2'
   tar@<7.5.7: '>=7.5.22'
@@ -197,7 +197,7 @@ importers:
         version: 3.9.10
       renovate:
         specifier: catalog:dev
-        version: 44.168.1(supports-color@10.2.2)(typanion@3.14.0)
+        version: 44.168.4(supports-color@10.2.2)(typanion@3.14.0)
       secretlint:
         specifier: catalog:lint
         version: 13.0.7(supports-color@10.2.2)
@@ -2106,8 +2106,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.31.0:
-    resolution: {integrity: sha512-P+qVKwM6CHu6lWfQIq13DCBx95pxY/2zCQhIJvu5FsEsOlt9ZtuUI124V1LafoPsqHH09ruRsentTc4sbWxQHA==}
+  cronstrue@3.32.0:
+    resolution: {integrity: sha512-OHTec7+5nosN4UsitwgBDQ0bofGZF3H4pLqgqa93NR3nExNlhtVHcO2JY3jRognrFH8Bl9oAooT0hyCjSyOU+Q==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -4841,8 +4841,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.168.1:
-    resolution: {integrity: sha512-FmJ9ijS6IvLrojYHhnEAIpVE/byjL1IN004StIp8+Jrl9/EYXIHGLsXrdmNmStbv627/3BnC1+jYi8A2A+Cn1A==}
+  renovate@44.168.4:
+    resolution: {integrity: sha512-SSZxC2wT/tsmI07XwQ32gyPukpQ2X1kORPFiz+eXGccVPhNvHEvmYoll93xPGmtyG99nyNb/M2gHQT32PD77DA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -8393,7 +8393,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.31.0: {}
+  cronstrue@3.32.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -11886,7 +11886,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.168.1(supports-color@10.2.2)(typanion@3.14.0):
+  renovate@44.168.4(supports-color@10.2.2)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -11942,7 +11942,7 @@ snapshots:
       commander: 15.0.0
       common-tags: 1.8.2
       croner: 10.0.1
-      cronstrue: 3.31.0
+      cronstrue: 3.32.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
