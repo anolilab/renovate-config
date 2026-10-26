@@ -1,3 +1,14 @@
+## [26.0.1](https://github.com/anolilab/renovate-config/compare/v26.0.0...v26.0.1) (2026-10-26)
+
+### Bug Fixes
+
+* **deps:** update github-actions ([#504](https://github.com/anolilab/renovate-config/issues/504)) ([4214011](https://github.com/anolilab/renovate-config/commit/4214011bf76b6fd73081b91ddf7d4a30f098fdee))
+
+### Miscellaneous Chores
+
+* **deps:** combine open Renovate updates (6 PRs) ([#512](https://github.com/anolilab/renovate-config/issues/512)) ([0279f6e](https://github.com/anolilab/renovate-config/commit/0279f6ea1b42067785471a040d5937fee9c9a55d)), closes [#503](https://github.com/anolilab/renovate-config/issues/503) [#505](https://github.com/anolilab/renovate-config/issues/505) [#504](https://github.com/anolilab/renovate-config/issues/504) [#465](https://github.com/anolilab/renovate-config/issues/465) [#508](https://github.com/anolilab/renovate-config/issues/508) [#511](https://github.com/anolilab/renovate-config/issues/511)
+* **deps:** lock file maintenance ([#506](https://github.com/anolilab/renovate-config/issues/506)) ([b6b7ab3](https://github.com/anolilab/renovate-config/commit/b6b7ab3b9a159170dab2a8a0445cb4c3110a98bc))
+
 ## [26.0.0](https://github.com/anolilab/renovate-config/compare/v25.0.1...v26.0.0) (2026-10-16)
 
 ### ⚠ BREAKING CHANGES
