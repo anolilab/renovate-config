@@ -1,3 +1,9 @@
+## [26.0.9](https://github.com/anolilab/renovate-config/compare/v26.0.8...v26.0.9) (2026-10-30)
+
+### Bug Fixes
+
+* **deps:** update renovate to v44.186.8 ([#529](https://github.com/anolilab/renovate-config/issues/529)) ([09b70d9](https://github.com/anolilab/renovate-config/commit/09b70d9d6f5c42ce3d97a3d8a2803c783faf26e2))
+
 ## [26.0.8](https://github.com/anolilab/renovate-config/compare/v26.0.7...v26.0.8) (2026-10-30)
 
 ### Bug Fixes
