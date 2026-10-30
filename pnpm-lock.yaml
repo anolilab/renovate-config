@@ -33,8 +33,8 @@ catalogs:
       specifier: 10.1.5
       version: 10.1.5
     '@anolilab/lint-staged-config':
-      specifier: ^11.1.3
-      version: 11.1.3
+      specifier: ^14.0.0
+      version: 14.0.0
     '@anolilab/prettier-config':
       specifier: 10.0.4
       version: 10.0.4
@@ -158,7 +158,7 @@ importers:
         version: 10.1.5(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3))(@types/node@26.6.5)(conventional-commits-parser@7.1.3)
       '@anolilab/lint-staged-config':
         specifier: catalog:lint
-        version: 11.1.3(husky@9.1.7)(json5@2.2.3)(lint-staged@17.6.0)(prettier@3.9.10)(secretlint@13.0.7(supports-color@10.2.2))(yaml@2.9.1)
+        version: 14.0.0(@visulima/yaml@2.0.0)(husky@9.1.7)(json5@2.2.3)(lint-staged@17.6.0)(prettier@3.9.10)(secretlint@13.0.7(supports-color@10.2.2))
       '@anolilab/prettier-config':
         specifier: catalog:lint
         version: 10.0.4(prettier@3.9.10)
@@ -232,20 +232,20 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^17.6.5 || ^18.x || ^19.x || ^20.0.0 || ^21.0.0
 
-  '@anolilab/lint-staged-config@11.1.3':
-    resolution: {integrity: sha512-pzPXKf9xkGJe6DWnj7yBLOw7OScpsKaIjgXDJ3RBfMbWafvfKPTWfvo7c5Zg5JryUrmYvknHbaUZG9FDg8RjGg==}
+  '@anolilab/lint-staged-config@14.0.0':
+    resolution: {integrity: sha512-bybu8Whzmi5ap2crjfgVXlMbY0OmGa4CKEAXnPsQl4RfOM7EH3mvDV8eIwCE8HXSkvZkpBLBwOpL4pyiVSZGvQ==}
     engines: {node: '>=22.12.0 <=25.*'}
     hasBin: true
     peerDependencies:
-      eslint: 10.8.0
+      eslint: 10.13.0
       husky: ^9.1.7
       jest: ^29.7.0 || ^30.0.0
       lint-staged: ^16.x || ^17.x
       nano-staged: 1.0.2
-      prettier: 3.9.6
+      prettier: 3.9.10
       secretlint: ^11.7.1 || ^12.0.0 || ^13.0.0
       stylelint: ^16.x || ^17.x
-      vitest: ^3.x || ^4.x
+      vitest: ^3.x || ^4.x || ^5.0.0
     peerDependenciesMeta:
       eslint:
         optional: true
@@ -1426,28 +1426,6 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@visulima/fs@5.0.5':
-    resolution: {integrity: sha512-XIRmzMskrFg+NfG6xWiK6WzN6WDdvokR+W8+U78FTRCzokRz+WGG0eS6sxmLJvAGsyWrssSArngEyiD7GCCkvg==}
-    engines: {node: ^22.14.0 || >=24.10.0}
-    os: [darwin, linux, win32]
-    peerDependencies:
-      ini: ^7.0.0
-      json5: ^2.2.3
-      jsonc-parser: ^3.3.1
-      smol-toml: ^1.7.0
-      yaml: '>=2.9.0'
-    peerDependenciesMeta:
-      ini:
-        optional: true
-      json5:
-        optional: true
-      jsonc-parser:
-        optional: true
-      smol-toml:
-        optional: true
-      yaml:
-        optional: true
-
   '@visulima/fs@5.1.0':
     resolution: {integrity: sha512-KJmLA9iJAwx+GOhjLT1kcqBhY/s1uOU8eJrBz+TeyZX0h2p5USYKHlNd1p+VaB4/9ltl1MR4oRuXgY5jLP0vOA==}
     engines: {node: ^22.14.0 || >=24.10.0}
@@ -1470,12 +1448,12 @@ packages:
       yaml:
         optional: true
 
-  '@visulima/fs@6.1.0':
-    resolution: {integrity: sha512-t+yQaST3uNKYOW3ekZ4wD5jHteDZURiBUu5M3YXoVSNqciTMBpbIsugQlw1TqdIs3cU67uYU65qEQ78IHnGjRA==}
+  '@visulima/fs@7.0.0':
+    resolution: {integrity: sha512-6XPkHW+d4t8jZjXl7a9r7DjvoMPjbzVbQVklmHQmvDYaSAYX5jEpBrAL4ZpuS9voSw2Mfzj8cccaZuGcMZYkyA==}
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
     peerDependencies:
-      '@visulima/yaml': 1.0.0
+      '@visulima/yaml': 2.0.0
       ini: ^7.0.0
       json5: ^2.2.3
       jsonc-parser: ^3.3.1
@@ -1492,13 +1470,8 @@ packages:
       smol-toml:
         optional: true
 
-  '@visulima/package@5.0.43':
-    resolution: {integrity: sha512-4uGq87bp1ZJ751bMomGx3njMrpOoGcgMer8BZxejRHZSvd9Sm4iVna59yCqxp/Ikx9E8kmFgbGjDWGrvgEJiKw==}
-    engines: {node: ^22.14.0 || >=24.10.0}
-    os: [darwin, linux, win32]
-
-  '@visulima/path@3.0.0':
-    resolution: {integrity: sha512-l9vlDaoFrmPlG3OFuC+ZitAT8fMB2AJu1ILNZhgToVQ0HCAFVG8X1pIM/GIBQeDULveW+unIRYR4HOhS+plsCA==}
+  '@visulima/package@6.0.0':
+    resolution: {integrity: sha512-qw96JM7Y+pc+u3irV1RwEgJUB11eIAVx3JKuDkL6mCQ7vhyFqw1gZLIRiVdq0HC1MhpJNeKqwLCjbnVDyjctvg==}
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
 
@@ -1507,13 +1480,13 @@ packages:
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
 
-  '@visulima/path@4.0.0':
-    resolution: {integrity: sha512-M9cTzZNtTbOl975YAgUzzzwg9xOMqqC2Y2Jy1uFDQufK0sBNgbFnvR0o14jIfNDxACXyhEN3DSuFa4W7U7Hf2g==}
+  '@visulima/path@5.0.0':
+    resolution: {integrity: sha512-4OBtMLJYmAWPHMxqpC2yijvdq1DLyX8aiG5H/qQLBHaeh7H2vCDGamXGA3hi9zvcA7NULAXpgLjQIHHgt5p1eQ==}
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
 
-  '@visulima/yaml@1.0.0':
-    resolution: {integrity: sha512-06obI/5zlKRjScekXqHTtF06S5peqHE9J3AmEthJ5b40a4FuJAysbOJ9EVyznTpOVmy3IvL8cZu3QiNpgF/cbg==}
+  '@visulima/yaml@2.0.0':
+    resolution: {integrity: sha512-4/JYuxyzAhHmoI49qBqQ60WkX7mjUiNYv2Z4WvIaV6iVdNjLwq2Xq8MmF/bWagb4aDo4oQg6Uhenv4woItkmAg==}
     engines: {node: ^22.14.0 || >=24.10.0}
 
   '@yarnpkg/core@4.9.1':
@@ -5521,10 +5494,6 @@ packages:
     resolution: {integrity: sha512-NoSdpq/WEiAg5sjmBkmV/hfxv6HJH4NqPNrqjtSO5CwRmpsDfaf4begxW34KdJykH/l1yHtwBWQkCRdoXO8mPA==}
     engines: {node: '>=20'}
 
-  type-fest@5.8.0:
-    resolution: {integrity: sha512-YGYEVz3Fm5iy/AybuA0oyNFq7H4CgQNfRp/qfe8nurE1kuCeNm3/vfm9X4Mtl+qLyaKJUh5xrFZwogr41SMjYA==}
-    engines: {node: '>=20'}
-
   typed-array-buffer@1.0.3:
     resolution: {integrity: sha512-nAYYwfY3qnzX30IkA6AQZjVbtK6duGontcQm1WSG1MD94YLqK0515GNApXkoxKOWMusVssAHWLh9SeaoefYFGw==}
     engines: {node: '>= 0.4'}
@@ -5998,23 +5967,23 @@ snapshots:
       - conventional-commits-parser
       - typescript
 
-  '@anolilab/lint-staged-config@11.1.3(husky@9.1.7)(json5@2.2.3)(lint-staged@17.6.0)(prettier@3.9.10)(secretlint@13.0.7(supports-color@10.2.2))(yaml@2.9.1)':
+  '@anolilab/lint-staged-config@14.0.0(@visulima/yaml@2.0.0)(husky@9.1.7)(json5@2.2.3)(lint-staged@17.6.0)(prettier@3.9.10)(secretlint@13.0.7(supports-color@10.2.2))':
     dependencies:
-      '@visulima/fs': 5.0.5(json5@2.2.3)(yaml@2.9.1)
-      '@visulima/package': 5.0.43
+      '@visulima/fs': 7.0.0(@visulima/yaml@2.0.0)(json5@2.2.3)
+      '@visulima/package': 6.0.0
       husky: 9.1.7
       shell-quote: 1.12.0
-      type-fest: 5.8.0
+      type-fest: 5.10.0
     optionalDependencies:
       lint-staged: 17.6.0
       prettier: 3.9.10
       secretlint: 13.0.7(supports-color@10.2.2)
     transitivePeerDependencies:
+      - '@visulima/yaml'
       - ini
       - json5
       - jsonc-parser
       - smol-toml
-      - yaml
 
   '@anolilab/prettier-config@10.0.4(prettier@3.9.10)':
     dependencies:
@@ -7707,13 +7676,6 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@visulima/fs@5.0.5(json5@2.2.3)(yaml@2.9.1)':
-    dependencies:
-      '@visulima/path': 3.0.0
-    optionalDependencies:
-      json5: 2.2.3
-      yaml: 2.9.1
-
   '@visulima/fs@5.1.0(json5@2.2.3)(yaml@2.9.1)':
     dependencies:
       '@visulima/path': 3.1.0
@@ -7721,19 +7683,19 @@ snapshots:
       json5: 2.2.3
       yaml: 2.9.1
 
-  '@visulima/fs@6.1.0(@visulima/yaml@1.0.0)(json5@2.2.3)':
+  '@visulima/fs@7.0.0(@visulima/yaml@2.0.0)(json5@2.2.3)':
     dependencies:
-      '@visulima/path': 4.0.0
+      '@visulima/path': 5.0.0
     optionalDependencies:
-      '@visulima/yaml': 1.0.0
+      '@visulima/yaml': 2.0.0
       json5: 2.2.3
 
-  '@visulima/package@5.0.43':
+  '@visulima/package@6.0.0':
     dependencies:
       '@antfu/install-pkg': 2.1.0
-      '@visulima/fs': 6.1.0(@visulima/yaml@1.0.0)(json5@2.2.3)
-      '@visulima/path': 4.0.0
-      '@visulima/yaml': 1.0.0
+      '@visulima/fs': 7.0.0(@visulima/yaml@2.0.0)(json5@2.2.3)
+      '@visulima/path': 5.0.0
+      '@visulima/yaml': 2.0.0
       json5: 2.2.3
       normalize-package-data: 9.0.0
     transitivePeerDependencies:
@@ -7741,13 +7703,11 @@ snapshots:
       - jsonc-parser
       - smol-toml
 
-  '@visulima/path@3.0.0': {}
-
   '@visulima/path@3.1.0': {}
 
-  '@visulima/path@4.0.0': {}
+  '@visulima/path@5.0.0': {}
 
-  '@visulima/yaml@1.0.0': {}
+  '@visulima/yaml@2.0.0': {}
 
   '@yarnpkg/core@4.9.1(typanion@3.14.0)':
     dependencies:
@@ -12828,10 +12788,6 @@ snapshots:
   type-fest@4.41.0: {}
 
   type-fest@5.10.0:
-    dependencies:
-      tagged-tag: 1.0.0
-
-  type-fest@5.8.0:
     dependencies:
       tagged-tag: 1.0.0
 
