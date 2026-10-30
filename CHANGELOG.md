@@ -1,3 +1,10 @@
+## [26.0.8](https://github.com/anolilab/renovate-config/compare/v26.0.7...v26.0.8) (2026-10-30)
+
+### Bug Fixes
+
+* **deps:** update pnpm to v11.28.9 ([#528](https://github.com/anolilab/renovate-config/issues/528)) ([76be449](https://github.com/anolilab/renovate-config/commit/76be44923ef2e0e3f2176a0e1cb8db6ccaa29a78))
+* **deps:** update renovate to v44.186.7 ([#527](https://github.com/anolilab/renovate-config/issues/527)) ([a1ae905](https://github.com/anolilab/renovate-config/commit/a1ae905919c348e504091770ec1ac2f0bbef60e2))
+
 ## [26.0.7](https://github.com/anolilab/renovate-config/compare/v26.0.6...v26.0.7) (2026-10-29)
 
 ### Bug Fixes
