@@ -73,7 +73,7 @@
         "sort-package-json": "catalog:dev",
         "textlint": "catalog:lint"
     },
-    "packageManager": "pnpm@11.28.9",
+    "packageManager": "pnpm@11.29.0",
     "engines": {
         "node": ">=20"
     },
